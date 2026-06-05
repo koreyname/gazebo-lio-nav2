@@ -831,23 +831,6 @@ docs/相对Gitee原项目的优化与改动.md
 
 的完整仿真 SLAM 与导航工程。
 
-#### 介绍
-
-本项目在仿真环境中使用lio_sam算法进行定位，从而使用navigation进行机器人导航。
-
-注：本项目使用的lio_sam算法对原版的做了略微的修改，以适配仿真环境。原版lio_sam算法链接：https://github.com/TixiaoShan/LIO-SAM/tree/ros2
-
-当前工作区实际运行版本：ROS 2 Foxy + Gazebo Classic。
-
-项目整合、问题原因和完整解决过程见：
-
-[项目整合问题与解决记录](docs/项目整合问题与解决记录.md)
-
-当前版本相对 Gitee 原始项目的代码、参数和工程能力差异见：
-
-[相对 Gitee 原项目的优化与改动](docs/相对Gitee原项目的优化与改动.md)
-
-![输入图片说明](https://foruda.gitee.com/images/1713445774866583926/f19afb5d_14318961.png "2078cdad88fcf4d177fdfa00131707e7.png")
 
 使用说明
 
