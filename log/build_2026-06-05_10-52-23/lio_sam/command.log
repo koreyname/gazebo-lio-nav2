@@ -1,0 +1,2 @@
+Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '1': /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam

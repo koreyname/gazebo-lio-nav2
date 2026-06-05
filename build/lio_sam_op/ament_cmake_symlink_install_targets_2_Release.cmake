@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_generator_py/lio_sam_op/lio_sam_op_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "lio_sam_op__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam_op")

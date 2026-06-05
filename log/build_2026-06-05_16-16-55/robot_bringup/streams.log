@@ -1,0 +1,178 @@
+[0.029s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[0.134s] [ 50%] Building CXX object CMakeFiles/point_deal.dir/src/point_deal.cpp.o
+[4.585s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.585s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.586s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.586s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.586s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.586s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.586s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.586s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.586s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.586s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.586s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:19:6: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[4.587s]    19 |     (uint8_t, tag, tag) (uint8_t, line, line)
+[4.587s]       |      ^~~~~~~
+[4.587s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.587s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.587s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[4.587s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[4.587s]       |         ^~~~~~~
+[4.587s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.588s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.588s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.588s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.588s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.588s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.588s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.588s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.588s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.588s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.588s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:19:26: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[4.588s]    19 |     (uint8_t, tag, tag) (uint8_t, line, line)
+[4.589s]       |                          ^~~~~~~
+[4.589s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.589s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.589s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[4.589s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[4.589s]       |         ^~~~~~~
+[4.590s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.591s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.591s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.591s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.591s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.591s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.591s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.591s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.591s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.591s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.592s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:34:6: warning: ‘using uint32_t = uint32_t’ is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]
+[4.592s]    34 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)
+[4.592s]       |      ^~~~~~~~
+[4.592s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.592s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.592s] /usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here
+[4.592s]    96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[4.592s]       |         ^~~~~~~~
+[4.592s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.592s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.592s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.592s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.593s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.593s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.593s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.593s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.593s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.593s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.593s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:34:23: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[4.593s]    34 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)
+[4.593s]       |                       ^~~~~~~~
+[4.593s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.594s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.594s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[4.594s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[4.594s]       |         ^~~~~~~~
+[4.594s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.594s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.594s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.594s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.595s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.595s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.595s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.595s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.595s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.595s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.596s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:6: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[4.596s]    35 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[4.596s]       |      ^~~~~~~
+[4.596s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.596s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.596s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[4.596s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[4.596s]       |         ^~~~~~~
+[4.597s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.597s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.597s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.597s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.597s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.597s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.597s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.598s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.598s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.598s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.598s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:28: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[4.598s]    35 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[4.598s]       |                            ^~~~~~~~
+[4.598s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.598s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.598s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[4.599s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[4.599s]       |         ^~~~~~~~
+[4.599s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.599s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.599s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.599s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.599s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.599s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.599s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.600s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.600s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.600s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.600s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:53: warning: ‘using uint32_t = uint32_t’ is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]
+[4.600s]    35 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[4.600s]       |                                                     ^~~~~~~~
+[4.600s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.600s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.600s] /usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here
+[4.601s]    96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[4.601s]       |         ^~~~~~~~
+[4.601s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:41:22: warning: extra ‘;’ [-Wpedantic]
+[4.601s]    41 |     PCL_ADD_INTENSITY;
+[4.601s]       |                      ^
+[4.601s]       |                      -
+[4.601s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[4.601s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[4.601s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[4.601s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[4.601s]                  from /usr/include/boost/mpl/not.hpp:20,
+[4.602s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[4.602s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[4.602s]                  from /usr/include/pcl-1.10/pcl/register_point_struct.h:56,
+[4.602s]                  from /usr/include/pcl-1.10/pcl/point_types.h:44,
+[4.602s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.602s] /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:48:6: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[4.602s]    48 |     (uint16_t, ring, ring) (float, time, time)
+[4.602s]       |      ^~~~~~~~
+[4.602s] In file included from /usr/include/pcl-1.10/pcl/point_types.h:42,
+[4.602s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6:
+[4.602s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[4.602s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[4.602s]       |         ^~~~~~~~
+[8.586s] [100%] Linking CXX executable point_deal
+[9.136s] [100%] Built target point_deal
+[9.148s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[9.152s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+[9.183s] -- Install configuration: ""
+[9.183s] -- Execute custom install script
+[9.184s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/robot_bringup/point_deal
+[9.185s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/launch/__pycache__/bringup.launch.cpython-313.pyc
+[9.185s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+[9.185s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/urdf/robo_car.urdf.xacro
+[9.186s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/world/my_world.world
+[9.186s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[9.187s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[9.187s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[9.187s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[9.187s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/path.sh
+[9.188s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[9.188s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.bash
+[9.188s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.sh
+[9.189s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[9.189s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[9.189s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.dsv
+[9.193s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[9.194s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.194s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[9.194s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[9.194s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.xml
+[9.200s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup

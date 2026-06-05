@@ -1,0 +1,504 @@
+[0.042s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling
+[0.080s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.109s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.109s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.567s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.602s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.763s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.837s] -- Looking for pthread_create in pthreads
+[0.891s] -- Looking for pthread_create in pthreads - not found
+[0.891s] -- Looking for pthread_create in pthread
+[0.966s] -- Looking for pthread_create in pthread - found
+[0.967s] -- Found Threads: TRUE  
+[1.176s] -- Checking for module 'eigen3'
+[1.200s] --   Found eigen3, version 3.3.7
+[1.261s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.261s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.324s] -- Checking for module 'flann'
+[1.344s] --   Found flann, version 1.9.1
+[1.403s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.441s] -- The imported target "vtkParseOGLExt" references the file
+[1.441s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.441s] but this file does not exist.  Possible reasons include:
+[1.441s] * The file was deleted, renamed, or moved to another location.
+[1.442s] * An install or uninstall procedure did not complete successfully.
+[1.442s] * The installation package was faulty and contained
+[1.442s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.442s] but not all the files it references.
+[1.442s] 
+[1.442s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.442s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.442s] but this file does not exist.  Possible reasons include:
+[1.442s] * The file was deleted, renamed, or moved to another location.
+[1.442s] * An install or uninstall procedure did not complete successfully.
+[1.443s] * The installation package was faulty and contained
+[1.443s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.443s] but not all the files it references.
+[1.443s] 
+[1.443s] -- The imported target "vtk" references the file
+[1.443s]    "/usr/bin/vtk"
+[1.443s] but this file does not exist.  Possible reasons include:
+[1.443s] * The file was deleted, renamed, or moved to another location.
+[1.443s] * An install or uninstall procedure did not complete successfully.
+[1.443s] * The installation package was faulty and contained
+[1.443s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.444s] but not all the files it references.
+[1.444s] 
+[1.444s] -- The imported target "pvtk" references the file
+[1.444s]    "/usr/bin/pvtk"
+[1.444s] but this file does not exist.  Possible reasons include:
+[1.444s] * The file was deleted, renamed, or moved to another location.
+[1.444s] * An install or uninstall procedure did not complete successfully.
+[1.444s] * The installation package was faulty and contained
+[1.444s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.444s] but not all the files it references.
+[1.444s] 
+[1.467s] -- Checking for module 'libusb-1.0'
+[1.486s] --   Found libusb-1.0, version 1.0.23
+[1.548s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.549s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.549s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.549s]   problems in calling code that expects `find_package` result variables
+[1.549s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.549s] Call Stack (most recent call first):
+[1.549s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.549s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.549s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.549s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.549s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.549s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.550s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.550s] [0m
+[1.550s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.627s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.634s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.635s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.636s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.638s]   problems in calling code that expects `find_package` result variables
+[1.639s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.639s] Call Stack (most recent call first):
+[1.640s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.640s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.640s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.640s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.640s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.640s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.640s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.640s] [0m
+[1.714s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.734s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.734s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[1.734s]   does not match the name of the calling package (PCL).  This can lead to
+[1.734s]   problems in calling code that expects `find_package` result variables
+[1.734s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.734s] Call Stack (most recent call first):
+[1.734s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[1.734s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[1.734s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.734s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.734s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.734s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.735s] [0m
+[1.735s] -- Found libusb-1.0: /usr/include  
+[1.741s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.742s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.742s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.742s]   problems in calling code that expects `find_package` result variables
+[1.742s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.742s] Call Stack (most recent call first):
+[1.742s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.742s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.742s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.743s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.743s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.743s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.743s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.743s] [0m
+[1.743s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.751s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.751s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.751s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.751s]   problems in calling code that expects `find_package` result variables
+[1.751s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.752s] Call Stack (most recent call first):
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.752s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.752s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.752s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.752s] [0m
+[1.753s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.790s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.790s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.800s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.800s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.800s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.800s]   problems in calling code that expects `find_package` result variables
+[1.800s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.800s] Call Stack (most recent call first):
+[1.800s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.800s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.800s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.801s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.801s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.801s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.801s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.801s] [0m
+[1.801s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.819s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.819s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[1.819s]   does not match the name of the calling package (PCL).  This can lead to
+[1.819s]   problems in calling code that expects `find_package` result variables
+[1.820s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.820s] Call Stack (most recent call first):
+[1.820s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.820s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.820s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.820s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.820s] [0m
+[1.820s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.820s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.821s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[1.821s]   does not match the name of the calling package (PCL).  This can lead to
+[1.821s]   problems in calling code that expects `find_package` result variables
+[1.821s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.821s] Call Stack (most recent call first):
+[1.821s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.821s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.821s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.821s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.821s] [0m
+[1.822s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.822s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.822s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[1.822s]   does not match the name of the calling package (PCL).  This can lead to
+[1.822s]   problems in calling code that expects `find_package` result variables
+[1.822s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.822s] Call Stack (most recent call first):
+[1.822s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.822s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.822s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.823s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.823s] [0m
+[1.823s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.823s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.823s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[1.823s]   does not match the name of the calling package (PCL).  This can lead to
+[1.823s]   problems in calling code that expects `find_package` result variables
+[1.823s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.823s] Call Stack (most recent call first):
+[1.823s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.824s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.824s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.824s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.824s] [0m
+[1.824s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.824s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.824s]   The package name passed to `find_package_handle_standard_args`
+[1.824s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[1.824s]   (PCL).  This can lead to problems in calling code that expects
+[1.824s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.824s]   pattern.
+[1.825s] Call Stack (most recent call first):
+[1.825s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.825s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.825s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.825s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.825s] [0m
+[1.825s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.825s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.825s]   The package name passed to `find_package_handle_standard_args`
+[1.826s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[1.826s]   can lead to problems in calling code that expects `find_package` result
+[1.826s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.826s] Call Stack (most recent call first):
+[1.826s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.826s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.826s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.826s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.826s] [0m
+[1.827s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.827s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.827s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[1.827s]   does not match the name of the calling package (PCL).  This can lead to
+[1.827s]   problems in calling code that expects `find_package` result variables
+[1.827s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.827s] Call Stack (most recent call first):
+[1.827s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.827s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.827s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.827s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.828s] [0m
+[1.828s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.828s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.828s]   The package name passed to `find_package_handle_standard_args`
+[1.828s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[1.828s]   can lead to problems in calling code that expects `find_package` result
+[1.828s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.828s] Call Stack (most recent call first):
+[1.828s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.828s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.829s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.829s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.829s] [0m
+[1.829s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.829s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.829s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[1.829s]   does not match the name of the calling package (PCL).  This can lead to
+[1.829s]   problems in calling code that expects `find_package` result variables
+[1.829s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.829s] Call Stack (most recent call first):
+[1.829s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.830s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.830s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.830s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.830s] [0m
+[1.830s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.830s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.830s]   The package name passed to `find_package_handle_standard_args`
+[1.830s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[1.830s]   can lead to problems in calling code that expects `find_package` result
+[1.830s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.830s] Call Stack (most recent call first):
+[1.830s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.831s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.831s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.831s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.831s] [0m
+[1.831s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.831s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.831s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[1.832s]   does not match the name of the calling package (PCL).  This can lead to
+[1.832s]   problems in calling code that expects `find_package` result variables
+[1.832s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.832s] Call Stack (most recent call first):
+[1.832s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.832s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.832s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.832s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.832s] [0m
+[1.832s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.832s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.833s]   The package name passed to `find_package_handle_standard_args`
+[1.833s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[1.833s]   This can lead to problems in calling code that expects `find_package`
+[1.833s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.833s] Call Stack (most recent call first):
+[1.833s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.833s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.833s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.833s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.833s] [0m
+[1.833s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.834s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.834s]   The package name passed to `find_package_handle_standard_args`
+[1.834s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[1.834s]   This can lead to problems in calling code that expects `find_package`
+[1.834s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.834s] Call Stack (most recent call first):
+[1.834s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.834s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.835s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.835s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.835s] [0m
+[1.835s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.835s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.836s]   The package name passed to `find_package_handle_standard_args`
+[1.836s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[1.836s]   can lead to problems in calling code that expects `find_package` result
+[1.836s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.836s] Call Stack (most recent call first):
+[1.836s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.836s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.836s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.836s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.836s] [0m
+[1.836s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.837s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.837s]   The package name passed to `find_package_handle_standard_args`
+[1.837s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[1.837s]   This can lead to problems in calling code that expects `find_package`
+[1.837s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.837s] Call Stack (most recent call first):
+[1.837s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.837s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.837s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.838s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.838s] [0m
+[1.838s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.838s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.838s]   The package name passed to `find_package_handle_standard_args`
+[1.838s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[1.838s]   can lead to problems in calling code that expects `find_package` result
+[1.839s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.839s] Call Stack (most recent call first):
+[1.839s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.839s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.839s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.839s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.839s] [0m
+[1.839s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.840s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.840s]   The package name passed to `find_package_handle_standard_args`
+[1.840s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[1.840s]   can lead to problems in calling code that expects `find_package` result
+[1.841s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.841s] Call Stack (most recent call first):
+[1.841s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.842s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.842s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.842s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.842s] [0m
+[1.842s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.842s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.842s]   The package name passed to `find_package_handle_standard_args`
+[1.843s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[1.843s]   This can lead to problems in calling code that expects `find_package`
+[1.843s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.843s] Call Stack (most recent call first):
+[1.843s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.843s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.843s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.843s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.844s] [0m
+[1.844s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.844s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.844s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[1.844s]   does not match the name of the calling package (PCL).  This can lead to
+[1.844s]   problems in calling code that expects `find_package` result variables
+[1.844s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.844s] Call Stack (most recent call first):
+[1.845s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.845s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.845s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.845s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.845s] [0m
+[1.845s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.845s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.845s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[1.846s]   does not match the name of the calling package (PCL).  This can lead to
+[1.846s]   problems in calling code that expects `find_package` result variables
+[1.846s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.846s] Call Stack (most recent call first):
+[1.846s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.846s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.846s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.846s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.846s] [0m
+[1.846s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.846s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.846s]   The package name passed to `find_package_handle_standard_args`
+[1.847s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[1.847s]   This can lead to problems in calling code that expects `find_package`
+[1.847s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.847s] Call Stack (most recent call first):
+[1.847s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.847s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.847s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.847s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.847s] [0m
+[1.847s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.847s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.847s]   The package name passed to `find_package_handle_standard_args`
+[1.848s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[1.848s]   (PCL).  This can lead to problems in calling code that expects
+[1.848s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.848s]   pattern.
+[1.848s] Call Stack (most recent call first):
+[1.848s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.848s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.848s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.848s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.848s] [0m
+[1.848s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.848s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.848s]   The package name passed to `find_package_handle_standard_args`
+[1.848s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[1.849s]   can lead to problems in calling code that expects `find_package` result
+[1.849s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.849s] Call Stack (most recent call first):
+[1.849s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.849s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.849s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.849s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.849s] [0m
+[1.849s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.849s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.849s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[1.849s]   does not match the name of the calling package (PCL).  This can lead to
+[1.850s]   problems in calling code that expects `find_package` result variables
+[1.850s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.850s] Call Stack (most recent call first):
+[1.850s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.850s]   /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)
+[1.850s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[1.850s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.850s] [0m
+[1.850s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.986s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[2.281s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.283s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.733s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.771s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.772s] -- Configured cppcheck include dirs: /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling/include
+[2.772s] -- Configured cppcheck exclude dirs and/or files: 
+[2.773s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.773s] -- Configured cpplint exclude dirs and/or files: 
+[2.774s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.774s] -- Added test 'lint_cmake' to check CMake code style
+[2.775s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.775s] -- Added test 'xmllint' to check XML markup files
+[2.778s] -- Configuring done
+[2.834s] -- Generating done
+[2.850s] -- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling
+[2.869s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling
+[2.872s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling -- -j12 -l12
+[2.924s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_downsampling.dir/src/voxel_filtering.cpp.o[0m
+[2.926s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_downsampling_node.dir/rclcpp_components/node_main_pointcloud_downsampling_node.cpp.o[0m
+[5.407s] [ 75%] [32m[1mLinking CXX executable pointcloud_downsampling_node[0m
+[5.581s] [ 75%] Built target pointcloud_downsampling_node
+[14.628s] [100%] [32m[1mLinking CXX shared library libpointcloud_downsampling.so[0m
+[15.963s] [100%] Built target pointcloud_downsampling
+[15.974s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling -- -j12 -l12
+[15.978s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling
+[16.005s] -- Install configuration: ""
+[16.006s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pointcloud_downsampling/pointcloud_downsampling_node
+[16.007s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pointcloud_downsampling/pointcloud_downsampling_node" to ""
+[16.007s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/include
+[16.007s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/include/pointcloud_downsampling.h
+[16.008s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.sh
+[16.008s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.dsv
+[16.008s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/libpointcloud_downsampling.so
+[16.016s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/libpointcloud_downsampling.so" to ""
+[16.016s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/launch
+[16.016s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/launch/pointcloud_downsampling.launch.py
+[16.017s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/config
+[16.017s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/config/pointcloud_downsampling.yaml
+[16.017s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/package_run_dependencies/pointcloud_downsampling
+[16.017s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/parent_prefix_path/pointcloud_downsampling
+[16.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.sh
+[16.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.dsv
+[16.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.sh
+[16.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.dsv
+[16.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.bash
+[16.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.sh
+[16.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.zsh
+[16.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.dsv
+[16.020s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.dsv
+[16.020s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/packages/pointcloud_downsampling
+[16.020s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/rclcpp_components/pointcloud_downsampling
+[16.021s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.021s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.021s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_libraries-extras.cmake
+[16.022s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig.cmake
+[16.022s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig-version.cmake
+[16.022s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.xml
+[16.029s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling

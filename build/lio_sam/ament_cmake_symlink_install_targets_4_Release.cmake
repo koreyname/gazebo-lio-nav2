@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam/rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "lio_sam__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/lio_sam")

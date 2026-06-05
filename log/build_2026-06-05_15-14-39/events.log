@@ -1,0 +1,1216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (-) JobUnselected: {'identifier': 'pointcloud_downsampling'}
+[0.000332] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000424] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000508] (-) JobUnselected: {'identifier': 'robot_navigation2'}
+[0.000607] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000649] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.012574] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.013965] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/bin:/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099843] (-) TimerEvent: {}
+[0.170991] (lio_sam) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199937] (-) TimerEvent: {}
+[0.285798] (lio_sam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.291759] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300047] (-) TimerEvent: {}
+[0.392115] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.393069] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400123] (-) TimerEvent: {}
+[0.494231] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500232] (-) TimerEvent: {}
+[0.506621] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.506984] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.509539] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600387] (-) TimerEvent: {}
+[0.625049] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.625506] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700489] (-) TimerEvent: {}
+[0.729532] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.743065] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.743393] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.744318] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.769779] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.770028] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800588] (-) TimerEvent: {}
+[0.900804] (-) TimerEvent: {}
+[0.963026] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.973028] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.974927] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.978009] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.000916] (-) TimerEvent: {}
+[1.101118] (-) TimerEvent: {}
+[1.154834] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.176605] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.201163] (-) TimerEvent: {}
+[1.225373] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.226544] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.228238] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.301273] (-) TimerEvent: {}
+[1.327859] (lio_sam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.401374] (-) TimerEvent: {}
+[1.471959] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[1.472657] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.501501] (-) TimerEvent: {}
+[1.601758] (-) TimerEvent: {}
+[1.619473] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.686195] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.701876] (-) TimerEvent: {}
+[1.758391] (lio_sam) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[1.801987] (-) TimerEvent: {}
+[1.869145] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.882316] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.888452] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.902078] (-) TimerEvent: {}
+[2.002278] (-) TimerEvent: {}
+[2.102516] (-) TimerEvent: {}
+[2.202796] (-) TimerEvent: {}
+[2.248943] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.264084] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[2.290690] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.291028] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.302675] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[2.302898] (-) TimerEvent: {}
+[2.381795] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.382070] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.382272] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.382440] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.382698] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.382850] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.382970] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.383100] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.383228] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.383473] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.383756] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.383905] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.384066] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.384208] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.384353] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.384481] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.384609] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.384748] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.384877] (lio_sam) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.385013] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.385395] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.385536] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.385670] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.385805] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.385935] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.386068] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.386204] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.386341] (lio_sam) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.386482] (lio_sam) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.386629] (lio_sam) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.386766] (lio_sam) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.386900] (lio_sam) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.387029] (lio_sam) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.387191] (lio_sam) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.387331] (lio_sam) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.387469] (lio_sam) StdoutLine: {'line': b'\n'}
+[2.403022] (-) TimerEvent: {}
+[2.409244] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.418381] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.418712] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.418880] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.430832] (lio_sam) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.442338] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.451252] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.464296] (lio_sam) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.471993] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.484292] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.484783] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.485127] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.485692] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.486131] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.486658] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.487209] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.487641] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.488085] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.488559] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.489143] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.489772] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.490441] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.491092] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.491596] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.492240] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.492840] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.493368] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.494045] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.494537] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.495623] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.496069] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.496551] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.497303] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.503135] (-) TimerEvent: {}
+[2.525064] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic \n'}
+[2.527521] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[2.535699] (lio_sam) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.4.0") \n'}
+[2.535855] (lio_sam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.565434] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.603238] (-) TimerEvent: {}
+[2.703464] (-) TimerEvent: {}
+[2.778398] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.803559] (-) TimerEvent: {}
+[2.903766] (-) TimerEvent: {}
+[3.003970] (-) TimerEvent: {}
+[3.104205] (-) TimerEvent: {}
+[3.118894] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.204319] (-) TimerEvent: {}
+[3.279144] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.304412] (-) TimerEvent: {}
+[3.308645] (lio_sam) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.309274] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.336870] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.337102] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.337240] (lio_sam) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.404538] (-) TimerEvent: {}
+[3.504774] (-) TimerEvent: {}
+[3.552803] (lio_sam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.571200] (lio_sam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.604874] (-) TimerEvent: {}
+[3.655240] (lio_sam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.659232] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam\n'}
+[3.659409] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.704996] (-) TimerEvent: {}
+[3.741308] (lio_sam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.741610] (lio_sam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.751564] (lio_sam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.774091] (lio_sam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.784848] (lio_sam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.805128] (-) TimerEvent: {}
+[3.868752] (lio_sam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.869015] (lio_sam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.879477] (lio_sam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.888739] (lio_sam) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.905216] (-) TimerEvent: {}
+[4.005469] (-) TimerEvent: {}
+[4.105709] (-) TimerEvent: {}
+[4.205944] (-) TimerEvent: {}
+[4.236498] (lio_sam) StdoutLine: {'line': b'-- Generating done\n'}
+[4.306050] (-) TimerEvent: {}
+[4.406277] (-) TimerEvent: {}
+[4.409024] (lio_sam) StdoutLine: {'line': b'-- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam\n'}
+[4.430663] (lio_sam) CommandEnded: {'returncode': 0}
+[4.431739] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[4.433423] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam', '--', '-j12', '-l12'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/bin:/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.496929] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__cpp\n'}
+[4.506431] (-) TimerEvent: {}
+[4.510146] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_generator_c\n'}
+[4.516778] (lio_sam) StdoutLine: {'line': b'[  2%] Built target lio_sam__cpp\n'}
+[4.531258] (lio_sam) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o\n'}
+[4.532675] (lio_sam) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o\n'}
+[4.537073] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_cpp\n'}
+[4.550473] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[4.552958] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[4.572135] (lio_sam) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o\n'}
+[4.572395] (lio_sam) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o\n'}
+[4.572690] (lio_sam) StdoutLine: {'line': b'[ 12%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o\n'}
+[4.591163] (lio_sam) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o\n'}
+[4.593121] (lio_sam) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o\n'}
+[4.595581] (lio_sam) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\n'}
+[4.608418] (-) TimerEvent: {}
+[4.708657] (-) TimerEvent: {}
+[4.740169] (lio_sam) StdoutLine: {'line': b'[ 21%] Linking C shared library liblio_sam__rosidl_generator_c.so\n'}
+[4.808790] (-) TimerEvent: {}
+[4.846715] (lio_sam) StdoutLine: {'line': b'[ 23%] Built target lio_sam__rosidl_generator_c\n'}
+[4.874049] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_c\n'}
+[4.883828] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_c\n'}
+[4.908630] (lio_sam) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o\n'}
+[4.908866] (-) TimerEvent: {}
+[4.914172] (lio_sam) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o\n'}
+[4.919253] (lio_sam) StdoutLine: {'line': b'[ 29%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o\n'}
+[4.933203] (lio_sam) StdoutLine: {'line': b'[ 31%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o\n'}
+[4.987824] (lio_sam) StdoutLine: {'line': b'[ 34%] Linking CXX shared library liblio_sam__rosidl_typesupport_c.so\n'}
+[5.002813] (lio_sam) StdoutLine: {'line': b'[ 36%] Linking CXX shared library liblio_sam__rosidl_typesupport_cpp.so\n'}
+[5.003333] (lio_sam) StdoutLine: {'line': b'[ 38%] Linking C shared library liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[5.009289] (-) TimerEvent: {}
+[5.050459] (lio_sam) StdoutLine: {'line': b'[ 40%] Built target lio_sam__rosidl_typesupport_c\n'}
+[5.051749] (lio_sam) StdoutLine: {'line': b'[ 42%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[5.079494] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[5.109396] (-) TimerEvent: {}
+[5.156831] (lio_sam) StdoutLine: {'line': b'[ 46%] Linking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[5.209547] (-) TimerEvent: {}
+[5.227683] (lio_sam) StdoutLine: {'line': b'[ 48%] Linking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.244713] (lio_sam) StdoutLine: {'line': b'[ 51%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[5.309656] (-) TimerEvent: {}
+[5.333724] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[5.364069] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[5.384250] (lio_sam) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o\n'}
+[5.388019] (lio_sam) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o\n'}
+[5.409760] (-) TimerEvent: {}
+[5.509980] (-) TimerEvent: {}
+[5.610215] (-) TimerEvent: {}
+[5.710474] (-) TimerEvent: {}
+[5.789362] (lio_sam) StdoutLine: {'line': b'[ 59%] Linking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[5.810568] (-) TimerEvent: {}
+[5.891997] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[5.907567] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam\n'}
+[5.910659] (-) TimerEvent: {}
+[5.926039] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[5.944285] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__py\n'}
+[5.959592] (lio_sam) StdoutLine: {'line': b'[ 63%] Built target lio_sam__py\n'}
+[6.003722] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__python\n'}
+[6.010783] (-) TimerEvent: {}
+[6.022588] (lio_sam) StdoutLine: {'line': b'[ 65%] Building C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o\n'}
+[6.023022] (lio_sam) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o\n'}
+[6.110874] (-) TimerEvent: {}
+[6.181020] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam_imuPreintegration\n'}
+[6.181248] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam_imageProjection\n'}
+[6.184198] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam_featureExtraction\n'}
+[6.186830] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam_mapOptimization\n'}
+[6.210981] (-) TimerEvent: {}
+[6.216057] (lio_sam) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\n'}
+[6.216278] (lio_sam) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\n'}
+[6.225620] (lio_sam) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\n'}
+[6.228631] (lio_sam) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\n'}
+[6.311104] (-) TimerEvent: {}
+[6.323386] (lio_sam) StdoutLine: {'line': b'[ 78%] Linking C shared library rosidl_generator_py/lio_sam/liblio_sam__python.so\n'}
+[6.385787] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam__python\n'}
+[6.411202] (-) TimerEvent: {}
+[6.413726] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[6.414738] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_c__pyext\n'}
+[6.420905] (lio_sam) StdoutLine: {'line': b'Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.434184] (lio_sam) StdoutLine: {'line': b'[ 80%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[6.434596] (lio_sam) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o\n'}
+[6.445775] (lio_sam) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[6.511337] (-) TimerEvent: {}
+[6.607504] (lio_sam) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.607755] (lio_sam) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.614247] (-) TimerEvent: {}
+[6.628932] (lio_sam) StdoutLine: {'line': b'[ 91%] Linking CXX shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.682109] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[6.691721] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[6.714194] (-) TimerEvent: {}
+[6.751567] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.814320] (-) TimerEvent: {}
+[6.914596] (-) TimerEvent: {}
+[7.014848] (-) TimerEvent: {}
+[7.115117] (-) TimerEvent: {}
+[7.215418] (-) TimerEvent: {}
+[7.315713] (-) TimerEvent: {}
+[7.415969] (-) TimerEvent: {}
+[7.516228] (-) TimerEvent: {}
+[7.616479] (-) TimerEvent: {}
+[7.716751] (-) TimerEvent: {}
+[7.817056] (-) TimerEvent: {}
+[7.917333] (-) TimerEvent: {}
+[8.017574] (-) TimerEvent: {}
+[8.117807] (-) TimerEvent: {}
+[8.218062] (-) TimerEvent: {}
+[8.318320] (-) TimerEvent: {}
+[8.418563] (-) TimerEvent: {}
+[8.518780] (-) TimerEvent: {}
+[8.620618] (-) TimerEvent: {}
+[8.720930] (-) TimerEvent: {}
+[8.821268] (-) TimerEvent: {}
+[8.921530] (-) TimerEvent: {}
+[9.021791] (-) TimerEvent: {}
+[9.122030] (-) TimerEvent: {}
+[9.222274] (-) TimerEvent: {}
+[9.322544] (-) TimerEvent: {}
+[9.422804] (-) TimerEvent: {}
+[9.523089] (-) TimerEvent: {}
+[9.623514] (-) TimerEvent: {}
+[9.723812] (-) TimerEvent: {}
+[9.824117] (-) TimerEvent: {}
+[9.924362] (-) TimerEvent: {}
+[10.024605] (-) TimerEvent: {}
+[10.124845] (-) TimerEvent: {}
+[10.225091] (-) TimerEvent: {}
+[10.325358] (-) TimerEvent: {}
+[10.425609] (-) TimerEvent: {}
+[10.525838] (-) TimerEvent: {}
+[10.626086] (-) TimerEvent: {}
+[10.726327] (-) TimerEvent: {}
+[10.826573] (-) TimerEvent: {}
+[10.926808] (-) TimerEvent: {}
+[11.027038] (-) TimerEvent: {}
+[11.127274] (-) TimerEvent: {}
+[11.227511] (-) TimerEvent: {}
+[11.327769] (-) TimerEvent: {}
+[11.428001] (-) TimerEvent: {}
+[11.528259] (-) TimerEvent: {}
+[11.628549] (-) TimerEvent: {}
+[11.728804] (-) TimerEvent: {}
+[11.829059] (-) TimerEvent: {}
+[11.929317] (-) TimerEvent: {}
+[12.029809] (-) TimerEvent: {}
+[12.130077] (-) TimerEvent: {}
+[12.230340] (-) TimerEvent: {}
+[12.330604] (-) TimerEvent: {}
+[12.430842] (-) TimerEvent: {}
+[12.531067] (-) TimerEvent: {}
+[12.631331] (-) TimerEvent: {}
+[12.731605] (-) TimerEvent: {}
+[12.831898] (-) TimerEvent: {}
+[12.932209] (-) TimerEvent: {}
+[13.032489] (-) TimerEvent: {}
+[13.132761] (-) TimerEvent: {}
+[13.233035] (-) TimerEvent: {}
+[13.333304] (-) TimerEvent: {}
+[13.433563] (-) TimerEvent: {}
+[13.533808] (-) TimerEvent: {}
+[13.634052] (-) TimerEvent: {}
+[13.734303] (-) TimerEvent: {}
+[13.834557] (-) TimerEvent: {}
+[13.934824] (-) TimerEvent: {}
+[14.035098] (-) TimerEvent: {}
+[14.135456] (-) TimerEvent: {}
+[14.235719] (-) TimerEvent: {}
+[14.336040] (-) TimerEvent: {}
+[14.436302] (-) TimerEvent: {}
+[14.536544] (-) TimerEvent: {}
+[14.636795] (-) TimerEvent: {}
+[14.737045] (-) TimerEvent: {}
+[14.837312] (-) TimerEvent: {}
+[14.937565] (-) TimerEvent: {}
+[15.037819] (-) TimerEvent: {}
+[15.089292] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.090285] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.090456] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.090579] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.090693] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.090807] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.090926] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.091042] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.091169] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.091288] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.091407] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.091517] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.091647] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:14:6: warning: \xe2\x80\x98using uint16_t = uint16_t\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]\n'}
+[15.091761] (lio_sam) StderrLine: {'line': b'   14 |     (uint16_t, ring, ring) (float, time, time)\n'}
+[15.091869] (lio_sam) StderrLine: {'line': b'      |      ^~~~~~~~\n'}
+[15.091979] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.092104] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.092227] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.092350] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.092499] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here\n'}
+[15.092616] (lio_sam) StderrLine: {'line': b'   94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[15.092741] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[15.099518] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.100268] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.100429] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.100587] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.100737] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.100879] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.101031] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.102043] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.102194] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.102351] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.102510] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.102944] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.103088] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:6: warning: \xe2\x80\x98using uint32_t = uint32_t\xe2\x80\x99 is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]\n'}
+[15.103402] (lio_sam) StderrLine: {'line': b'   29 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)\n'}
+[15.103550] (lio_sam) StderrLine: {'line': b'      |      ^~~~~~~~\n'}
+[15.103819] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.103965] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.104167] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.104296] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.104419] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here\n'}
+[15.104948] (lio_sam) StderrLine: {'line': b'   96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;\n'}
+[15.105083] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[15.105340] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.105534] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.105733] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.105871] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.105994] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.106319] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.106873] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.107048] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.107196] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.107343] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.107818] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.108005] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.108170] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:23: warning: \xe2\x80\x98using uint16_t = uint16_t\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]\n'}
+[15.108295] (lio_sam) StderrLine: {'line': b'   29 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)\n'}
+[15.108406] (lio_sam) StderrLine: {'line': b'      |                       ^~~~~~~~\n'}
+[15.108563] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.108652] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.108739] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.108820] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.108901] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here\n'}
+[15.108973] (lio_sam) StderrLine: {'line': b'   94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[15.109038] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[15.109101] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.109176] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.109236] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.109301] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.109362] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.109428] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.109491] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.109550] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.109610] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.109686] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.109761] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.109847] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.109929] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:6: warning: \xe2\x80\x98using uint8_t = uint8_t\xe2\x80\x99 is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]\n'}
+[15.110023] (lio_sam) StderrLine: {'line': b'   30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)\n'}
+[15.110108] (lio_sam) StderrLine: {'line': b'      |      ^~~~~~~\n'}
+[15.110191] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.110285] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.110368] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.110446] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.110510] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here\n'}
+[15.110581] (lio_sam) StderrLine: {'line': b'   92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;\n'}
+[15.110651] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~\n'}
+[15.110718] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.110781] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.111048] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.111364] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.111458] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.111547] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.111628] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.111711] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.111794] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.111898] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.111976] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.112050] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.112138] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:28: warning: \xe2\x80\x98using uint16_t = uint16_t\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]\n'}
+[15.112218] (lio_sam) StderrLine: {'line': b'   30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)\n'}
+[15.112373] (lio_sam) StderrLine: {'line': b'      |                            ^~~~~~~~\n'}
+[15.112463] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.112570] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.112671] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.112759] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.112864] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here\n'}
+[15.112955] (lio_sam) StderrLine: {'line': b'   94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[15.113054] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[15.113157] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.113292] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.113393] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.113494] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.113581] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.113665] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.113750] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.113833] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.113918] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.114001] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.114085] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.114168] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.114257] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:53: warning: \xe2\x80\x98using uint32_t = uint32_t\xe2\x80\x99 is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]\n'}
+[15.114344] (lio_sam) StderrLine: {'line': b'   30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)\n'}
+[15.114432] (lio_sam) StderrLine: {'line': b'      |                                                     ^~~~~~~~\n'}
+[15.114524] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.114604] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.114680] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.114768] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.114848] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here\n'}
+[15.114923] (lio_sam) StderrLine: {'line': b'   96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;\n'}
+[15.115032] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~~\n'}
+[15.115114] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.115193] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.115279] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.115371] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.115454] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.115550] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.115627] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.115743] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.115832] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.115922] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.116000] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.116062] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.116124] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:6: warning: \xe2\x80\x98using uint8_t = uint8_t\xe2\x80\x99 is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]\n'}
+[15.116240] (lio_sam) StderrLine: {'line': b'   41 |     (uint8_t, tag, tag) (uint8_t, line, line)\n'}
+[15.116317] (lio_sam) StderrLine: {'line': b'      |      ^~~~~~~\n'}
+[15.116420] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.116501] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.116571] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.116639] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.116739] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here\n'}
+[15.116833] (lio_sam) StderrLine: {'line': b'   92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;\n'}
+[15.116911] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~\n'}
+[15.116981] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,\n'}
+[15.117056] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,\n'}
+[15.117258] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,\n'}
+[15.117333] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/aux_/na_spec.hpp:28,\n'}
+[15.117392] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/not.hpp:20,\n'}
+[15.117455] (lio_sam) StderrLine: {'line': b'                 from /usr/include/boost/mpl/assert.hpp:17,\n'}
+[15.117515] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_traits.h:48,\n'}
+[15.117572] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/point_cloud.h:50,\n'}
+[15.117642] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,\n'}
+[15.117734] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.117808] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.117873] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.117943] (lio_sam) StderrLine: {'line': b'/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:26: warning: \xe2\x80\x98using uint8_t = uint8_t\xe2\x80\x99 is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]\n'}
+[15.118024] (lio_sam) StderrLine: {'line': b'   41 |     (uint8_t, tag, tag) (uint8_t, line, line)\n'}
+[15.118095] (lio_sam) StderrLine: {'line': b'      |                          ^~~~~~~\n'}
+[15.118164] (lio_sam) StderrLine: {'line': b'In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,\n'}
+[15.118238] (lio_sam) StderrLine: {'line': b'                 from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,\n'}
+[15.118322] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,\n'}
+[15.118402] (lio_sam) StderrLine: {'line': b'                 from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:\n'}
+[15.118480] (lio_sam) StderrLine: {'line': b'/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here\n'}
+[15.118544] (lio_sam) StderrLine: {'line': b'   92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;\n'}
+[15.118620] (lio_sam) StderrLine: {'line': b'      |         ^~~~~~~\n'}
+[15.137938] (-) TimerEvent: {}
+[15.238199] (-) TimerEvent: {}
+[15.338449] (-) TimerEvent: {}
+[15.438720] (-) TimerEvent: {}
+[15.538982] (-) TimerEvent: {}
+[15.639806] (-) TimerEvent: {}
+[15.740065] (-) TimerEvent: {}
+[15.840319] (-) TimerEvent: {}
+[15.940571] (-) TimerEvent: {}
+[16.040808] (-) TimerEvent: {}
+[16.141072] (-) TimerEvent: {}
+[16.241318] (-) TimerEvent: {}
+[16.341564] (-) TimerEvent: {}
+[16.441817] (-) TimerEvent: {}
+[16.542399] (-) TimerEvent: {}
+[16.642673] (-) TimerEvent: {}
+[16.742924] (-) TimerEvent: {}
+[16.843174] (-) TimerEvent: {}
+[16.943455] (-) TimerEvent: {}
+[17.043738] (-) TimerEvent: {}
+[17.143982] (-) TimerEvent: {}
+[17.244254] (-) TimerEvent: {}
+[17.344534] (-) TimerEvent: {}
+[17.444796] (-) TimerEvent: {}
+[17.545198] (-) TimerEvent: {}
+[17.645460] (-) TimerEvent: {}
+[17.745710] (-) TimerEvent: {}
+[17.845974] (-) TimerEvent: {}
+[17.946235] (-) TimerEvent: {}
+[18.046503] (-) TimerEvent: {}
+[18.146742] (-) TimerEvent: {}
+[18.247453] (-) TimerEvent: {}
+[18.347755] (-) TimerEvent: {}
+[18.448030] (-) TimerEvent: {}
+[18.548294] (-) TimerEvent: {}
+[18.648547] (-) TimerEvent: {}
+[18.748818] (-) TimerEvent: {}
+[18.849073] (-) TimerEvent: {}
+[18.949333] (-) TimerEvent: {}
+[19.049581] (-) TimerEvent: {}
+[19.149838] (-) TimerEvent: {}
+[19.250072] (-) TimerEvent: {}
+[19.353210] (-) TimerEvent: {}
+[19.453463] (-) TimerEvent: {}
+[19.553721] (-) TimerEvent: {}
+[19.653967] (-) TimerEvent: {}
+[19.754187] (-) TimerEvent: {}
+[19.854407] (-) TimerEvent: {}
+[19.954631] (-) TimerEvent: {}
+[20.054862] (-) TimerEvent: {}
+[20.155092] (-) TimerEvent: {}
+[20.255342] (-) TimerEvent: {}
+[20.355565] (-) TimerEvent: {}
+[20.455780] (-) TimerEvent: {}
+[20.556002] (-) TimerEvent: {}
+[20.656245] (-) TimerEvent: {}
+[20.756493] (-) TimerEvent: {}
+[20.856721] (-) TimerEvent: {}
+[20.956982] (-) TimerEvent: {}
+[21.057195] (-) TimerEvent: {}
+[21.157430] (-) TimerEvent: {}
+[21.257661] (-) TimerEvent: {}
+[21.357907] (-) TimerEvent: {}
+[21.458145] (-) TimerEvent: {}
+[21.558404] (-) TimerEvent: {}
+[21.658668] (-) TimerEvent: {}
+[21.758944] (-) TimerEvent: {}
+[21.859348] (-) TimerEvent: {}
+[21.959610] (-) TimerEvent: {}
+[22.059886] (-) TimerEvent: {}
+[22.160137] (-) TimerEvent: {}
+[22.260388] (-) TimerEvent: {}
+[22.360637] (-) TimerEvent: {}
+[22.460896] (-) TimerEvent: {}
+[22.561174] (-) TimerEvent: {}
+[22.661433] (-) TimerEvent: {}
+[22.761714] (-) TimerEvent: {}
+[22.861997] (-) TimerEvent: {}
+[22.962386] (-) TimerEvent: {}
+[23.062661] (-) TimerEvent: {}
+[23.162954] (-) TimerEvent: {}
+[23.263249] (-) TimerEvent: {}
+[23.363509] (-) TimerEvent: {}
+[23.463734] (-) TimerEvent: {}
+[23.563987] (-) TimerEvent: {}
+[23.664249] (-) TimerEvent: {}
+[23.764496] (-) TimerEvent: {}
+[23.864746] (-) TimerEvent: {}
+[23.965000] (-) TimerEvent: {}
+[24.065253] (-) TimerEvent: {}
+[24.165500] (-) TimerEvent: {}
+[24.265773] (-) TimerEvent: {}
+[24.366029] (-) TimerEvent: {}
+[24.466284] (-) TimerEvent: {}
+[24.566539] (-) TimerEvent: {}
+[24.666812] (-) TimerEvent: {}
+[24.767070] (-) TimerEvent: {}
+[24.867312] (-) TimerEvent: {}
+[24.967563] (-) TimerEvent: {}
+[25.067827] (-) TimerEvent: {}
+[25.168089] (-) TimerEvent: {}
+[25.268342] (-) TimerEvent: {}
+[25.368782] (-) TimerEvent: {}
+[25.469055] (-) TimerEvent: {}
+[25.569370] (-) TimerEvent: {}
+[25.669633] (-) TimerEvent: {}
+[25.769916] (-) TimerEvent: {}
+[25.870156] (-) TimerEvent: {}
+[25.970388] (-) TimerEvent: {}
+[26.070645] (-) TimerEvent: {}
+[26.170901] (-) TimerEvent: {}
+[26.271156] (-) TimerEvent: {}
+[26.371412] (-) TimerEvent: {}
+[26.471684] (-) TimerEvent: {}
+[26.571979] (-) TimerEvent: {}
+[26.672270] (-) TimerEvent: {}
+[26.772540] (-) TimerEvent: {}
+[26.872813] (-) TimerEvent: {}
+[26.973090] (-) TimerEvent: {}
+[27.073390] (-) TimerEvent: {}
+[27.173632] (-) TimerEvent: {}
+[27.273886] (-) TimerEvent: {}
+[27.374146] (-) TimerEvent: {}
+[27.474389] (-) TimerEvent: {}
+[27.574639] (-) TimerEvent: {}
+[27.674886] (-) TimerEvent: {}
+[27.775113] (-) TimerEvent: {}
+[27.875359] (-) TimerEvent: {}
+[27.975625] (-) TimerEvent: {}
+[28.075865] (-) TimerEvent: {}
+[28.176114] (-) TimerEvent: {}
+[28.276368] (-) TimerEvent: {}
+[28.376640] (-) TimerEvent: {}
+[28.476895] (-) TimerEvent: {}
+[28.577168] (-) TimerEvent: {}
+[28.677398] (-) TimerEvent: {}
+[28.777626] (-) TimerEvent: {}
+[28.877828] (-) TimerEvent: {}
+[28.978074] (-) TimerEvent: {}
+[29.078319] (-) TimerEvent: {}
+[29.178563] (-) TimerEvent: {}
+[29.278796] (-) TimerEvent: {}
+[29.379039] (-) TimerEvent: {}
+[29.479283] (-) TimerEvent: {}
+[29.579552] (-) TimerEvent: {}
+[29.679814] (-) TimerEvent: {}
+[29.780056] (-) TimerEvent: {}
+[29.880478] (-) TimerEvent: {}
+[29.980724] (-) TimerEvent: {}
+[30.080948] (-) TimerEvent: {}
+[30.181186] (-) TimerEvent: {}
+[30.281431] (-) TimerEvent: {}
+[30.381688] (-) TimerEvent: {}
+[30.481943] (-) TimerEvent: {}
+[30.582200] (-) TimerEvent: {}
+[30.682493] (-) TimerEvent: {}
+[30.782748] (-) TimerEvent: {}
+[30.882990] (-) TimerEvent: {}
+[30.983251] (-) TimerEvent: {}
+[31.083517] (-) TimerEvent: {}
+[31.183766] (-) TimerEvent: {}
+[31.284003] (-) TimerEvent: {}
+[31.384722] (-) TimerEvent: {}
+[31.484973] (-) TimerEvent: {}
+[31.585192] (-) TimerEvent: {}
+[31.685422] (-) TimerEvent: {}
+[31.785752] (-) TimerEvent: {}
+[31.885999] (-) TimerEvent: {}
+[31.986238] (-) TimerEvent: {}
+[32.086488] (-) TimerEvent: {}
+[32.186792] (-) TimerEvent: {}
+[32.287060] (-) TimerEvent: {}
+[32.387338] (-) TimerEvent: {}
+[32.487578] (-) TimerEvent: {}
+[32.587812] (-) TimerEvent: {}
+[32.688846] (-) TimerEvent: {}
+[32.789125] (-) TimerEvent: {}
+[32.889364] (-) TimerEvent: {}
+[32.989839] (-) TimerEvent: {}
+[33.090088] (-) TimerEvent: {}
+[33.190324] (-) TimerEvent: {}
+[33.290583] (-) TimerEvent: {}
+[33.325277] (lio_sam) StdoutLine: {'line': b'[ 93%] Linking CXX executable lio_sam_featureExtraction\n'}
+[33.390706] (-) TimerEvent: {}
+[33.490940] (-) TimerEvent: {}
+[33.591179] (-) TimerEvent: {}
+[33.691428] (-) TimerEvent: {}
+[33.791745] (-) TimerEvent: {}
+[33.892013] (-) TimerEvent: {}
+[33.992702] (-) TimerEvent: {}
+[34.093061] (-) TimerEvent: {}
+[34.193328] (-) TimerEvent: {}
+[34.293593] (-) TimerEvent: {}
+[34.393855] (-) TimerEvent: {}
+[34.424982] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam_featureExtraction\n'}
+[34.493981] (-) TimerEvent: {}
+[34.594265] (-) TimerEvent: {}
+[34.694521] (-) TimerEvent: {}
+[34.794784] (-) TimerEvent: {}
+[34.895046] (-) TimerEvent: {}
+[34.995300] (-) TimerEvent: {}
+[35.095535] (-) TimerEvent: {}
+[35.195769] (-) TimerEvent: {}
+[35.296014] (-) TimerEvent: {}
+[35.396244] (-) TimerEvent: {}
+[35.496478] (-) TimerEvent: {}
+[35.596689] (-) TimerEvent: {}
+[35.696929] (-) TimerEvent: {}
+[35.797212] (-) TimerEvent: {}
+[35.897451] (-) TimerEvent: {}
+[35.997696] (-) TimerEvent: {}
+[36.097927] (-) TimerEvent: {}
+[36.198148] (-) TimerEvent: {}
+[36.298368] (-) TimerEvent: {}
+[36.398564] (-) TimerEvent: {}
+[36.498793] (-) TimerEvent: {}
+[36.599030] (-) TimerEvent: {}
+[36.699276] (-) TimerEvent: {}
+[36.799537] (-) TimerEvent: {}
+[36.899786] (-) TimerEvent: {}
+[37.000009] (-) TimerEvent: {}
+[37.100258] (-) TimerEvent: {}
+[37.122541] (lio_sam) StdoutLine: {'line': b'[ 95%] Linking CXX executable lio_sam_imageProjection\n'}
+[37.200373] (-) TimerEvent: {}
+[37.300600] (-) TimerEvent: {}
+[37.400829] (-) TimerEvent: {}
+[37.501075] (-) TimerEvent: {}
+[37.601352] (-) TimerEvent: {}
+[37.675704] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam_imageProjection\n'}
+[37.701464] (-) TimerEvent: {}
+[37.801759] (-) TimerEvent: {}
+[37.901986] (-) TimerEvent: {}
+[38.002204] (-) TimerEvent: {}
+[38.102419] (-) TimerEvent: {}
+[38.202663] (-) TimerEvent: {}
+[38.302944] (-) TimerEvent: {}
+[38.403255] (-) TimerEvent: {}
+[38.503485] (-) TimerEvent: {}
+[38.603729] (-) TimerEvent: {}
+[38.703969] (-) TimerEvent: {}
+[38.804190] (-) TimerEvent: {}
+[38.904429] (-) TimerEvent: {}
+[39.004692] (-) TimerEvent: {}
+[39.104953] (-) TimerEvent: {}
+[39.205200] (-) TimerEvent: {}
+[39.305445] (-) TimerEvent: {}
+[39.405702] (-) TimerEvent: {}
+[39.505963] (-) TimerEvent: {}
+[39.606203] (-) TimerEvent: {}
+[39.706430] (-) TimerEvent: {}
+[39.806661] (-) TimerEvent: {}
+[39.906899] (-) TimerEvent: {}
+[40.007131] (-) TimerEvent: {}
+[40.107351] (-) TimerEvent: {}
+[40.207618] (-) TimerEvent: {}
+[40.307866] (-) TimerEvent: {}
+[40.408115] (-) TimerEvent: {}
+[40.508357] (-) TimerEvent: {}
+[40.608588] (-) TimerEvent: {}
+[40.708824] (-) TimerEvent: {}
+[40.809050] (-) TimerEvent: {}
+[40.909328] (-) TimerEvent: {}
+[41.009584] (-) TimerEvent: {}
+[41.109818] (-) TimerEvent: {}
+[41.210086] (-) TimerEvent: {}
+[41.310358] (-) TimerEvent: {}
+[41.410677] (-) TimerEvent: {}
+[41.510909] (-) TimerEvent: {}
+[41.611135] (-) TimerEvent: {}
+[41.711361] (-) TimerEvent: {}
+[41.811610] (-) TimerEvent: {}
+[41.911853] (-) TimerEvent: {}
+[42.012073] (-) TimerEvent: {}
+[42.112295] (-) TimerEvent: {}
+[42.212522] (-) TimerEvent: {}
+[42.312745] (-) TimerEvent: {}
+[42.413091] (-) TimerEvent: {}
+[42.513348] (-) TimerEvent: {}
+[42.613599] (-) TimerEvent: {}
+[42.713844] (-) TimerEvent: {}
+[42.814097] (-) TimerEvent: {}
+[42.914361] (-) TimerEvent: {}
+[43.014607] (-) TimerEvent: {}
+[43.114857] (-) TimerEvent: {}
+[43.215084] (-) TimerEvent: {}
+[43.315308] (-) TimerEvent: {}
+[43.415540] (-) TimerEvent: {}
+[43.515791] (-) TimerEvent: {}
+[43.616029] (-) TimerEvent: {}
+[43.716255] (-) TimerEvent: {}
+[43.816481] (-) TimerEvent: {}
+[43.916716] (-) TimerEvent: {}
+[44.016906] (-) TimerEvent: {}
+[44.117141] (-) TimerEvent: {}
+[44.217373] (-) TimerEvent: {}
+[44.317591] (-) TimerEvent: {}
+[44.417828] (-) TimerEvent: {}
+[44.518056] (-) TimerEvent: {}
+[44.618261] (-) TimerEvent: {}
+[44.718487] (-) TimerEvent: {}
+[44.818724] (-) TimerEvent: {}
+[44.918943] (-) TimerEvent: {}
+[45.019198] (-) TimerEvent: {}
+[45.119442] (-) TimerEvent: {}
+[45.219679] (-) TimerEvent: {}
+[45.319916] (-) TimerEvent: {}
+[45.420161] (-) TimerEvent: {}
+[45.520393] (-) TimerEvent: {}
+[45.620624] (-) TimerEvent: {}
+[45.720850] (-) TimerEvent: {}
+[45.821086] (-) TimerEvent: {}
+[45.921345] (-) TimerEvent: {}
+[46.021575] (-) TimerEvent: {}
+[46.121790] (-) TimerEvent: {}
+[46.222051] (-) TimerEvent: {}
+[46.322300] (-) TimerEvent: {}
+[46.422579] (-) TimerEvent: {}
+[46.522828] (-) TimerEvent: {}
+[46.623060] (-) TimerEvent: {}
+[46.723329] (-) TimerEvent: {}
+[46.823588] (-) TimerEvent: {}
+[46.923814] (-) TimerEvent: {}
+[47.024043] (-) TimerEvent: {}
+[47.124281] (-) TimerEvent: {}
+[47.224530] (-) TimerEvent: {}
+[47.324799] (-) TimerEvent: {}
+[47.425057] (-) TimerEvent: {}
+[47.525319] (-) TimerEvent: {}
+[47.625565] (-) TimerEvent: {}
+[47.725797] (-) TimerEvent: {}
+[47.826032] (-) TimerEvent: {}
+[47.926261] (-) TimerEvent: {}
+[48.026501] (-) TimerEvent: {}
+[48.126774] (-) TimerEvent: {}
+[48.227009] (-) TimerEvent: {}
+[48.327232] (-) TimerEvent: {}
+[48.427462] (-) TimerEvent: {}
+[48.527690] (-) TimerEvent: {}
+[48.627929] (-) TimerEvent: {}
+[48.728151] (-) TimerEvent: {}
+[48.828369] (-) TimerEvent: {}
+[48.928645] (-) TimerEvent: {}
+[48.986125] (lio_sam) StdoutLine: {'line': b'[ 97%] Linking CXX executable lio_sam_imuPreintegration\n'}
+[49.028753] (-) TimerEvent: {}
+[49.129007] (-) TimerEvent: {}
+[49.229242] (-) TimerEvent: {}
+[49.329506] (-) TimerEvent: {}
+[49.429801] (-) TimerEvent: {}
+[49.530058] (-) TimerEvent: {}
+[49.630294] (-) TimerEvent: {}
+[49.730589] (-) TimerEvent: {}
+[49.830922] (-) TimerEvent: {}
+[49.931210] (-) TimerEvent: {}
+[49.994332] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam_imuPreintegration\n'}
+[50.031331] (-) TimerEvent: {}
+[50.131610] (-) TimerEvent: {}
+[50.231896] (-) TimerEvent: {}
+[50.332153] (-) TimerEvent: {}
+[50.432399] (-) TimerEvent: {}
+[50.532648] (-) TimerEvent: {}
+[50.632872] (-) TimerEvent: {}
+[50.733134] (-) TimerEvent: {}
+[50.833364] (-) TimerEvent: {}
+[50.933592] (-) TimerEvent: {}
+[51.033816] (-) TimerEvent: {}
+[51.134047] (-) TimerEvent: {}
+[51.234333] (-) TimerEvent: {}
+[51.334578] (-) TimerEvent: {}
+[51.434798] (-) TimerEvent: {}
+[51.535018] (-) TimerEvent: {}
+[51.635234] (-) TimerEvent: {}
+[51.735462] (-) TimerEvent: {}
+[51.835691] (-) TimerEvent: {}
+[51.935921] (-) TimerEvent: {}
+[52.036154] (-) TimerEvent: {}
+[52.136398] (-) TimerEvent: {}
+[52.236616] (-) TimerEvent: {}
+[52.336841] (-) TimerEvent: {}
+[52.437066] (-) TimerEvent: {}
+[52.537320] (-) TimerEvent: {}
+[52.637571] (-) TimerEvent: {}
+[52.737818] (-) TimerEvent: {}
+[52.838051] (-) TimerEvent: {}
+[52.938263] (-) TimerEvent: {}
+[53.038509] (-) TimerEvent: {}
+[53.138742] (-) TimerEvent: {}
+[53.238954] (-) TimerEvent: {}
+[53.339215] (-) TimerEvent: {}
+[53.439473] (-) TimerEvent: {}
+[53.539703] (-) TimerEvent: {}
+[53.639942] (-) TimerEvent: {}
+[53.740157] (-) TimerEvent: {}
+[53.840377] (-) TimerEvent: {}
+[53.940625] (-) TimerEvent: {}
+[54.040868] (-) TimerEvent: {}
+[54.141091] (-) TimerEvent: {}
+[54.241331] (-) TimerEvent: {}
+[54.341554] (-) TimerEvent: {}
+[54.441782] (-) TimerEvent: {}
+[54.541998] (-) TimerEvent: {}
+[54.642263] (-) TimerEvent: {}
+[54.742489] (-) TimerEvent: {}
+[54.842706] (-) TimerEvent: {}
+[54.942921] (-) TimerEvent: {}
+[55.043136] (-) TimerEvent: {}
+[55.143362] (-) TimerEvent: {}
+[55.243588] (-) TimerEvent: {}
+[55.343804] (-) TimerEvent: {}
+[55.444043] (-) TimerEvent: {}
+[55.544287] (-) TimerEvent: {}
+[55.644542] (-) TimerEvent: {}
+[55.744760] (-) TimerEvent: {}
+[55.844979] (-) TimerEvent: {}
+[55.945179] (-) TimerEvent: {}
+[56.045418] (-) TimerEvent: {}
+[56.145684] (-) TimerEvent: {}
+[56.245945] (-) TimerEvent: {}
+[56.346148] (-) TimerEvent: {}
+[56.446405] (-) TimerEvent: {}
+[56.546815] (-) TimerEvent: {}
+[56.647104] (-) TimerEvent: {}
+[56.747301] (-) TimerEvent: {}
+[56.847508] (-) TimerEvent: {}
+[56.947717] (-) TimerEvent: {}
+[57.047943] (-) TimerEvent: {}
+[57.148189] (-) TimerEvent: {}
+[57.248411] (-) TimerEvent: {}
+[57.348650] (-) TimerEvent: {}
+[57.448876] (-) TimerEvent: {}
+[57.549133] (-) TimerEvent: {}
+[57.649364] (-) TimerEvent: {}
+[57.749582] (-) TimerEvent: {}
+[57.849820] (-) TimerEvent: {}
+[57.950057] (-) TimerEvent: {}
+[58.050312] (-) TimerEvent: {}
+[58.150542] (-) TimerEvent: {}
+[58.250782] (-) TimerEvent: {}
+[58.351031] (-) TimerEvent: {}
+[58.451248] (-) TimerEvent: {}
+[58.551512] (-) TimerEvent: {}
+[58.651798] (-) TimerEvent: {}
+[58.752045] (-) TimerEvent: {}
+[58.852312] (-) TimerEvent: {}
+[58.952541] (-) TimerEvent: {}
+[59.052787] (-) TimerEvent: {}
+[59.153046] (-) TimerEvent: {}
+[59.253317] (-) TimerEvent: {}
+[59.353548] (-) TimerEvent: {}
+[59.453783] (-) TimerEvent: {}
+[59.553998] (-) TimerEvent: {}
+[59.654240] (-) TimerEvent: {}
+[59.754474] (-) TimerEvent: {}
+[59.854713] (-) TimerEvent: {}
+[59.954959] (-) TimerEvent: {}
+[60.055178] (-) TimerEvent: {}
+[60.155404] (-) TimerEvent: {}
+[60.255650] (-) TimerEvent: {}
+[60.355912] (-) TimerEvent: {}
+[60.456149] (-) TimerEvent: {}
+[60.556399] (-) TimerEvent: {}
+[60.656630] (-) TimerEvent: {}
+[60.756865] (-) TimerEvent: {}
+[60.857098] (-) TimerEvent: {}
+[60.957360] (-) TimerEvent: {}
+[61.057608] (-) TimerEvent: {}
+[61.157846] (-) TimerEvent: {}
+[61.258057] (-) TimerEvent: {}
+[61.358262] (-) TimerEvent: {}
+[61.458465] (-) TimerEvent: {}
+[61.558700] (-) TimerEvent: {}
+[61.658955] (-) TimerEvent: {}
+[61.759175] (-) TimerEvent: {}
+[61.859386] (-) TimerEvent: {}
+[61.959643] (-) TimerEvent: {}
+[62.059959] (-) TimerEvent: {}
+[62.160241] (-) TimerEvent: {}
+[62.260608] (-) TimerEvent: {}
+[62.360987] (-) TimerEvent: {}
+[62.461375] (-) TimerEvent: {}
+[62.561733] (-) TimerEvent: {}
+[62.662138] (-) TimerEvent: {}
+[62.762476] (-) TimerEvent: {}
+[62.865310] (-) TimerEvent: {}
+[62.965558] (-) TimerEvent: {}
+[63.065753] (-) TimerEvent: {}
+[63.166027] (-) TimerEvent: {}
+[63.266275] (-) TimerEvent: {}
+[63.366498] (-) TimerEvent: {}
+[63.466739] (-) TimerEvent: {}
+[63.566968] (-) TimerEvent: {}
+[63.667203] (-) TimerEvent: {}
+[63.767473] (-) TimerEvent: {}
+[63.867683] (-) TimerEvent: {}
+[63.967895] (-) TimerEvent: {}
+[64.068151] (-) TimerEvent: {}
+[64.168404] (-) TimerEvent: {}
+[64.268676] (-) TimerEvent: {}
+[64.368873] (-) TimerEvent: {}
+[64.469082] (-) TimerEvent: {}
+[64.569319] (-) TimerEvent: {}
+[64.669556] (-) TimerEvent: {}
+[64.769795] (-) TimerEvent: {}
+[64.870014] (-) TimerEvent: {}
+[64.970235] (-) TimerEvent: {}
+[65.070451] (-) TimerEvent: {}
+[65.170704] (-) TimerEvent: {}
+[65.270988] (-) TimerEvent: {}
+[65.371221] (-) TimerEvent: {}
+[65.471472] (-) TimerEvent: {}
+[65.512912] (lio_sam) StdoutLine: {'line': b'[100%] Linking CXX executable lio_sam_mapOptimization\n'}
+[65.571602] (-) TimerEvent: {}
+[65.671853] (-) TimerEvent: {}
+[65.772117] (-) TimerEvent: {}
+[65.872393] (-) TimerEvent: {}
+[65.972644] (-) TimerEvent: {}
+[66.072869] (-) TimerEvent: {}
+[66.173136] (-) TimerEvent: {}
+[66.273381] (-) TimerEvent: {}
+[66.371974] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_mapOptimization\n'}
+[66.373453] (-) TimerEvent: {}
+[66.400307] (lio_sam) CommandEnded: {'returncode': 0}
+[66.406132] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[66.426581] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/bin:/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[66.442764] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[66.443449] (lio_sam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[66.444464] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[66.460945] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.h\n'}
+[66.473577] (-) TimerEvent: {}
+[66.475946] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[66.489558] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[66.505621] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[66.520097] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[66.530868] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h\n'}
+[66.546264] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h\n'}
+[66.560708] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h\n'}
+[66.573727] (-) TimerEvent: {}
+[66.575842] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.h\n'}
+[66.590695] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[66.604989] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[66.618670] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[66.633683] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[66.649097] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[66.661368] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[66.673841] (-) TimerEvent: {}
+[66.679105] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[66.692653] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[66.703090] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[66.718459] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[66.734630] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[66.747255] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[66.761079] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[66.773969] (-) TimerEvent: {}
+[66.778626] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.hpp\n'}
+[66.795244] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[66.809508] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[66.824428] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[66.837025] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[66.852372] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[66.866792] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[66.874043] (-) TimerEvent: {}
+[66.882417] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[66.897680] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[66.908936] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[66.924126] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.hpp\n'}
+[66.938421] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[66.953312] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[66.968090] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[66.974163] (-) TimerEvent: {}
+[66.984742] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[66.998118] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py\n'}
+[67.014608] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py\n'}
+[67.028195] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py\n'}
+[67.040099] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py\n'}
+[67.054971] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py\n'}
+[67.071047] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[67.074270] (-) TimerEvent: {}
+[67.086600] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[67.103429] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[67.118036] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__python.so\n'}
+[67.130255] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[67.144364] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[67.160175] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[67.174401] (-) TimerEvent: {}
+[67.175555] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[67.191148] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg\n'}
+[67.206246] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg\n'}
+[67.221337] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch/__pycache__/run.launch.cpython-313.pyc\n'}
+[67.235882] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[67.249793] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[67.265270] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[67.274494] (-) TimerEvent: {}
+[67.276846] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[67.290861] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[67.306249] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[67.321243] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[67.336322] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[67.350486] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[67.367385] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[67.374602] (-) TimerEvent: {}
+[67.384053] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[67.397626] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[67.411009] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[67.426008] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[67.440767] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[67.455557] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[67.471273] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[67.474673] (-) TimerEvent: {}
+[67.486810] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[67.502247] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[67.517530] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[67.556398] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[67.569442] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[67.574855] (-) TimerEvent: {}
+[67.585988] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[67.600845] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[67.614859] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[67.628068] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[67.644966] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[67.659232] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[67.671896] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[67.674918] (-) TimerEvent: {}
+[67.689500] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[67.703240] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[67.715197] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[67.727683] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[67.739523] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[67.754233] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[67.769601] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[67.775036] (-) TimerEvent: {}
+[67.782909] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[67.797965] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.dsv\n'}
+[67.809331] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[67.823736] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[67.838756] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[67.852434] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[67.863700] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[67.875136] (-) TimerEvent: {}
+[67.876367] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[67.890393] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[67.905754] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[67.917357] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[67.929577] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[67.941871] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.xml\n'}
+[67.954037] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[67.954725] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""\n'}
+[67.955265] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[67.956046] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""\n'}
+[67.956463] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[67.957094] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""\n'}
+[67.957666] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[67.958523] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[67.958914] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[67.959642] (lio_sam) StdoutLine: {'line': b'-- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""\n'}
+[67.975222] (-) TimerEvent: {}
+[68.011375] (lio_sam) StdoutLine: {'line': b"Compiling '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...\n"}
+[68.016462] (lio_sam) StdoutLine: {'line': b'-- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake].\n'}
+[68.016744] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake\n'}
+[68.017019] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[68.017556] (lio_sam) StdoutLine: {'line': b'-- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake].\n'}
+[68.017870] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[68.018162] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[68.018623] (lio_sam) StdoutLine: {'line': b'-- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake].\n'}
+[68.018831] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[68.019153] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[68.019667] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake\n'}
+[68.020295] (lio_sam) StdoutLine: {'line': b'-- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake].\n'}
+[68.020576] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[68.020956] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[68.021667] (lio_sam) StdoutLine: {'line': b'-- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake].\n'}
+[68.021879] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[68.022225] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[68.026785] (lio_sam) CommandEnded: {'returncode': 0}
+[68.070901] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[68.073040] (-) EventReactorShutdown: {}

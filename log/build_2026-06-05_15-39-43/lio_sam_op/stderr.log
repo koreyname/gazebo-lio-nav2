@@ -1,0 +1,40 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/featureExtraction.cpp:24:
+/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam_op/utility.hpp:38:10: fatal error: tf2_eigen/tf2_eigen.hpp: 没有那个文件或目录
+   38 | #include <tf2_eigen/tf2_eigen.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:37:
+/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam_op/utility.hpp:38:10: fatal error: tf2_eigen/tf2_eigen.hpp: 没有那个文件或目录
+   38 | #include <tf2_eigen/tf2_eigen.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imuPreintegration.cpp:53:
+/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam_op/utility.hpp:38:10: fatal error: tf2_eigen/tf2_eigen.hpp: 没有那个文件或目录
+   38 | #include <tf2_eigen/tf2_eigen.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/lio_sam_op_featureExtraction.dir/build.make:63：CMakeFiles/lio_sam_op_featureExtraction.dir/src/featureExtraction.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:646：CMakeFiles/lio_sam_op_featureExtraction.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/lio_sam_op_imageProjection.dir/build.make:63：CMakeFiles/lio_sam_op_imageProjection.dir/src/imageProjection.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/lio_sam_op_imageProjection.dir/all] 错误 2
+make[2]: *** [CMakeFiles/lio_sam_op_imuPreintegration.dir/build.make:63：CMakeFiles/lio_sam_op_imuPreintegration.dir/src/imuPreintegration.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:510：CMakeFiles/lio_sam_op_imuPreintegration.dir/all] 错误 2
+In file included from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/transformFusion.cpp:23:
+/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam_op/utility.hpp:38:10: fatal error: tf2_eigen/tf2_eigen.hpp: 没有那个文件或目录
+   38 | #include <tf2_eigen/tf2_eigen.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/lio_sam_op_transformFusion.dir/build.make:63：CMakeFiles/lio_sam_op_transformFusion.dir/src/transformFusion.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:482：CMakeFiles/lio_sam_op_transformFusion.dir/all] 错误 2
+In file included from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/mapOptimization.cpp:23:
+/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam_op/utility.hpp:38:10: fatal error: tf2_eigen/tf2_eigen.hpp: 没有那个文件或目录
+   38 | #include <tf2_eigen/tf2_eigen.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/lio_sam_op_mapOptimization.dir/build.make:63：CMakeFiles/lio_sam_op_mapOptimization.dir/src/mapOptimization.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:132：CMakeFiles/lio_sam_op_mapOptimization.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "lio_sam_op__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/lio_sam_op__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lio_sam_op",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op-Release-102523409a0380647d88.json",
+					"name" : "lio_sam_op",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__cpp-Release-616308ed276f6a8dfea0.json",
+					"name" : "lio_sam_op__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lio_sam_op__py::@740aee021559d91246e6",
+					"jsonFile" : "target-lio_sam_op__py-Release-1d336f86797b63c06b5c.json",
+					"name" : "lio_sam_op__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__python-Release-6c0a47c4816b9201e977.json",
+					"name" : "lio_sam_op__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_generator_c-Release-a440b6e68a4b4dcad881.json",
+					"name" : "lio_sam_op__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_c-Release-7b408e402f8c8aeb77e4.json",
+					"name" : "lio_sam_op__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_c__pyext-Release-0a9e9bc6f680e6f3dc6a.json",
+					"name" : "lio_sam_op__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_cpp-Release-af79568581e9bfa8b76c.json",
+					"name" : "lio_sam_op__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_fastrtps_c-Release-c05ac01e75dec0d275d1.json",
+					"name" : "lio_sam_op__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_fastrtps_c__pyext-Release-72a03ca08a7126adf265.json",
+					"name" : "lio_sam_op__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_fastrtps_cpp-Release-32c2d74725ce0f5be8d0.json",
+					"name" : "lio_sam_op__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_introspection_c-Release-ac8b341a935e19e20f9c.json",
+					"name" : "lio_sam_op__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_introspection_c__pyext-Release-83ad4a8705d9ee803692.json",
+					"name" : "lio_sam_op__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op__rosidl_typesupport_introspection_cpp-Release-91068df625a9a702479d.json",
+					"name" : "lio_sam_op__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_featureExtraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_featureExtraction-Release-b2234543c9f3defb91f5.json",
+					"name" : "lio_sam_op_featureExtraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_imageProjection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_imageProjection-Release-adec932d360fb1fc75c0.json",
+					"name" : "lio_sam_op_imageProjection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_imuPreintegration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_imuPreintegration-Release-a34bd9ca989059df565a.json",
+					"name" : "lio_sam_op_imuPreintegration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_mapOptimization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_mapOptimization-Release-15ce083f33a8a8715003.json",
+					"name" : "lio_sam_op_mapOptimization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_transformFusion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_transformFusion-Release-8508b59f081c5c8406eb.json",
+					"name" : "lio_sam_op_transformFusion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lio_sam_op_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lio_sam_op_uninstall-Release-826cfabd0b053b672b58.json",
+					"name" : "lio_sam_op_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-45cae7e5ee9720f87b28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op",
+		"source" : "/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

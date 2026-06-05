@@ -1,0 +1,526 @@
+[0.017s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+[0.171s] -- The C compiler identification is GNU 9.4.0
+[0.285s] -- The CXX compiler identification is GNU 9.4.0
+[0.291s] -- Check for working C compiler: /usr/bin/cc
+[0.392s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.393s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.506s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.625s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.743s] -- Detecting CXX compile features
+[0.743s] -- Detecting CXX compile features - done
+[0.744s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.769s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.963s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.973s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.977s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.154s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.176s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.225s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.228s] -- Looking for pthread.h
+[1.327s] -- Looking for pthread.h - found
+[1.472s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.472s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.619s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.686s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.758s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[1.869s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.882s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.888s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.249s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[2.264s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[2.290s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.290s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.302s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.381s] -- The imported target "vtkParseOGLExt" references the file
+[2.382s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.382s] but this file does not exist.  Possible reasons include:
+[2.382s] * The file was deleted, renamed, or moved to another location.
+[2.382s] * An install or uninstall procedure did not complete successfully.
+[2.382s] * The installation package was faulty and contained
+[2.382s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.383s] but not all the files it references.
+[2.383s] 
+[2.383s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.383s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.383s] but this file does not exist.  Possible reasons include:
+[2.384s] * The file was deleted, renamed, or moved to another location.
+[2.384s] * An install or uninstall procedure did not complete successfully.
+[2.384s] * The installation package was faulty and contained
+[2.384s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.384s] but not all the files it references.
+[2.384s] 
+[2.384s] -- The imported target "vtk" references the file
+[2.385s]    "/usr/bin/vtk"
+[2.385s] but this file does not exist.  Possible reasons include:
+[2.385s] * The file was deleted, renamed, or moved to another location.
+[2.385s] * An install or uninstall procedure did not complete successfully.
+[2.385s] * The installation package was faulty and contained
+[2.385s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.385s] but not all the files it references.
+[2.386s] 
+[2.386s] -- The imported target "pvtk" references the file
+[2.386s]    "/usr/bin/pvtk"
+[2.386s] but this file does not exist.  Possible reasons include:
+[2.386s] * The file was deleted, renamed, or moved to another location.
+[2.386s] * An install or uninstall procedure did not complete successfully.
+[2.386s] * The installation package was faulty and contained
+[2.387s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.387s] but not all the files it references.
+[2.387s] 
+[2.409s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.418s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.418s] ** WARNING ** io features related to pcap will be disabled
+[2.418s] ** WARNING ** io features related to png will be disabled
+[2.430s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.442s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.451s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.464s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.472s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.484s] -- looking for PCL_COMMON
+[2.484s] -- looking for PCL_KDTREE
+[2.485s] -- looking for PCL_OCTREE
+[2.485s] -- looking for PCL_SEARCH
+[2.486s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.486s] -- looking for PCL_FILTERS
+[2.487s] -- looking for PCL_2D
+[2.487s] -- looking for PCL_GEOMETRY
+[2.488s] -- looking for PCL_IO
+[2.488s] -- looking for PCL_FEATURES
+[2.489s] -- looking for PCL_ML
+[2.489s] -- looking for PCL_SEGMENTATION
+[2.490s] -- looking for PCL_VISUALIZATION
+[2.491s] -- looking for PCL_SURFACE
+[2.491s] -- looking for PCL_REGISTRATION
+[2.492s] -- looking for PCL_KEYPOINTS
+[2.492s] -- looking for PCL_TRACKING
+[2.493s] -- looking for PCL_RECOGNITION
+[2.493s] -- looking for PCL_STEREO
+[2.494s] -- looking for PCL_APPS
+[2.495s] -- looking for PCL_IN_HAND_SCANNER
+[2.495s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.496s] -- looking for PCL_OUTOFCORE
+[2.497s] -- looking for PCL_PEOPLE
+[2.525s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[2.527s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[2.535s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.4.0") 
+[2.535s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.565s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.778s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.308s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.309s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.337s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.337s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.552s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.571s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.655s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.659s] -- Configured cppcheck include dirs: /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam
+[3.659s] -- Configured cppcheck exclude dirs and/or files: 
+[3.741s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.741s] -- Configured cpplint exclude dirs and/or files: 
+[3.751s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.774s] -- Added test 'lint_cmake' to check CMake code style
+[3.784s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.868s] -- Added test 'uncrustify' to check C / C++ code style
+[3.868s] -- Configured uncrustify additional arguments: 
+[3.879s] -- Added test 'xmllint' to check XML markup files
+[3.888s] -- Configuring done
+[4.236s] -- Generating done
+[4.409s] -- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam
+[4.431s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+[4.433s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam -- -j12 -l12
+[4.496s] Scanning dependencies of target lio_sam__cpp
+[4.510s] Scanning dependencies of target lio_sam__rosidl_generator_c
+[4.516s] [  2%] Built target lio_sam__cpp
+[4.531s] [  4%] Building C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o
+[4.532s] [  6%] Building C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o
+[4.537s] Scanning dependencies of target lio_sam__rosidl_typesupport_cpp
+[4.550s] Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_cpp
+[4.552s] Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp
+[4.572s] [ 10%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o
+[4.572s] [ 10%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o
+[4.572s] [ 12%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o
+[4.591s] [ 14%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o
+[4.593s] [ 17%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o
+[4.595s] [ 19%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o
+[4.740s] [ 21%] Linking C shared library liblio_sam__rosidl_generator_c.so
+[4.846s] [ 23%] Built target lio_sam__rosidl_generator_c
+[4.874s] Scanning dependencies of target lio_sam__rosidl_typesupport_c
+[4.883s] Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_c
+[4.908s] [ 25%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o
+[4.914s] [ 27%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o
+[4.919s] [ 29%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o
+[4.933s] [ 31%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o
+[4.987s] [ 34%] Linking CXX shared library liblio_sam__rosidl_typesupport_c.so
+[5.002s] [ 36%] Linking CXX shared library liblio_sam__rosidl_typesupport_cpp.so
+[5.003s] [ 38%] Linking C shared library liblio_sam__rosidl_typesupport_introspection_c.so
+[5.050s] [ 40%] Built target lio_sam__rosidl_typesupport_c
+[5.051s] [ 42%] Built target lio_sam__rosidl_typesupport_introspection_c
+[5.079s] [ 44%] Built target lio_sam__rosidl_typesupport_cpp
+[5.156s] [ 46%] Linking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so
+[5.227s] [ 48%] Linking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[5.244s] [ 51%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[5.333s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[5.364s] Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c
+[5.384s] [ 55%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o
+[5.387s] [ 57%] Building CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o
+[5.789s] [ 59%] Linking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so
+[5.892s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[5.907s] Scanning dependencies of target lio_sam
+[5.926s] [ 61%] Built target lio_sam
+[5.944s] Scanning dependencies of target lio_sam__py
+[5.959s] [ 63%] Built target lio_sam__py
+[6.003s] Scanning dependencies of target lio_sam__python
+[6.022s] [ 65%] Building C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o
+[6.022s] [ 68%] Building C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o
+[6.181s] Scanning dependencies of target lio_sam_imuPreintegration
+[6.181s] Scanning dependencies of target lio_sam_imageProjection
+[6.184s] Scanning dependencies of target lio_sam_featureExtraction
+[6.186s] Scanning dependencies of target lio_sam_mapOptimization
+[6.216s] [ 70%] Building CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o
+[6.216s] [ 72%] Building CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o
+[6.225s] [ 74%] Building CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o
+[6.228s] [ 76%] Building CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o
+[6.323s] [ 78%] Linking C shared library rosidl_generator_py/lio_sam/liblio_sam__python.so
+[6.385s] [ 78%] Built target lio_sam__python
+[6.413s] Scanning dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext
+[6.414s] Scanning dependencies of target lio_sam__rosidl_typesupport_c__pyext
+[6.420s] Scanning dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[6.434s] [ 80%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.434s] [ 82%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o
+[6.445s] [ 85%] Building C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.607s] [ 89%] Linking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.607s] [ 89%] Linking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.628s] [ 91%] Linking CXX shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.682s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[6.691s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[6.751s] [ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[15.089s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.090s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.090s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.090s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.090s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.090s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.090s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.090s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.091s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.091s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.091s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.091s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.091s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:14:6: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[15.091s]    14 |     (uint16_t, ring, ring) (float, time, time)
+[15.091s]       |      ^~~~~~~~
+[15.091s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.092s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.092s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.092s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.092s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[15.092s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.092s]       |         ^~~~~~~~
+[15.100s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.100s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.100s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.100s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.100s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.100s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.101s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.101s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.102s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.102s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.102s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.102s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.103s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:6: warning: ‘using uint32_t = uint32_t’ is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]
+[15.103s]    29 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)
+[15.103s]       |      ^~~~~~~~
+[15.103s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.103s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.104s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.104s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.104s] /usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here
+[15.104s]    96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[15.105s]       |         ^~~~~~~~
+[15.105s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.105s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.105s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.105s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.106s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.106s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.106s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.106s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.107s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.107s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.107s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.107s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.108s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:23: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[15.108s]    29 |     (uint32_t, t, t) (uint16_t, reflectivity, reflectivity)
+[15.108s]       |                       ^~~~~~~~
+[15.108s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.108s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.108s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.108s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.108s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[15.108s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.108s]       |         ^~~~~~~~
+[15.108s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.109s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.109s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.109s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.109s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.109s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.109s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.109s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.109s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.109s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.109s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.109s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.109s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:6: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[15.109s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[15.110s]       |      ^~~~~~~
+[15.110s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.110s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.110s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.110s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.110s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[15.110s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[15.110s]       |         ^~~~~~~
+[15.110s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.110s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.111s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.111s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.111s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.111s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.111s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.111s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.111s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.111s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.111s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.111s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.112s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:28: warning: ‘using uint16_t = uint16_t’ is deprecated: use std::uint16_t instead of pcl::uint16_t [-Wdeprecated-declarations]
+[15.112s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[15.112s]       |                            ^~~~~~~~
+[15.112s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.112s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.112s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.112s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.112s] /usr/include/pcl-1.10/pcl/pcl_macros.h:94:9: note: declared here
+[15.112s]    94 |   using uint16_t [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[15.112s]       |         ^~~~~~~~
+[15.113s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.113s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.113s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.113s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.113s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.113s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.113s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.113s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.113s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.113s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.113s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.114s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.114s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:53: warning: ‘using uint32_t = uint32_t’ is deprecated: use std::uint32_t instead of pcl::uint32_t [-Wdeprecated-declarations]
+[15.114s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[15.114s]       |                                                     ^~~~~~~~
+[15.114s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.114s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.114s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.114s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.114s] /usr/include/pcl-1.10/pcl/pcl_macros.h:96:9: note: declared here
+[15.114s]    96 |   using uint32_t [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[15.114s]       |         ^~~~~~~~
+[15.115s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.115s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.115s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.115s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.115s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.115s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.115s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.115s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.115s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.115s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.115s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.115s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.116s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:6: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[15.116s]    41 |     (uint8_t, tag, tag) (uint8_t, line, line)
+[15.116s]       |      ^~~~~~~
+[15.116s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.116s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.116s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.116s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.116s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[15.116s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[15.116s]       |         ^~~~~~~
+[15.116s] In file included from /usr/include/boost/preprocessor/tuple/elem.hpp:23,
+[15.117s]                  from /usr/include/boost/preprocessor/arithmetic/add.hpp:21,
+[15.117s]                  from /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66,
+[15.117s]                  from /usr/include/boost/mpl/aux_/na_spec.hpp:28,
+[15.117s]                  from /usr/include/boost/mpl/not.hpp:20,
+[15.117s]                  from /usr/include/boost/mpl/assert.hpp:17,
+[15.117s]                  from /usr/include/pcl-1.10/pcl/point_traits.h:48,
+[15.117s]                  from /usr/include/pcl-1.10/pcl/point_cloud.h:50,
+[15.117s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43,
+[15.117s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.117s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.117s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.117s] /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:26: warning: ‘using uint8_t = uint8_t’ is deprecated: use std::uint8_t instead of pcl::uint8_t [-Wdeprecated-declarations]
+[15.117s]    41 |     (uint8_t, tag, tag) (uint8_t, line, line)
+[15.117s]       |                          ^~~~~~~
+[15.118s] In file included from /usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42,
+[15.118s]                  from /usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43,
+[15.118s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21,
+[15.118s]                  from /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1:
+[15.118s] /usr/include/pcl-1.10/pcl/pcl_macros.h:92:9: note: declared here
+[15.118s]    92 |   using uint8_t [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[15.118s]       |         ^~~~~~~
+[33.325s] [ 93%] Linking CXX executable lio_sam_featureExtraction
+[34.425s] [ 93%] Built target lio_sam_featureExtraction
+[37.122s] [ 95%] Linking CXX executable lio_sam_imageProjection
+[37.675s] [ 95%] Built target lio_sam_imageProjection
+[48.986s] [ 97%] Linking CXX executable lio_sam_imuPreintegration
+[49.994s] [ 97%] Built target lio_sam_imuPreintegration
+[65.512s] [100%] Linking CXX executable lio_sam_mapOptimization
+[66.371s] [100%] Built target lio_sam_mapOptimization
+[66.400s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam -- -j12 -l12
+[66.429s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam
+[66.442s] -- Install configuration: "Release"
+[66.443s] -- Execute custom install script
+[66.444s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[66.461s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.h
+[66.475s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h
+[66.489s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h
+[66.505s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h
+[66.520s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[66.530s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h
+[66.546s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h
+[66.560s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h
+[66.575s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.h
+[66.590s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.sh
+[66.604s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[66.618s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[66.633s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[66.649s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[66.661s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[66.679s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[66.692s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[66.703s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[66.718s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[66.734s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[66.747s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[66.761s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[66.778s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.hpp
+[66.795s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp
+[66.809s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp
+[66.824s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp
+[66.837s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp
+[66.852s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[66.866s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp
+[66.882s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp
+[66.897s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp
+[66.908s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp
+[66.924s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.hpp
+[66.938s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[66.953s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[66.968s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[66.984s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[66.998s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py
+[67.014s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py
+[67.028s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py
+[67.040s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py
+[67.055s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py
+[67.071s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[67.086s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[67.103s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[67.118s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__python.so
+[67.130s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[67.144s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[67.160s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[67.175s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[67.191s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[67.206s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[67.221s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch/__pycache__/run.launch.cpython-313.pyc
+[67.235s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch/run.launch.py
+[67.249s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[67.265s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[67.276s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[67.290s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[67.306s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[67.321s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[67.336s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[67.350s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[67.367s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[67.384s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[67.397s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[67.411s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[67.426s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[67.440s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[67.455s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[67.471s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[67.486s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[67.502s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/system.png
+[67.517s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/params.yaml
+[67.556s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[67.569s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[67.586s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[67.600s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[67.614s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[67.628s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[67.645s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/utility.hpp
+[67.659s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[67.671s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[67.689s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[67.703s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[67.715s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.sh
+[67.727s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.dsv
+[67.739s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.bash
+[67.754s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.sh
+[67.769s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.zsh
+[67.782s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.dsv
+[67.797s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.dsv
+[67.809s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[67.823s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[67.838s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.852s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[67.863s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[67.876s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.890s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[67.905s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[67.917s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[67.929s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[67.941s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.xml
+[67.954s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[67.954s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[67.955s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[67.955s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[67.956s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[67.957s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[67.957s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[67.958s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[67.958s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[67.959s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[68.011s] Compiling '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...
+[68.016s] -- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake].
+[68.016s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake
+[68.016s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake
+[68.017s] -- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake].
+[68.017s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[68.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[68.018s] -- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake].
+[68.018s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[68.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[68.019s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake
+[68.020s] -- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake].
+[68.020s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[68.020s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[68.021s] -- Old export file "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake].
+[68.021s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[68.022s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[68.030s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam

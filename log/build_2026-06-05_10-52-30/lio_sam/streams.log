@@ -1,0 +1,920 @@
+[0.046s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+[0.084s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.113s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.319s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.333s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.502s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.638s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.716s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.718s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.787s] -- Looking for pthread_create in pthreads
+[0.847s] -- Looking for pthread_create in pthreads - not found
+[0.847s] -- Looking for pthread_create in pthread
+[0.912s] -- Looking for pthread_create in pthread - found
+[0.914s] -- Found Threads: TRUE  
+[1.056s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.058s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.189s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.259s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.330s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[1.432s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.443s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.452s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.455s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.832s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[1.851s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.859s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.877s] -- Checking for module 'eigen3'
+[1.898s] --   Found eigen3, version 3.3.7
+[1.950s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.950s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.005s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.032s] -- Checking for module 'flann'
+[2.059s] --   Found flann, version 1.9.1
+[2.145s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.190s] -- The imported target "vtkParseOGLExt" references the file
+[2.191s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.191s] but this file does not exist.  Possible reasons include:
+[2.191s] * The file was deleted, renamed, or moved to another location.
+[2.191s] * An install or uninstall procedure did not complete successfully.
+[2.191s] * The installation package was faulty and contained
+[2.191s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.191s] but not all the files it references.
+[2.191s] 
+[2.191s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.191s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.192s] but this file does not exist.  Possible reasons include:
+[2.192s] * The file was deleted, renamed, or moved to another location.
+[2.192s] * An install or uninstall procedure did not complete successfully.
+[2.192s] * The installation package was faulty and contained
+[2.192s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.192s] but not all the files it references.
+[2.192s] 
+[2.192s] -- The imported target "vtk" references the file
+[2.192s]    "/usr/bin/vtk"
+[2.192s] but this file does not exist.  Possible reasons include:
+[2.192s] * The file was deleted, renamed, or moved to another location.
+[2.192s] * An install or uninstall procedure did not complete successfully.
+[2.192s] * The installation package was faulty and contained
+[2.192s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.192s] but not all the files it references.
+[2.192s] 
+[2.192s] -- The imported target "pvtk" references the file
+[2.192s]    "/usr/bin/pvtk"
+[2.193s] but this file does not exist.  Possible reasons include:
+[2.193s] * The file was deleted, renamed, or moved to another location.
+[2.193s] * An install or uninstall procedure did not complete successfully.
+[2.193s] * The installation package was faulty and contained
+[2.193s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.193s] but not all the files it references.
+[2.193s] 
+[2.213s] -- Checking for module 'libusb-1.0'
+[2.238s] --   Found libusb-1.0, version 1.0.23
+[2.302s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.302s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.302s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.302s]   problems in calling code that expects `find_package` result variables
+[2.302s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.302s] Call Stack (most recent call first):
+[2.302s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.302s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.302s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.303s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.303s]   CMakeLists.txt:27 (find_package)
+[2.303s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.303s] [0m
+[2.303s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.397s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.397s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.406s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.406s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.406s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[2.406s]   problems in calling code that expects `find_package` result variables
+[2.406s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.406s] Call Stack (most recent call first):
+[2.406s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[2.406s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[2.406s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[2.406s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.407s]   CMakeLists.txt:27 (find_package)
+[2.407s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.407s] [0m
+[2.535s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.535s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.535s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.535s] [0m** WARNING ** io features related to png will be disabled[0m
+[2.555s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.555s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[2.555s]   does not match the name of the calling package (PCL).  This can lead to
+[2.555s]   problems in calling code that expects `find_package` result variables
+[2.555s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.555s] Call Stack (most recent call first):
+[2.555s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[2.556s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[2.556s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.556s]   CMakeLists.txt:27 (find_package)
+[2.556s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.556s] [0m
+[2.556s] -- Found libusb-1.0: /usr/include  
+[2.556s] [0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[2.562s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.562s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.562s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.562s]   problems in calling code that expects `find_package` result variables
+[2.562s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.562s] Call Stack (most recent call first):
+[2.562s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.562s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.562s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.563s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.563s]   CMakeLists.txt:27 (find_package)
+[2.563s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.563s] [0m
+[2.563s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.569s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.569s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.569s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[2.570s]   problems in calling code that expects `find_package` result variables
+[2.570s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.570s] Call Stack (most recent call first):
+[2.570s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[2.570s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[2.570s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[2.570s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.570s]   CMakeLists.txt:27 (find_package)
+[2.570s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.570s] [0m
+[2.571s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.597s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.597s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.606s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.607s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[2.607s]   does not match the name of the calling package (OpenNI).  This can lead to
+[2.607s]   problems in calling code that expects `find_package` result variables
+[2.607s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.607s] Call Stack (most recent call first):
+[2.607s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[2.607s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[2.607s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[2.607s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[2.608s]   CMakeLists.txt:27 (find_package)
+[2.608s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.608s] [0m
+[2.608s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.622s] -- looking for PCL_COMMON
+[2.623s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.623s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[2.624s]   does not match the name of the calling package (PCL).  This can lead to
+[2.624s]   problems in calling code that expects `find_package` result variables
+[2.624s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.624s] Call Stack (most recent call first):
+[2.624s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.624s]   CMakeLists.txt:27 (find_package)
+[2.624s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.625s] [0m
+[2.625s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.625s] -- looking for PCL_KDTREE
+[2.625s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.625s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[2.625s]   does not match the name of the calling package (PCL).  This can lead to
+[2.625s]   problems in calling code that expects `find_package` result variables
+[2.626s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.626s] Call Stack (most recent call first):
+[2.626s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.626s]   CMakeLists.txt:27 (find_package)
+[2.626s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.627s] [0m
+[2.627s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.627s] -- looking for PCL_OCTREE
+[2.627s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.627s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[2.627s]   does not match the name of the calling package (PCL).  This can lead to
+[2.628s]   problems in calling code that expects `find_package` result variables
+[2.628s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.628s] Call Stack (most recent call first):
+[2.628s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.628s]   CMakeLists.txt:27 (find_package)
+[2.628s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.628s] [0m
+[2.628s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.628s] -- looking for PCL_SEARCH
+[2.629s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.629s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[2.629s]   does not match the name of the calling package (PCL).  This can lead to
+[2.629s]   problems in calling code that expects `find_package` result variables
+[2.629s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.629s] Call Stack (most recent call first):
+[2.629s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.629s]   CMakeLists.txt:27 (find_package)
+[2.629s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.629s] [0m
+[2.629s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.630s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.630s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.630s]   The package name passed to `find_package_handle_standard_args`
+[2.630s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[2.630s]   (PCL).  This can lead to problems in calling code that expects
+[2.630s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[2.630s]   pattern.
+[2.630s] Call Stack (most recent call first):
+[2.630s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.630s]   CMakeLists.txt:27 (find_package)
+[2.630s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.631s] [0m
+[2.631s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.631s] -- looking for PCL_FILTERS
+[2.631s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.631s]   The package name passed to `find_package_handle_standard_args`
+[2.631s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[2.631s]   can lead to problems in calling code that expects `find_package` result
+[2.631s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.631s] Call Stack (most recent call first):
+[2.631s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.631s]   CMakeLists.txt:27 (find_package)
+[2.632s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.632s] [0m
+[2.632s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.632s] -- looking for PCL_2D
+[2.632s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.632s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[2.632s]   does not match the name of the calling package (PCL).  This can lead to
+[2.632s]   problems in calling code that expects `find_package` result variables
+[2.632s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.632s] Call Stack (most recent call first):
+[2.632s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.632s]   CMakeLists.txt:27 (find_package)
+[2.633s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.633s] [0m
+[2.633s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.633s] -- looking for PCL_GEOMETRY
+[2.633s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.633s]   The package name passed to `find_package_handle_standard_args`
+[2.633s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[2.633s]   can lead to problems in calling code that expects `find_package` result
+[2.633s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.633s] Call Stack (most recent call first):
+[2.633s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.633s]   CMakeLists.txt:27 (find_package)
+[2.633s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.633s] [0m
+[2.633s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.634s] -- looking for PCL_IO
+[2.634s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.634s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.634s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[2.634s]   does not match the name of the calling package (PCL).  This can lead to
+[2.634s]   problems in calling code that expects `find_package` result variables
+[2.634s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.634s] Call Stack (most recent call first):
+[2.634s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.634s]   CMakeLists.txt:27 (find_package)
+[2.634s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.634s] [0m
+[2.634s] -- looking for PCL_FEATURES
+[2.634s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.634s]   The package name passed to `find_package_handle_standard_args`
+[2.634s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[2.634s]   can lead to problems in calling code that expects `find_package` result
+[2.635s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.635s] Call Stack (most recent call first):
+[2.635s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.635s]   CMakeLists.txt:27 (find_package)
+[2.635s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.635s] [0m
+[2.635s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.635s] -- looking for PCL_ML
+[2.635s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.635s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[2.635s]   does not match the name of the calling package (PCL).  This can lead to
+[2.635s]   problems in calling code that expects `find_package` result variables
+[2.635s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.635s] Call Stack (most recent call first):
+[2.635s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.635s]   CMakeLists.txt:27 (find_package)
+[2.636s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.636s] [0m
+[2.636s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.636s] -- looking for PCL_SEGMENTATION
+[2.636s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.636s]   The package name passed to `find_package_handle_standard_args`
+[2.636s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[2.636s]   This can lead to problems in calling code that expects `find_package`
+[2.636s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.636s] Call Stack (most recent call first):
+[2.636s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.636s]   CMakeLists.txt:27 (find_package)
+[2.636s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.636s] [0m
+[2.636s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.636s] -- looking for PCL_VISUALIZATION
+[2.636s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.637s]   The package name passed to `find_package_handle_standard_args`
+[2.637s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[2.637s]   This can lead to problems in calling code that expects `find_package`
+[2.637s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.637s] Call Stack (most recent call first):
+[2.637s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.637s]   CMakeLists.txt:27 (find_package)
+[2.637s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.637s] [0m
+[2.637s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.637s] -- looking for PCL_SURFACE
+[2.637s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.637s]   The package name passed to `find_package_handle_standard_args`
+[2.637s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[2.637s]   can lead to problems in calling code that expects `find_package` result
+[2.637s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.638s] Call Stack (most recent call first):
+[2.638s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.638s]   CMakeLists.txt:27 (find_package)
+[2.638s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.638s] [0m
+[2.638s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.638s] -- looking for PCL_REGISTRATION
+[2.638s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.638s]   The package name passed to `find_package_handle_standard_args`
+[2.638s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[2.638s]   This can lead to problems in calling code that expects `find_package`
+[2.638s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.638s] Call Stack (most recent call first):
+[2.638s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.638s]   CMakeLists.txt:27 (find_package)
+[2.638s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.639s] [0m
+[2.639s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.639s] -- looking for PCL_KEYPOINTS
+[2.639s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.639s]   The package name passed to `find_package_handle_standard_args`
+[2.639s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[2.639s]   can lead to problems in calling code that expects `find_package` result
+[2.639s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.639s] Call Stack (most recent call first):
+[2.639s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.639s]   CMakeLists.txt:27 (find_package)
+[2.639s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.639s] [0m
+[2.639s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.640s] -- looking for PCL_TRACKING
+[2.640s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.640s]   The package name passed to `find_package_handle_standard_args`
+[2.640s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[2.640s]   can lead to problems in calling code that expects `find_package` result
+[2.640s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.640s] Call Stack (most recent call first):
+[2.640s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.640s]   CMakeLists.txt:27 (find_package)
+[2.640s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.640s] [0m
+[2.640s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.640s] -- looking for PCL_RECOGNITION
+[2.640s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.641s]   The package name passed to `find_package_handle_standard_args`
+[2.641s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[2.641s]   This can lead to problems in calling code that expects `find_package`
+[2.641s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.641s] Call Stack (most recent call first):
+[2.641s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.641s]   CMakeLists.txt:27 (find_package)
+[2.641s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.641s] [0m
+[2.641s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.641s] -- looking for PCL_STEREO
+[2.641s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.642s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[2.642s]   does not match the name of the calling package (PCL).  This can lead to
+[2.642s]   problems in calling code that expects `find_package` result variables
+[2.642s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.642s] Call Stack (most recent call first):
+[2.642s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.642s]   CMakeLists.txt:27 (find_package)
+[2.642s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.642s] [0m
+[2.642s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.642s] -- looking for PCL_APPS
+[2.642s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.642s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[2.642s]   does not match the name of the calling package (PCL).  This can lead to
+[2.642s]   problems in calling code that expects `find_package` result variables
+[2.642s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.642s] Call Stack (most recent call first):
+[2.642s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.643s]   CMakeLists.txt:27 (find_package)
+[2.643s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.643s] [0m
+[2.643s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.643s] -- looking for PCL_IN_HAND_SCANNER
+[2.643s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.643s]   The package name passed to `find_package_handle_standard_args`
+[2.643s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[2.643s]   This can lead to problems in calling code that expects `find_package`
+[2.643s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.643s] Call Stack (most recent call first):
+[2.643s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.644s]   CMakeLists.txt:27 (find_package)
+[2.644s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.644s] [0m
+[2.644s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.644s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.644s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.644s]   The package name passed to `find_package_handle_standard_args`
+[2.644s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[2.644s]   (PCL).  This can lead to problems in calling code that expects
+[2.644s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[2.644s]   pattern.
+[2.644s] Call Stack (most recent call first):
+[2.644s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[2.644s]   CMakeLists.txt:27 (find_package)
+[2.644s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.645s] [0m
+[2.645s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.645s] -- looking for PCL_OUTOFCORE
+[2.645s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.645s]   The package name passed to `find_package_handle_standard_args`
+[2.645s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[2.645s]   can lead to problems in calling code that expects `find_package` result
+[2.645s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[2.645s] Call Stack (most recent call first):
+[2.645s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.645s]   CMakeLists.txt:27 (find_package)
+[2.645s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.645s] [0m
+[2.645s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.645s] -- looking for PCL_PEOPLE
+[2.645s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.646s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[2.646s]   does not match the name of the calling package (PCL).  This can lead to
+[2.646s]   problems in calling code that expects `find_package` result variables
+[2.646s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.646s] Call Stack (most recent call first):
+[2.646s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[2.646s]   CMakeLists.txt:27 (find_package)
+[2.646s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.646s] [0m
+[2.646s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.646s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.685s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[2.687s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[2.697s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.4.0") 
+[2.697s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.725s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.977s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.653s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.656s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.690s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.691s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.691s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.691s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.717s] -- Found PythonExtra: .so  
+[4.136s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.168s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.267s] -- Configured cppcheck include dirs: /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam
+[4.267s] -- Configured cppcheck exclude dirs and/or files: 
+[4.356s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.356s] -- Configured cpplint exclude dirs and/or files: 
+[4.367s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.388s] -- Added test 'lint_cmake' to check CMake code style
+[4.399s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.483s] -- Added test 'uncrustify' to check C / C++ code style
+[4.483s] -- Configured uncrustify additional arguments: 
+[4.497s] -- Added test 'xmllint' to check XML markup files
+[4.501s] -- Configuring done
+[4.709s] -- Generating done
+[4.778s] -- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam
+[4.808s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+[4.812s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam -- -j12 -l12
+[4.868s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.875s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.228s] [  8%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[5.228s] [  8%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[5.255s] [  8%] Built target lio_sam__cpp
+[5.262s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.262s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.265s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.398s] [ 17%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[5.445s] [ 17%] Built target lio_sam__rosidl_generator_c
+[5.452s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.453s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.602s] [ 23%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[5.602s] [ 25%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[5.664s] [ 27%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[5.664s] [ 29%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[5.669s] [ 31%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[5.670s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[5.852s] [ 36%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[5.859s] [ 38%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[5.930s] [ 40%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[5.935s] [ 42%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[5.938s] [ 44%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[5.977s] [ 44%] Built target lio_sam__rosidl_typesupport_c
+[6.003s] [ 46%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[6.032s] [ 48%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[6.044s] [ 48%] Built target lio_sam__rosidl_typesupport_cpp
+[6.067s] [ 48%] Built target lio_sam__rosidl_typesupport_introspection_c
+[6.192s] [ 51%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[6.262s] [ 51%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[6.355s] [ 53%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.433s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[6.438s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.745s] [ 57%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[6.745s] [ 59%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[7.106s] [ 61%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[7.190s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[7.203s] [ 61%] Built target lio_sam
+[7.216s] [ 63%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[7.217s] [ 65%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.218s] [ 68%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[7.218s] [ 70%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[7.220s] [ 72%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[8.119s] [ 72%] Built target lio_sam__py
+[8.131s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[8.131s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__python.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[8.461s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__python.so[0m
+[8.507s] [ 78%] Built target lio_sam__python
+[8.520s] [ 80%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.523s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.528s] [ 85%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[8.678s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.705s] [ 89%] [32m[1mLinking CXX shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.708s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[8.719s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[8.765s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[8.786s] [ 91%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[16.147s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.147s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.147s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.147s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.147s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.147s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.148s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.148s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.148s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.148s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.148s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.148s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.148s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:14:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.149s]    14 |     ([01;35m[Kuint16_t[m[K, ring, ring) (float, time, time)
+[16.149s]       |      [01;35m[K^~~~~~~~[m[K
+[16.149s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.149s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.149s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.149s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.149s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.150s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[16.150s]       |         [01;36m[K^~~~~~~~[m[K
+[16.154s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.154s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.154s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.154s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.154s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.155s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.155s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.155s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.155s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.155s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.155s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.155s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.155s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.155s]    29 |     ([01;35m[Kuint32_t[m[K, t, t) (uint16_t, reflectivity, reflectivity)
+[16.155s]       |      [01;35m[K^~~~~~~~[m[K
+[16.156s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.156s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.156s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.156s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.156s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.156s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[16.156s]       |         [01;36m[K^~~~~~~~[m[K
+[16.156s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.156s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.156s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.157s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.157s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.157s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.157s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.157s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.157s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.157s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.157s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.157s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.157s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:29:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.157s]    29 |     (uint32_t, t, t) ([01;35m[Kuint16_t[m[K, reflectivity, reflectivity)
+[16.158s]       |                       [01;35m[K^~~~~~~~[m[K
+[16.158s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.158s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.158s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.158s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.158s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.158s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[16.159s]       |         [01;36m[K^~~~~~~~[m[K
+[16.159s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.159s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.159s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.159s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.160s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.160s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.160s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.160s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.160s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.160s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.160s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.160s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.160s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.161s]    30 |     ([01;35m[Kuint8_t[m[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[16.161s]       |      [01;35m[K^~~~~~~[m[K
+[16.161s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.161s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.161s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.161s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.161s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.161s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[16.161s]       |         [01;36m[K^~~~~~~[m[K
+[16.162s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.162s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.162s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.162s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.162s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.162s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.162s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.163s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.163s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.163s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.163s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.163s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.163s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.163s]    30 |     (uint8_t, ring, ring) ([01;35m[Kuint16_t[m[K, noise, noise) (uint32_t, range, range)
+[16.163s]       |                            [01;35m[K^~~~~~~~[m[K
+[16.163s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.164s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.164s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.164s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.164s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.164s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[16.164s]       |         [01;36m[K^~~~~~~~[m[K
+[16.164s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.164s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.164s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.164s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.164s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.164s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.165s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.165s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.165s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.165s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.165s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.165s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.165s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:30:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.165s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) ([01;35m[Kuint32_t[m[K, range, range)
+[16.165s]       |                                                     [01;35m[K^~~~~~~~[m[K
+[16.165s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.166s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.166s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.166s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.166s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.166s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[16.166s]       |         [01;36m[K^~~~~~~~[m[K
+[16.166s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.166s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.166s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.166s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.166s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.166s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.167s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.167s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.167s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.167s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.167s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.167s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.167s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.167s]    41 |     ([01;35m[Kuint8_t[m[K, tag, tag) (uint8_t, line, line)
+[16.167s]       |      [01;35m[K^~~~~~~[m[K
+[16.167s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.167s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.167s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.168s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.168s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.168s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[16.168s]       |         [01;36m[K^~~~~~~[m[K
+[16.168s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[16.168s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[16.168s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[16.168s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[16.168s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[16.168s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[16.168s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[16.169s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[16.169s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:43[m[K,
+[16.169s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.169s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.169s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.169s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:41:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[16.169s]    41 |     (uint8_t, tag, tag) ([01;35m[Kuint8_t[m[K, line, line)
+[16.169s]       |                          [01;35m[K^~~~~~~[m[K
+[16.169s] In file included from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree.h:42[m[K,
+[16.169s]                  from [01m[K/usr/include/pcl-1.10/pcl/kdtree/kdtree_flann.h:43[m[K,
+[16.169s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/include/lio_sam/utility.hpp:21[m[K,
+[16.169s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[16.170s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.170s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[16.170s]       |         [01;36m[K^~~~~~~[m[K
+[32.244s] [ 93%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[33.075s] [ 93%] Built target lio_sam_featureExtraction
+[35.528s] [ 95%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[35.998s] [ 95%] Built target lio_sam_imageProjection
+[47.068s] [ 97%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[47.948s] [ 97%] Built target lio_sam_imuPreintegration
+[61.445s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[62.230s] [100%] Built target lio_sam_mapOptimization
+[62.243s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam -- -j12 -l12
+[62.247s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam
+[62.278s] -- Install configuration: "Release"
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.h
+[62.279s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.h
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.c
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__functions.h
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.h
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[62.280s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.h
+[62.281s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.281s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.h
+[62.281s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__functions.c
+[62.281s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.h
+[62.281s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.h
+[62.282s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.sh
+[62.282s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[62.282s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[62.283s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[62.283s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.283s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.283s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.283s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[62.283s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.284s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.284s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[62.284s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[62.284s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[62.284s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[62.285s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.285s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.285s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.285s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/dds_fastrtps
+[62.285s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[62.285s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.285s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.285s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/dds_fastrtps
+[62.285s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[62.285s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[62.286s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[62.286s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[62.286s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.286s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.286s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.286s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[62.286s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.c
+[62.286s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.287s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[62.287s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.287s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.c
+[62.287s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[62.287s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[62.287s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[62.287s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[62.288s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[62.288s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.288s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.288s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.288s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__traits.hpp
+[62.288s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__builder.hpp
+[62.288s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__struct.hpp
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.hpp
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/save_map.hpp
+[62.289s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[62.289s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__traits.hpp
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.hpp
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__builder.hpp
+[62.289s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__struct.hpp
+[62.290s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/cloud_info.hpp
+[62.290s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.290s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv
+[62.290s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail
+[62.290s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__type_support.cpp
+[62.290s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[62.290s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg
+[62.290s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail
+[62.290s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__type_support.cpp
+[62.290s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[62.291s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[62.291s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[62.291s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[62.291s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[62.291s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[62.292s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[62.292s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py
+[62.321s] Compiling '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/__init__.py'...
+[62.324s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg
+[62.324s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info_s.c
+[62.325s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/__init__.py
+[62.325s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/msg/_cloud_info.py
+[62.326s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv
+[62.326s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map.py
+[62.326s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/__init__.py
+[62.326s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/srv/_save_map_s.c
+[62.327s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[62.328s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[62.328s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[62.328s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[62.329s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[62.329s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/python3.8/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[62.329s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__python.so
+[62.330s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/liblio_sam__python.so" to ""
+[62.330s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[62.331s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[62.331s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[62.331s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[62.332s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[62.332s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[62.332s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch
+[62.332s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//launch/run.launch.py
+[62.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config
+[62.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[62.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[62.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/params.yaml
+[62.334s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc
+[62.334s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[62.349s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[62.350s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[62.362s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[62.385s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[62.385s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[62.388s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[62.389s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[62.407s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/system.png
+[62.409s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[62.415s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[62.434s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[62.435s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[62.435s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[62.435s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[62.435s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[62.444s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[62.444s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[62.460s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[62.460s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[62.462s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""
+[62.462s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[62.464s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""
+[62.465s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[62.466s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction" to ""
+[62.466s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[62.469s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization" to ""
+[62.469s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include
+[62.469s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam
+[62.469s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/include/lio_sam/utility.hpp
+[62.469s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[62.469s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.sh
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/environment/path.dsv
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.bash
+[62.470s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.sh
+[62.471s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.zsh
+[62.471s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/local_setup.dsv
+[62.471s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.dsv
+[62.471s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[62.471s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cExport-release.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[62.472s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_generator_cppExport.cmake
+[62.473s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[62.473s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[62.473s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[62.473s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[62.473s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[62.474s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[62.475s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[62.475s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[62.475s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam/share/lio_sam/package.xml
+[62.484s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam

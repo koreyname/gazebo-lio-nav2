@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'pointcloud_to_laserscan'}
+[0.000725] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000779] (-) JobUnselected: {'identifier': 'robot_navigation2'}
+[0.000831] (lio_sam_op) JobQueued: {'identifier': 'lio_sam_op', 'dependencies': OrderedDict()}
+[0.001066] (pointcloud_downsampling) JobQueued: {'identifier': 'pointcloud_downsampling', 'dependencies': OrderedDict()}
+[0.001097] (lio_sam_op) JobStarted: {'identifier': 'lio_sam_op'}
+[0.009125] (pointcloud_downsampling) JobStarted: {'identifier': 'pointcloud_downsampling'}
+[0.017052] (lio_sam_op) JobProgress: {'identifier': 'lio_sam_op', 'progress': 'cmake'}
+[0.018013] (lio_sam_op) JobProgress: {'identifier': 'lio_sam_op', 'progress': 'build'}
+[0.018806] (lio_sam_op) Command: {'cmd': ['/home/korey/.local/bin/cmake', '--build', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op', '--', '-j12', '-l12'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.025088] (pointcloud_downsampling) JobProgress: {'identifier': 'pointcloud_downsampling', 'progress': 'cmake'}
+[0.026437] (pointcloud_downsampling) JobProgress: {'identifier': 'pointcloud_downsampling', 'progress': 'build'}
+[0.027048] (pointcloud_downsampling) Command: {'cmd': ['/home/korey/.local/bin/cmake', '--build', '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling', '--', '-j12', '-l12'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.099670] (-) TimerEvent: {}
+[0.114225] (lio_sam_op) StdoutLine: {'line': b'[  4%] Built target lio_sam_op__cpp\n'}
+[0.114507] (lio_sam_op) StdoutLine: {'line': b'[ 10%] Built target lio_sam_op__rosidl_generator_c\n'}
+[0.136674] (pointcloud_downsampling) StdoutLine: {'line': b'[ 50%] Built target pointcloud_downsampling_node\n'}
+[0.151044] (lio_sam_op) StdoutLine: {'line': b'[ 18%] Built target lio_sam_op__rosidl_typesupport_introspection_c\n'}
+[0.155485] (lio_sam_op) StdoutLine: {'line': b'[ 26%] Built target lio_sam_op__rosidl_typesupport_introspection_cpp\n'}
+[0.155872] (lio_sam_op) StdoutLine: {'line': b'[ 34%] Built target lio_sam_op__rosidl_typesupport_cpp\n'}
+[0.160633] (lio_sam_op) StdoutLine: {'line': b'[ 42%] Built target lio_sam_op__rosidl_typesupport_fastrtps_cpp\n'}
+[0.162251] (pointcloud_downsampling) StdoutLine: {'line': b'Scanning dependencies of target pointcloud_downsampling\n'}
+[0.184227] (lio_sam_op) StdoutLine: {'line': b'[ 51%] Built target lio_sam_op__rosidl_typesupport_c\n'}
+[0.188059] (pointcloud_downsampling) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/pointcloud_downsampling.dir/src/voxel_filtering.cpp.o\n'}
+[0.199764] (-) TimerEvent: {}
+[0.205689] (lio_sam_op) StdoutLine: {'line': b'[ 59%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c\n'}
+[0.232739] (lio_sam_op) StdoutLine: {'line': b'[ 59%] Built target lio_sam_op\n'}
+[0.266187] (lio_sam_op) StdoutLine: {'line': b'[ 61%] Built target lio_sam_op__py\n'}
+[0.297531] (lio_sam_op) StdoutLine: {'line': b'[ 65%] Built target lio_sam_op_transformFusion\n'}
+[0.299879] (lio_sam_op) StdoutLine: {'line': b'[ 69%] Built target lio_sam_op_featureExtraction\n'}
+[0.300095] (-) TimerEvent: {}
+[0.301641] (lio_sam_op) StdoutLine: {'line': b'[ 73%] Built target lio_sam_op_imuPreintegration\n'}
+[0.301825] (lio_sam_op) StdoutLine: {'line': b'[ 77%] Built target lio_sam_op_mapOptimization\n'}
+[0.304706] (lio_sam_op) StdoutLine: {'line': b'[ 81%] Built target lio_sam_op_imageProjection\n'}
+[0.311869] (lio_sam_op) StdoutLine: {'line': b'[ 87%] Built target lio_sam_op__python\n'}
+[0.347575] (lio_sam_op) StdoutLine: {'line': b'[ 91%] Built target lio_sam_op__rosidl_typesupport_c__pyext\n'}
+[0.350374] (lio_sam_op) StdoutLine: {'line': b'[ 95%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.350544] (lio_sam_op) StdoutLine: {'line': b'[100%] Built target lio_sam_op__rosidl_typesupport_introspection_c__pyext\n'}
+[0.371279] (lio_sam_op) CommandEnded: {'returncode': 0}
+[0.372551] (lio_sam_op) JobProgress: {'identifier': 'lio_sam_op', 'progress': 'install'}
+[0.400281] (-) TimerEvent: {}
+[0.407568] (lio_sam_op) Command: {'cmd': ['/home/korey/.local/bin/cmake', '--install', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.441435] (lio_sam_op) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.442222] (lio_sam_op) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.442629] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/rosidl_interfaces/lio_sam_op\n'}
+[0.443439] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.h\n'}
+[0.443808] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__functions.h\n'}
+[0.444254] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.h\n'}
+[0.444494] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.h\n'}
+[0.444669] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.444831] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__functions.h\n'}
+[0.444913] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.h\n'}
+[0.445080] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.h\n'}
+[0.445260] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/save_map.h\n'}
+[0.445576] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/library_path.sh\n'}
+[0.445917] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/library_path.dsv\n'}
+[0.446702] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.446899] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.447120] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.447531] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_c.so\n'}
+[0.448335] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.448665] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.448835] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.449186] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.449760] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[0.449967] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.450201] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.450872] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.hpp\n'}
+[0.451080] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__builder.hpp\n'}
+[0.451317] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.hpp\n'}
+[0.451568] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__traits.hpp\n'}
+[0.451790] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.hpp\n'}
+[0.451942] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.452115] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__builder.hpp\n'}
+[0.452346] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.hpp\n'}
+[0.452623] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__traits.hpp\n'}
+[0.452869] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.hpp\n'}
+[0.453096] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/save_map.hpp\n'}
+[0.453613] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.453879] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.454239] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.sh\n'}
+[0.454593] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.dsv\n'}
+[0.455015] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/__init__.py\n'}
+[0.455493] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/__init__.py\n'}
+[0.455642] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/_cloud_info.py\n'}
+[0.456173] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/__init__.py\n'}
+[0.456364] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/_save_map.py\n'}
+[0.456651] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.456940] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.457160] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.457384] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__python.so\n'}
+[0.457556] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.idl\n'}
+[0.457749] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.idl\n'}
+[0.457906] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.msg\n'}
+[0.458066] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.srv\n'}
+[0.458226] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Request.msg\n'}
+[0.458370] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Response.msg\n'}
+[0.458591] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imageProjection\n'}
+[0.458749] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_featureExtraction\n'}
+[0.458908] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imuPreintegration\n'}
+[0.459052] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_mapOptimization\n'}
+[0.459214] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_transformFusion\n'}
+[0.459526] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/lio_sam_op/utility.hpp\n'}
+[0.459839] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/__pycache__/run.launch.cpython-313.pyc\n'}
+[0.460079] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/pureLioSam.launch.py\n'}
+[0.460178] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/run.launch.py\n'}
+[0.460363] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/params.yaml\n'}
+[0.460569] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/params_default.yaml\n'}
+[0.460778] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/robot.urdf.xacro\n'}
+[0.460879] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/rviz2.rviz\n'}
+[0.461074] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/package_run_dependencies/lio_sam_op\n'}
+[0.463238] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/parent_prefix_path/lio_sam_op\n'}
+[0.463448] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.sh\n'}
+[0.463534] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.dsv\n'}
+[0.463614] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/path.sh\n'}
+[0.463705] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/path.dsv\n'}
+[0.463785] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.bash\n'}
+[0.463870] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.sh\n'}
+[0.463945] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.zsh\n'}
+[0.464024] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.dsv\n'}
+[0.464094] (lio_sam_op) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.dsv\n'}
+[0.476353] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/packages/lio_sam_op\n'}
+[0.476644] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake-extras.cmake\n'}
+[0.476802] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.476991] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.477271] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.477542] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.477895] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.478727] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.478935] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig.cmake\n'}
+[0.479248] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig-version.cmake\n'}
+[0.479323] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.xml\n'}
+[0.479458] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_generator_c.so\n'}
+[0.480128] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_c.so\n'}
+[0.480485] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_c.so\n'}
+[0.480927] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_cpp.so\n'}
+[0.481385] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_cpp.so\n'}
+[0.500422] (-) TimerEvent: {}
+[0.517417] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport.cmake\n'}
+[0.517707] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport-release.cmake\n'}
+[0.517839] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.517987] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.518046] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport.cmake\n'}
+[0.518102] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport-release.cmake\n'}
+[0.518156] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cppExport.cmake\n'}
+[0.518213] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.518272] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.518329] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport.cmake\n'}
+[0.518386] (lio_sam_op) StdoutLine: {'line': b'-- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.523926] (lio_sam_op) CommandEnded: {'returncode': 0}
+[0.548198] (lio_sam_op) JobEnded: {'identifier': 'lio_sam_op', 'rc': 0}
+[0.600535] (-) TimerEvent: {}
+[0.700773] (-) TimerEvent: {}
+[0.800997] (-) TimerEvent: {}
+[0.901232] (-) TimerEvent: {}
+[1.001465] (-) TimerEvent: {}
+[1.101709] (-) TimerEvent: {}
+[1.201954] (-) TimerEvent: {}
+[1.302187] (-) TimerEvent: {}
+[1.402445] (-) TimerEvent: {}
+[1.502691] (-) TimerEvent: {}
+[1.602950] (-) TimerEvent: {}
+[1.703201] (-) TimerEvent: {}
+[1.803436] (-) TimerEvent: {}
+[1.903710] (-) TimerEvent: {}
+[2.003949] (-) TimerEvent: {}
+[2.104194] (-) TimerEvent: {}
+[2.204429] (-) TimerEvent: {}
+[2.304673] (-) TimerEvent: {}
+[2.404909] (-) TimerEvent: {}
+[2.505130] (-) TimerEvent: {}
+[2.605369] (-) TimerEvent: {}
+[2.705632] (-) TimerEvent: {}
+[2.805862] (-) TimerEvent: {}
+[2.906067] (-) TimerEvent: {}
+[3.006289] (-) TimerEvent: {}
+[3.106511] (-) TimerEvent: {}
+[3.206753] (-) TimerEvent: {}
+[3.306971] (-) TimerEvent: {}
+[3.407198] (-) TimerEvent: {}
+[3.507435] (-) TimerEvent: {}
+[3.607663] (-) TimerEvent: {}
+[3.707911] (-) TimerEvent: {}
+[3.808131] (-) TimerEvent: {}
+[3.908359] (-) TimerEvent: {}
+[4.008583] (-) TimerEvent: {}
+[4.108826] (-) TimerEvent: {}
+[4.209048] (-) TimerEvent: {}
+[4.309255] (-) TimerEvent: {}
+[4.409478] (-) TimerEvent: {}
+[4.509693] (-) TimerEvent: {}
+[4.609912] (-) TimerEvent: {}
+[4.710149] (-) TimerEvent: {}
+[4.810326] (-) TimerEvent: {}
+[4.910542] (-) TimerEvent: {}
+[5.010779] (-) TimerEvent: {}
+[5.111016] (-) TimerEvent: {}
+[5.211238] (-) TimerEvent: {}
+[5.311465] (-) TimerEvent: {}
+[5.411677] (-) TimerEvent: {}
+[5.511914] (-) TimerEvent: {}
+[5.612136] (-) TimerEvent: {}
+[5.712341] (-) TimerEvent: {}
+[5.812547] (-) TimerEvent: {}
+[5.912769] (-) TimerEvent: {}
+[6.013001] (-) TimerEvent: {}
+[6.113246] (-) TimerEvent: {}
+[6.213566] (-) TimerEvent: {}
+[6.313799] (-) TimerEvent: {}
+[6.414045] (-) TimerEvent: {}
+[6.514275] (-) TimerEvent: {}
+[6.614516] (-) TimerEvent: {}
+[6.714773] (-) TimerEvent: {}
+[6.815007] (-) TimerEvent: {}
+[6.915229] (-) TimerEvent: {}
+[7.015457] (-) TimerEvent: {}
+[7.115661] (-) TimerEvent: {}
+[7.215891] (-) TimerEvent: {}
+[7.316104] (-) TimerEvent: {}
+[7.416326] (-) TimerEvent: {}
+[7.516545] (-) TimerEvent: {}
+[7.616765] (-) TimerEvent: {}
+[7.716988] (-) TimerEvent: {}
+[7.817202] (-) TimerEvent: {}
+[7.917424] (-) TimerEvent: {}
+[8.017651] (-) TimerEvent: {}
+[8.117854] (-) TimerEvent: {}
+[8.218064] (-) TimerEvent: {}
+[8.318300] (-) TimerEvent: {}
+[8.418537] (-) TimerEvent: {}
+[8.518749] (-) TimerEvent: {}
+[8.618956] (-) TimerEvent: {}
+[8.719182] (-) TimerEvent: {}
+[8.819420] (-) TimerEvent: {}
+[8.919674] (-) TimerEvent: {}
+[9.019913] (-) TimerEvent: {}
+[9.120135] (-) TimerEvent: {}
+[9.220370] (-) TimerEvent: {}
+[9.320594] (-) TimerEvent: {}
+[9.420831] (-) TimerEvent: {}
+[9.497370] (pointcloud_downsampling) StdoutLine: {'line': b'[100%] Linking CXX shared library libpointcloud_downsampling.so\n'}
+[9.520944] (-) TimerEvent: {}
+[9.621159] (-) TimerEvent: {}
+[9.721402] (-) TimerEvent: {}
+[9.821668] (-) TimerEvent: {}
+[9.921907] (-) TimerEvent: {}
+[10.022110] (-) TimerEvent: {}
+[10.122347] (-) TimerEvent: {}
+[10.222573] (-) TimerEvent: {}
+[10.322808] (-) TimerEvent: {}
+[10.423040] (-) TimerEvent: {}
+[10.431588] (pointcloud_downsampling) StdoutLine: {'line': b'[100%] Built target pointcloud_downsampling\n'}
+[10.452239] (pointcloud_downsampling) CommandEnded: {'returncode': 0}
+[10.453189] (pointcloud_downsampling) JobProgress: {'identifier': 'pointcloud_downsampling', 'progress': 'install'}
+[10.453729] (pointcloud_downsampling) Command: {'cmd': ['/home/korey/.local/bin/cmake', '--install', '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling'], 'cwd': '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/korey'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'korey'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '3771'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/korey'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/korey/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/korey/.nvm/versions/node/v24.15.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-9f36debb-1.11-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '3341'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/korey/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5364'), ('NVM_DIR', '/home/korey/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'korey'), ('OTEL_INSTRUMENTATION_GENAI_CAPTURE_MESSAGE_CONTENT', 'true'), ('JOURNAL_STREAM', '8:56254'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('RUST_LOG', 'warn'), ('USERNAME', 'korey'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/korey/.local/bin:/home/korey/.codex/tmp/arg0/codex-arg0ROhFBk:/home/korey/.local/bin:/home/korey/.nvm/versions/node/v24.15.0/bin:/home/korey/miniconda3/bin:/home/korey/miniconda3/condabin:/home/korey/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/korey/.vscode/extensions/openai.chatgpt-26.602.30954-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/korey-ubuntu:@/tmp/.ICE-unix/3912,unix/korey-ubuntu:/tmp/.ICE-unix/3912'), ('INVOCATION_ID', '8d0a73e82f274434a33afd1736b5e024'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('CONDA_PYTHON_EXE', '/home/korey/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('VSCODE_DOTNET_INSTALL_TOOL_ORIGINAL_HOME', '/home/korey'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '019e9695-bc52-7970-8426-17e1152b88b3'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/korey/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/korey/.config/Code/CachedData/8b640eef5a6c6089c029249d48efa5c99adf7d51'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/korey/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '5364'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[10.481845] (pointcloud_downsampling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.482441] (pointcloud_downsampling) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.482840] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pointcloud_downsampling/pointcloud_downsampling_node\n'}
+[10.483302] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/include/pointcloud_downsampling.h\n'}
+[10.483651] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.sh\n'}
+[10.483988] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.dsv\n'}
+[10.484396] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/libpointcloud_downsampling.so\n'}
+[10.485064] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/launch/pointcloud_downsampling.launch.py\n'}
+[10.485706] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/config/pointcloud_downsampling.yaml\n'}
+[10.486016] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/package_run_dependencies/pointcloud_downsampling\n'}
+[10.486442] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/parent_prefix_path/pointcloud_downsampling\n'}
+[10.486680] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.sh\n'}
+[10.487000] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.dsv\n'}
+[10.487296] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.sh\n'}
+[10.487579] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.dsv\n'}
+[10.487877] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.bash\n'}
+[10.488138] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.sh\n'}
+[10.488421] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.zsh\n'}
+[10.488710] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.dsv\n'}
+[10.488915] (pointcloud_downsampling) StdoutLine: {'line': b'-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.dsv\n'}
+[10.502021] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/packages/pointcloud_downsampling\n'}
+[10.502378] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/rclcpp_components/pointcloud_downsampling\n'}
+[10.502611] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.502850] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.503187] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.503451] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig.cmake\n'}
+[10.503597] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig-version.cmake\n'}
+[10.503775] (pointcloud_downsampling) StdoutLine: {'line': b'-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.xml\n'}
+[10.509644] (pointcloud_downsampling) CommandEnded: {'returncode': 0}
+[10.523155] (-) TimerEvent: {}
+[10.525999] (pointcloud_downsampling) JobEnded: {'identifier': 'pointcloud_downsampling', 'rc': 0}
+[10.526645] (-) EventReactorShutdown: {}

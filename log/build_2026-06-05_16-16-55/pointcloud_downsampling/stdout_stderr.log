@@ -1,0 +1,30 @@
+[ 50%] Built target pointcloud_downsampling_node
+[100%] Built target pointcloud_downsampling
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pointcloud_downsampling/pointcloud_downsampling_node
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/include/pointcloud_downsampling.h
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.sh
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/library_path.dsv
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/libpointcloud_downsampling.so
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/launch/pointcloud_downsampling.launch.py
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/config/pointcloud_downsampling.yaml
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/package_run_dependencies/pointcloud_downsampling
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/parent_prefix_path/pointcloud_downsampling
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.sh
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/environment/path.dsv
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.bash
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.sh
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.zsh
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/local_setup.dsv
+-- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.dsv
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/packages/pointcloud_downsampling
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/ament_index/resource_index/rclcpp_components/pointcloud_downsampling
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig.cmake
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/cmake/pointcloud_downsamplingConfig-version.cmake
+-- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.xml

@@ -1,0 +1,33 @@
+[0.033s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam': /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam
+[0.196s] -- The C compiler identification is GNU 9.4.0
+[0.306s] -- The CXX compiler identification is GNU 9.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.502s] -- Configuring incomplete, errors occurred!
+[0.502s] See also "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam/CMakeFiles/CMakeOutput.log".
+[0.502s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.502s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.502s]   has asked CMake to find a package configuration file provided by
+[0.502s]   "ament_cmake", but CMake did not find one.
+[0.502s] 
+[0.502s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.502s]   any of the following names:
+[0.502s] 
+[0.502s]     ament_cmakeConfig.cmake
+[0.502s]     ament_cmake-config.cmake
+[0.502s] 
+[0.503s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.503s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.503s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.503s]   has been installed.
+[0.503s] 
+[0.503s] [0m
+[0.527s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam' returned '1': /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam

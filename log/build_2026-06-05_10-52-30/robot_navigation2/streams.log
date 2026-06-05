@@ -1,0 +1,63 @@
+[0.043s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2
+[0.074s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.103s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.412s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.479s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.507s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.513s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.514s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.516s] -- Added test 'xmllint' to check XML markup files
+[0.517s] -- Configuring done
+[0.521s] -- Generating done
+[0.523s] -- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2
+[0.530s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2
+[0.534s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2 -- -j12 -l12
+[0.583s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2 -- -j12 -l12
+[0.622s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2
+[0.649s] -- Install configuration: ""
+[0.649s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/pythonpath.sh
+[0.650s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/pythonpath.dsv
+[0.650s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/lib/python3.8/site-packages/script
+[0.650s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/lib/python3.8/site-packages/script/__init__.py
+[0.678s] Listing '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/lib/python3.8/site-packages/script'...
+[0.678s] Compiling '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/lib/python3.8/site-packages/script/__init__.py'...
+[0.682s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch
+[0.682s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
+[0.682s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
+[0.682s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/nav.launch.py
+[0.683s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
+[0.683s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/map_server_launch.py
+[0.683s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
+[0.683s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/param
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/param/robot.yaml
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/maps
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/maps/my_map.yaml
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/maps/show_pgm.py
+[0.684s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/maps/my_map.pgm
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/nav.launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/map_server_launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
+[0.685s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
+[0.685s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/ament_index/resource_index/package_run_dependencies/robot_navigation2
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/ament_index/resource_index/parent_prefix_path/robot_navigation2
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.sh
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.dsv
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/path.sh
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/environment/path.dsv
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/local_setup.bash
+[0.686s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/local_setup.sh
+[0.687s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/local_setup.zsh
+[0.687s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/local_setup.dsv
+[0.687s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/package.dsv
+[0.687s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/ament_index/resource_index/packages/robot_navigation2
+[0.687s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config.cmake
+[0.688s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config-version.cmake
+[0.688s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/share/robot_navigation2/package.xml
+[0.696s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2

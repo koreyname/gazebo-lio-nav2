@@ -1,0 +1,1 @@
+/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2/ament_cmake_environment_hooks/local_setup.bash

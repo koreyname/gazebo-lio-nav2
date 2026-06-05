@@ -1,0 +1,1 @@
+/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_navigation2/launch/navigation2.launch.py

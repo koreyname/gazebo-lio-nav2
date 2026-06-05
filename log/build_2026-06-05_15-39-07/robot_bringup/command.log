@@ -1,0 +1,1 @@
+Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12

@@ -1,0 +1,330 @@
+[0.178s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lio_sam_op', 'robot_bringup', 'pointcloud_downsampling', '--symlink-install', '--event-handlers', 'console_direct+']
+[0.178s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe3b5255fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['lio_sam_op', 'robot_bringup', 'pointcloud_downsampling'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe3b5255fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe3b521b700>)
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/korey/Desktop/lio-sam_simulation_navigation'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LIO-SAM' with type 'ros.ament_cmake' and name 'lio_sam_op'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_downsampling) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_downsampling' with type 'ros.ament_cmake' and name 'pointcloud_downsampling'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_navigation2' with type 'ros.ament_cmake' and name 'robot_navigation2'
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.256s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pointcloud_to_laserscan' in 'src/pointcloud_to_laserscan'
+[0.256s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_navigation2' in 'src/robot_navigation2'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.259s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/foxy
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam_op' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op', 'merge_install': False, 'path': '/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_downsampling' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_downsampling' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling', 'merge_install': False, 'path': '/home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup', 'merge_install': False, 'path': '/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM' with build type 'ament_cmake'
+[0.309s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM'
+[0.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[3.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_downsampling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling
+[3.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling -- -j12 -l12
+[9.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[9.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+[10.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[10.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+[10.033s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup' for CMake module files
+[10.034s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup' for CMake config files
+[10.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[10.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[10.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[10.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[10.038s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib'
+[10.038s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/bin'
+[10.038s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[10.039s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/python3.8/site-packages'
+[10.039s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/bin'
+[10.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.ps1'
+[10.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.dsv'
+[10.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.sh'
+[10.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.bash'
+[10.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.zsh'
+[10.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[10.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[10.045s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup' for CMake module files
+[10.045s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup' for CMake config files
+[10.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[10.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[10.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[10.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib'
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/bin'
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/python3.8/site-packages'
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/bin'
+[10.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.ps1'
+[10.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.dsv'
+[10.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.sh'
+[10.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.bash'
+[10.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.zsh'
+[10.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[13.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling -- -j12 -l12
+[13.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling
+[13.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_downsampling)
+[13.755s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling' for CMake module files
+[13.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_downsampling
+[13.757s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling' for CMake config files
+[13.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_downsampling', 'cmake_prefix_path')
+[13.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.ps1'
+[13.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.dsv'
+[13.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.sh'
+[13.759s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib'
+[13.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_downsampling', 'ld_library_path_lib')
+[13.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.ps1'
+[13.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.dsv'
+[13.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.sh'
+[13.761s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/bin'
+[13.761s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pkgconfig/pointcloud_downsampling.pc'
+[13.761s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/python3.8/site-packages'
+[13.762s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/bin'
+[13.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.ps1'
+[13.763s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.dsv'
+[13.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.sh'
+[13.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.bash'
+[13.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.zsh'
+[13.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/colcon-core/packages/pointcloud_downsampling)
+[13.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_downsampling)
+[13.766s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling' for CMake module files
+[13.766s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling' for CMake config files
+[13.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_downsampling', 'cmake_prefix_path')
+[13.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.ps1'
+[13.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.dsv'
+[13.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/cmake_prefix_path.sh'
+[13.768s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib'
+[13.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_downsampling', 'ld_library_path_lib')
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.ps1'
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.dsv'
+[13.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/hook/ld_library_path_lib.sh'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/bin'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/pkgconfig/pointcloud_downsampling.pc'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/lib/python3.8/site-packages'
+[13.770s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/bin'
+[13.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.ps1'
+[13.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.dsv'
+[13.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.sh'
+[13.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.bash'
+[13.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/pointcloud_downsampling/package.zsh'
+[13.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/pointcloud_downsampling/share/colcon-core/packages/pointcloud_downsampling)
+[53.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
+[53.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op
+[53.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam_op)
+[53.209s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op' for CMake module files
+[53.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op
+[53.211s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op' for CMake config files
+[53.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'cmake_prefix_path')
+[53.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.ps1'
+[53.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.dsv'
+[53.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.sh'
+[53.215s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib'
+[53.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'ld_library_path_lib')
+[53.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.ps1'
+[53.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.dsv'
+[53.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.sh'
+[53.216s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/bin'
+[53.217s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/pkgconfig/lio_sam_op.pc'
+[53.217s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages'
+[53.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'pythonpath')
+[53.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.ps1'
+[53.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.dsv'
+[53.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.sh'
+[53.219s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/bin'
+[53.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.ps1'
+[53.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.dsv'
+[53.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.sh'
+[53.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.bash'
+[53.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.zsh'
+[53.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/colcon-core/packages/lio_sam_op)
+[53.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam_op)
+[53.223s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op' for CMake module files
+[53.223s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op' for CMake config files
+[53.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'cmake_prefix_path')
+[53.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.ps1'
+[53.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.dsv'
+[53.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.sh'
+[53.225s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib'
+[53.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'ld_library_path_lib')
+[53.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.ps1'
+[53.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.dsv'
+[53.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.sh'
+[53.238s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/bin'
+[53.238s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/pkgconfig/lio_sam_op.pc'
+[53.238s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages'
+[53.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'pythonpath')
+[53.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.ps1'
+[53.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.dsv'
+[53.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.sh'
+[53.239s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/bin'
+[53.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.ps1'
+[53.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.dsv'
+[53.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.sh'
+[53.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.bash'
+[53.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.zsh'
+[53.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/colcon-core/packages/lio_sam_op)
+[53.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[53.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[53.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[53.243s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[53.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[53.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[53.250s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[53.266s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[53.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio-sam_simulation_navigation/install/local_setup.ps1'
+[53.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/korey/Desktop/lio-sam_simulation_navigation/install/_local_setup_util_ps1.py'
+[53.269s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio-sam_simulation_navigation/install/setup.ps1'
+[53.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio-sam_simulation_navigation/install/local_setup.sh'
+[53.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/korey/Desktop/lio-sam_simulation_navigation/install/_local_setup_util_sh.py'
+[53.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio-sam_simulation_navigation/install/setup.sh'
+[53.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio-sam_simulation_navigation/install/local_setup.bash'
+[53.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio-sam_simulation_navigation/install/setup.bash'
+[53.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio-sam_simulation_navigation/install/local_setup.zsh'
+[53.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio-sam_simulation_navigation/install/setup.zsh'

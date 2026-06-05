@@ -1,0 +1,132 @@
+[0.030s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
+[0.107s] [  2%] Built target lio_sam_op__cpp
+[0.115s] [ 10%] Built target lio_sam_op__rosidl_generator_c
+[0.140s] [ 18%] Built target lio_sam_op__rosidl_typesupport_introspection_cpp
+[0.141s] [ 26%] Built target lio_sam_op__rosidl_typesupport_cpp
+[0.152s] [ 34%] Built target lio_sam_op__rosidl_typesupport_fastrtps_cpp
+[0.153s] [ 51%] Built target lio_sam_op__rosidl_typesupport_c
+[0.153s] [ 51%] Built target lio_sam_op__rosidl_typesupport_introspection_c
+[0.191s] [ 59%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c
+[0.229s] [ 59%] Built target lio_sam_op
+[0.270s] [ 61%] Built target lio_sam_op__py
+[0.297s] [ 65%] Built target lio_sam_op_transformFusion
+[0.304s] [ 69%] Built target lio_sam_op_imageProjection
+[0.305s] [ 73%] Built target lio_sam_op_imuPreintegration
+[0.306s] [ 77%] Built target lio_sam_op_featureExtraction
+[0.312s] [ 83%] Built target lio_sam_op__python
+[0.336s] Scanning dependencies of target lio_sam_op_mapOptimization
+[0.347s] [ 91%] Built target lio_sam_op__rosidl_typesupport_c__pyext
+[0.348s] [ 91%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c__pyext
+[0.348s] [ 95%] Built target lio_sam_op__rosidl_typesupport_introspection_c__pyext
+[0.367s] [ 97%] Building CXX object CMakeFiles/lio_sam_op_mapOptimization.dir/src/mapOptimization.cpp.o
+[51.413s] [100%] Linking CXX executable lio_sam_op_mapOptimization
+[52.783s] [100%] Built target lio_sam_op_mapOptimization
+[52.803s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
+[52.805s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op
+[52.822s] -- Install configuration: "Release"
+[52.822s] -- Execute custom install script
+[52.823s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/rosidl_interfaces/lio_sam_op
+[52.823s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.h
+[52.824s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__functions.h
+[52.824s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.h
+[52.824s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.h
+[52.825s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_c__visibility_control.h
+[52.825s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__functions.h
+[52.825s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.h
+[52.825s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.h
+[52.826s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/save_map.h
+[52.826s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/library_path.sh
+[52.826s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/library_path.dsv
+[52.826s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[52.826s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[52.827s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[52.827s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_c.so
+[52.827s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[52.827s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[52.828s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[52.828s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_cpp.so
+[52.829s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[52.829s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[52.829s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[52.829s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.hpp
+[52.830s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__builder.hpp
+[52.830s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.hpp
+[52.830s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__traits.hpp
+[52.830s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.hpp
+[52.831s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_cpp__visibility_control.hpp
+[52.831s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__builder.hpp
+[52.831s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.hpp
+[52.831s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__traits.hpp
+[52.832s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.hpp
+[52.832s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/save_map.hpp
+[52.835s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[52.835s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[52.835s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.sh
+[52.835s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.dsv
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/__init__.py
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/__init__.py
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/_cloud_info.py
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/__init__.py
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/_save_map.py
+[52.836s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[52.837s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[52.837s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[52.837s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__python.so
+[52.838s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.idl
+[52.838s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.idl
+[52.838s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.msg
+[52.838s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.srv
+[52.839s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Request.msg
+[52.839s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Response.msg
+[52.840s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imageProjection
+[52.840s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_featureExtraction
+[52.840s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imuPreintegration
+[52.840s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_mapOptimization
+[52.841s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_transformFusion
+[52.841s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/include/lio_sam_op/lio_sam_op/utility.hpp
+[52.842s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/__pycache__/run.launch.cpython-313.pyc
+[52.842s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/pureLioSam.launch.py
+[52.842s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/launch/run.launch.py
+[52.843s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/params.yaml
+[52.843s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/params_default.yaml
+[52.843s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/robot.urdf.xacro
+[52.843s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/config/rviz2.rviz
+[52.844s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/package_run_dependencies/lio_sam_op
+[52.844s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/parent_prefix_path/lio_sam_op
+[52.844s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.sh
+[52.845s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.dsv
+[52.845s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/path.sh
+[52.845s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/environment/path.dsv
+[52.845s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.bash
+[52.846s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.sh
+[52.846s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.zsh
+[52.846s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/local_setup.dsv
+[52.846s] -- Symlinking: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.dsv
+[52.860s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/ament_index/resource_index/packages/lio_sam_op
+[52.860s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake-extras.cmake
+[52.860s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.860s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_libraries-extras.cmake
+[52.861s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_targets-extras.cmake
+[52.861s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.861s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[52.862s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[52.862s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig.cmake
+[52.862s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig-version.cmake
+[52.862s] -- Up-to-date symlink: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/package.xml
+[52.863s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_generator_c.so
+[52.863s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_c.so
+[52.863s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_c.so
+[52.864s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_cpp.so
+[52.864s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_cpp.so
+[52.894s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport.cmake
+[52.894s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport-release.cmake
+[52.894s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport.cmake
+[52.895s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport-release.cmake
+[52.895s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport.cmake
+[52.895s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport-release.cmake
+[52.895s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cppExport.cmake
+[52.895s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport.cmake
+[52.896s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport-release.cmake
+[52.896s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport.cmake
+[52.896s] -- Up-to-date: /home/korey/Desktop/lio-sam_simulation_navigation/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport-release.cmake
+[52.901s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op

@@ -1,0 +1,640 @@
+[0.040s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup
+[0.073s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.100s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.406s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.551s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.700s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.767s] -- Looking for pthread_create in pthreads
+[0.824s] -- Looking for pthread_create in pthreads - not found
+[0.824s] -- Looking for pthread_create in pthread
+[0.888s] -- Looking for pthread_create in pthread - found
+[0.889s] -- Found Threads: TRUE  
+[1.305s] -- Checking for module 'eigen3'
+[1.325s] --   Found eigen3, version 3.3.7
+[1.375s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.375s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.417s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.438s] -- Checking for module 'flann'
+[1.458s] --   Found flann, version 1.9.1
+[1.521s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.558s] -- The imported target "vtkParseOGLExt" references the file
+[1.558s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.558s] but this file does not exist.  Possible reasons include:
+[1.558s] * The file was deleted, renamed, or moved to another location.
+[1.559s] * An install or uninstall procedure did not complete successfully.
+[1.559s] * The installation package was faulty and contained
+[1.559s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.559s] but not all the files it references.
+[1.559s] 
+[1.559s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.559s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.560s] but this file does not exist.  Possible reasons include:
+[1.560s] * The file was deleted, renamed, or moved to another location.
+[1.560s] * An install or uninstall procedure did not complete successfully.
+[1.560s] * The installation package was faulty and contained
+[1.560s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.560s] but not all the files it references.
+[1.560s] 
+[1.560s] -- The imported target "vtk" references the file
+[1.560s]    "/usr/bin/vtk"
+[1.560s] but this file does not exist.  Possible reasons include:
+[1.561s] * The file was deleted, renamed, or moved to another location.
+[1.561s] * An install or uninstall procedure did not complete successfully.
+[1.561s] * The installation package was faulty and contained
+[1.561s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.561s] but not all the files it references.
+[1.561s] 
+[1.561s] -- The imported target "pvtk" references the file
+[1.561s]    "/usr/bin/pvtk"
+[1.561s] but this file does not exist.  Possible reasons include:
+[1.562s] * The file was deleted, renamed, or moved to another location.
+[1.562s] * An install or uninstall procedure did not complete successfully.
+[1.562s] * The installation package was faulty and contained
+[1.562s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.562s] but not all the files it references.
+[1.562s] 
+[1.578s] -- Checking for module 'libusb-1.0'
+[1.602s] --   Found libusb-1.0, version 1.0.23
+[1.660s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.660s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.660s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.660s]   problems in calling code that expects `find_package` result variables
+[1.660s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.660s] Call Stack (most recent call first):
+[1.660s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.660s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.660s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.660s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.661s]   CMakeLists.txt:15 (find_package)
+[1.661s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.661s] [0m
+[1.661s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.743s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[1.744s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.751s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.751s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.751s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.752s]   problems in calling code that expects `find_package` result variables
+[1.752s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.752s] Call Stack (most recent call first):
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.752s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.752s]   CMakeLists.txt:15 (find_package)
+[1.753s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.753s] [0m
+[1.840s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[1.841s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.841s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.841s] [0m** WARNING ** io features related to png will be disabled[0m
+[1.861s] -- Found libusb-1.0: /usr/include  
+[1.861s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.861s]   The package name passed to `find_package_handle_standard_args` (libusb-1.0)
+[1.861s]   does not match the name of the calling package (PCL).  This can lead to
+[1.861s]   problems in calling code that expects `find_package` result variables
+[1.861s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.861s] Call Stack (most recent call first):
+[1.861s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:291 (find_package_handle_standard_args)
+[1.861s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:338 (find_libusb)
+[1.861s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.861s]   CMakeLists.txt:15 (find_package)
+[1.862s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.862s] [0m
+[1.862s] [0m** WARNING ** io features related to libusb-1.0 will be disabled[0m
+[1.869s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.869s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.870s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.870s]   problems in calling code that expects `find_package` result variables
+[1.870s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.870s] Call Stack (most recent call first):
+[1.870s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.870s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.870s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.870s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.871s]   CMakeLists.txt:15 (find_package)
+[1.871s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.871s] [0m
+[1.871s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.879s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.879s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.879s]   does not match the name of the calling package (OpenNI2).  This can lead to
+[1.879s]   problems in calling code that expects `find_package` result variables
+[1.880s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.880s] Call Stack (most recent call first):
+[1.880s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI2.cmake:28 (find_package_handle_standard_args)
+[1.880s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:193 (find_package)
+[1.880s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_openni2)
+[1.880s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.880s]   CMakeLists.txt:15 (find_package)
+[1.880s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.881s] [0m
+[1.881s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.921s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.921s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.927s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.927s]   The package name passed to `find_package_handle_standard_args` (USB_10)
+[1.927s]   does not match the name of the calling package (OpenNI).  This can lead to
+[1.927s]   problems in calling code that expects `find_package` result variables
+[1.927s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.927s] Call Stack (most recent call first):
+[1.927s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindOpenNI.cmake:28 (find_package_handle_standard_args)
+[1.928s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:179 (find_package)
+[1.928s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:322 (find_openni)
+[1.928s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:548 (find_external_library)
+[1.928s]   CMakeLists.txt:15 (find_package)
+[1.928s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.928s] [0m
+[1.929s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.943s] -- looking for PCL_COMMON
+[1.944s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.945s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[1.945s]   does not match the name of the calling package (PCL).  This can lead to
+[1.945s]   problems in calling code that expects `find_package` result variables
+[1.945s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.945s] Call Stack (most recent call first):
+[1.945s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.945s]   CMakeLists.txt:15 (find_package)
+[1.945s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.945s] [0m
+[1.945s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.945s] -- looking for PCL_KDTREE
+[1.946s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.946s]   The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)
+[1.946s]   does not match the name of the calling package (PCL).  This can lead to
+[1.946s]   problems in calling code that expects `find_package` result variables
+[1.946s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.947s] Call Stack (most recent call first):
+[1.947s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.947s]   CMakeLists.txt:15 (find_package)
+[1.947s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.947s] [0m
+[1.947s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.947s] -- looking for PCL_OCTREE
+[1.948s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.948s]   The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)
+[1.948s]   does not match the name of the calling package (PCL).  This can lead to
+[1.948s]   problems in calling code that expects `find_package` result variables
+[1.948s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.948s] Call Stack (most recent call first):
+[1.949s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.950s]   CMakeLists.txt:15 (find_package)
+[1.950s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.950s] [0m
+[1.950s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.951s] -- looking for PCL_SEARCH
+[1.951s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.951s]   The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)
+[1.951s]   does not match the name of the calling package (PCL).  This can lead to
+[1.951s]   problems in calling code that expects `find_package` result variables
+[1.952s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.952s] Call Stack (most recent call first):
+[1.952s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.952s]   CMakeLists.txt:15 (find_package)
+[1.952s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.952s] [0m
+[1.952s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.952s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.952s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.952s]   The package name passed to `find_package_handle_standard_args`
+[1.953s]   (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package
+[1.953s]   (PCL).  This can lead to problems in calling code that expects
+[1.953s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.953s]   pattern.
+[1.953s] Call Stack (most recent call first):
+[1.953s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.953s]   CMakeLists.txt:15 (find_package)
+[1.953s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.953s] [0m
+[1.953s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.953s] -- looking for PCL_FILTERS
+[1.953s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.954s]   The package name passed to `find_package_handle_standard_args`
+[1.954s]   (PCL_FILTERS) does not match the name of the calling package (PCL).  This
+[1.954s]   can lead to problems in calling code that expects `find_package` result
+[1.954s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.954s] Call Stack (most recent call first):
+[1.954s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.954s]   CMakeLists.txt:15 (find_package)
+[1.954s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.954s] [0m
+[1.954s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.954s] -- looking for PCL_2D
+[1.954s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.954s]   The package name passed to `find_package_handle_standard_args` (PCL_2D)
+[1.955s]   does not match the name of the calling package (PCL).  This can lead to
+[1.955s]   problems in calling code that expects `find_package` result variables
+[1.955s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.955s] Call Stack (most recent call first):
+[1.955s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.955s]   CMakeLists.txt:15 (find_package)
+[1.955s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.955s] [0m
+[1.955s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.955s] -- looking for PCL_GEOMETRY
+[1.955s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.955s]   The package name passed to `find_package_handle_standard_args`
+[1.956s]   (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This
+[1.956s]   can lead to problems in calling code that expects `find_package` result
+[1.956s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.956s] Call Stack (most recent call first):
+[1.956s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.956s]   CMakeLists.txt:15 (find_package)
+[1.956s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.956s] [0m
+[1.956s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.956s] -- looking for PCL_IO
+[1.956s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.956s]   The package name passed to `find_package_handle_standard_args` (PCL_IO)
+[1.956s]   does not match the name of the calling package (PCL).  This can lead to
+[1.957s]   problems in calling code that expects `find_package` result variables
+[1.957s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.957s] Call Stack (most recent call first):
+[1.957s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.957s]   CMakeLists.txt:15 (find_package)
+[1.957s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.957s] [0m
+[1.957s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.957s] -- looking for PCL_FEATURES
+[1.957s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.957s]   The package name passed to `find_package_handle_standard_args`
+[1.957s]   (PCL_FEATURES) does not match the name of the calling package (PCL).  This
+[1.958s]   can lead to problems in calling code that expects `find_package` result
+[1.958s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.958s] Call Stack (most recent call first):
+[1.958s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.958s]   CMakeLists.txt:15 (find_package)
+[1.958s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.958s] [0m
+[1.958s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.958s] -- looking for PCL_ML
+[1.958s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.959s]   The package name passed to `find_package_handle_standard_args` (PCL_ML)
+[1.959s]   does not match the name of the calling package (PCL).  This can lead to
+[1.959s]   problems in calling code that expects `find_package` result variables
+[1.959s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.959s] Call Stack (most recent call first):
+[1.959s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.959s]   CMakeLists.txt:15 (find_package)
+[1.959s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.959s] [0m
+[1.959s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.959s] -- looking for PCL_SEGMENTATION
+[1.959s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.960s]   The package name passed to `find_package_handle_standard_args`
+[1.960s]   (PCL_SEGMENTATION) does not match the name of the calling package (PCL).
+[1.961s]   This can lead to problems in calling code that expects `find_package`
+[1.962s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.962s] Call Stack (most recent call first):
+[1.962s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.962s]   CMakeLists.txt:15 (find_package)
+[1.962s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.962s] [0m
+[1.962s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.962s] -- looking for PCL_VISUALIZATION
+[1.962s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.962s]   The package name passed to `find_package_handle_standard_args`
+[1.962s]   (PCL_VISUALIZATION) does not match the name of the calling package (PCL).
+[1.963s]   This can lead to problems in calling code that expects `find_package`
+[1.963s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.963s] Call Stack (most recent call first):
+[1.963s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.963s]   CMakeLists.txt:15 (find_package)
+[1.963s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.963s] [0m
+[1.963s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.963s] -- looking for PCL_SURFACE
+[1.963s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.963s]   The package name passed to `find_package_handle_standard_args`
+[1.963s]   (PCL_SURFACE) does not match the name of the calling package (PCL).  This
+[1.964s]   can lead to problems in calling code that expects `find_package` result
+[1.964s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.964s] Call Stack (most recent call first):
+[1.964s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.964s]   CMakeLists.txt:15 (find_package)
+[1.964s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.964s] [0m
+[1.964s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.964s] -- looking for PCL_REGISTRATION
+[1.964s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.964s]   The package name passed to `find_package_handle_standard_args`
+[1.965s]   (PCL_REGISTRATION) does not match the name of the calling package (PCL).
+[1.965s]   This can lead to problems in calling code that expects `find_package`
+[1.965s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.965s] Call Stack (most recent call first):
+[1.965s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.965s]   CMakeLists.txt:15 (find_package)
+[1.965s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.965s] [0m
+[1.965s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.965s] -- looking for PCL_KEYPOINTS
+[1.965s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.965s]   The package name passed to `find_package_handle_standard_args`
+[1.965s]   (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This
+[1.966s]   can lead to problems in calling code that expects `find_package` result
+[1.966s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.966s] Call Stack (most recent call first):
+[1.966s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.966s]   CMakeLists.txt:15 (find_package)
+[1.966s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.966s] [0m
+[1.966s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.966s] -- looking for PCL_TRACKING
+[1.966s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.966s]   The package name passed to `find_package_handle_standard_args`
+[1.966s]   (PCL_TRACKING) does not match the name of the calling package (PCL).  This
+[1.966s]   can lead to problems in calling code that expects `find_package` result
+[1.966s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.967s] Call Stack (most recent call first):
+[1.967s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.967s]   CMakeLists.txt:15 (find_package)
+[1.967s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.967s] [0m
+[1.967s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.967s] -- looking for PCL_RECOGNITION
+[1.967s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.968s] -- looking for PCL_STEREO
+[1.968s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.968s]   The package name passed to `find_package_handle_standard_args`
+[1.968s]   (PCL_RECOGNITION) does not match the name of the calling package (PCL).
+[1.968s]   This can lead to problems in calling code that expects `find_package`
+[1.969s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.969s] Call Stack (most recent call first):
+[1.969s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.969s]   CMakeLists.txt:15 (find_package)
+[1.969s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.969s] [0m
+[1.969s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.969s]   The package name passed to `find_package_handle_standard_args` (PCL_STEREO)
+[1.969s]   does not match the name of the calling package (PCL).  This can lead to
+[1.970s]   problems in calling code that expects `find_package` result variables
+[1.970s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.970s] Call Stack (most recent call first):
+[1.970s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.970s]   CMakeLists.txt:15 (find_package)
+[1.970s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.970s] [0m
+[1.970s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.970s] -- looking for PCL_APPS
+[1.970s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.970s]   The package name passed to `find_package_handle_standard_args` (PCL_APPS)
+[1.971s]   does not match the name of the calling package (PCL).  This can lead to
+[1.971s]   problems in calling code that expects `find_package` result variables
+[1.971s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.971s] Call Stack (most recent call first):
+[1.971s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.971s]   CMakeLists.txt:15 (find_package)
+[1.971s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.971s] [0m
+[1.971s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.972s] -- looking for PCL_IN_HAND_SCANNER
+[1.972s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.972s]   The package name passed to `find_package_handle_standard_args`
+[1.972s]   (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).
+[1.972s]   This can lead to problems in calling code that expects `find_package`
+[1.972s]   result variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.972s] Call Stack (most recent call first):
+[1.972s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.972s]   CMakeLists.txt:15 (find_package)
+[1.973s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.973s] [0m
+[1.973s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.973s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.973s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.973s]   The package name passed to `find_package_handle_standard_args`
+[1.973s]   (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package
+[1.973s]   (PCL).  This can lead to problems in calling code that expects
+[1.973s]   `find_package` result variables (e.g., `_FOUND`) to follow a certain
+[1.973s]   pattern.
+[1.973s] Call Stack (most recent call first):
+[1.973s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:619 (find_package_handle_standard_args)
+[1.974s]   CMakeLists.txt:15 (find_package)
+[1.974s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.974s] [0m
+[1.974s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.974s] -- looking for PCL_OUTOFCORE
+[1.974s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.974s]   The package name passed to `find_package_handle_standard_args`
+[1.974s]   (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This
+[1.974s]   can lead to problems in calling code that expects `find_package` result
+[1.974s]   variables (e.g., `_FOUND`) to follow a certain pattern.
+[1.974s] Call Stack (most recent call first):
+[1.974s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.974s]   CMakeLists.txt:15 (find_package)
+[1.975s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.975s] [0m
+[1.975s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.975s] -- looking for PCL_PEOPLE
+[1.975s] [33mCMake Warning (dev) at /home/korey/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.975s]   The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)
+[1.975s]   does not match the name of the calling package (PCL).  This can lead to
+[1.975s]   problems in calling code that expects `find_package` result variables
+[1.975s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.975s] Call Stack (most recent call first):
+[1.975s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[1.976s]   CMakeLists.txt:15 (find_package)
+[1.976s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.976s] [0m
+[1.976s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.976s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.028s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.078s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.079s] -- Configured cppcheck include dirs: 
+[2.079s] -- Configured cppcheck exclude dirs and/or files: 
+[2.083s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.091s] -- Added test 'lint_cmake' to check CMake code style
+[2.095s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.119s] -- Added test 'uncrustify' to check C / C++ code style
+[2.119s] -- Configured uncrustify additional arguments: 
+[2.123s] -- Added test 'xmllint' to check XML markup files
+[2.125s] -- Configuring done
+[2.186s] -- Generating done
+[2.201s] -- Build files have been written to: /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+[2.222s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup
+[2.227s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[2.273s] [ 50%] [32mBuilding CXX object CMakeFiles/point_deal.dir/src/point_deal.cpp.o[0m
+[7.567s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.567s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.568s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.568s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.568s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.568s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.568s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.568s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.568s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.568s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.568s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:19:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.568s]    19 |     ([01;35m[Kuint8_t[m[K, tag, tag) (uint8_t, line, line)
+[7.568s]       |      [01;35m[K^~~~~~~[m[K
+[7.568s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.568s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.568s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.569s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[7.569s]       |         [01;36m[K^~~~~~~[m[K
+[7.569s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.569s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.569s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.569s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.569s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.569s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.569s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.569s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.569s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.569s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.569s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:19:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.569s]    19 |     (uint8_t, tag, tag) ([01;35m[Kuint8_t[m[K, line, line)
+[7.569s]       |                          [01;35m[K^~~~~~~[m[K
+[7.569s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.570s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.570s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.570s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[7.570s]       |         [01;36m[K^~~~~~~[m[K
+[7.577s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.577s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.577s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.577s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.577s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.577s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.578s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.578s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.578s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:34:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.578s]    34 |     ([01;35m[Kuint32_t[m[K, t, t) (uint16_t, reflectivity, reflectivity)
+[7.578s]       |      [01;35m[K^~~~~~~~[m[K
+[7.578s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.578s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.579s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.579s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[7.579s]       |         [01;36m[K^~~~~~~~[m[K
+[7.579s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.579s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.579s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.579s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.579s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.579s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.579s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.579s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.579s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.579s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.579s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:34:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.579s]    34 |     (uint32_t, t, t) ([01;35m[Kuint16_t[m[K, reflectivity, reflectivity)
+[7.580s]       |                       [01;35m[K^~~~~~~~[m[K
+[7.580s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.580s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.580s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.580s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[7.580s]       |         [01;36m[K^~~~~~~~[m[K
+[7.580s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.580s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.580s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.580s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.580s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.580s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.580s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.580s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.580s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.581s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.581s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.581s]    35 |     ([01;35m[Kuint8_t[m[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[7.581s]       |      [01;35m[K^~~~~~~[m[K
+[7.581s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.581s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.581s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.581s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[7.581s]       |         [01;36m[K^~~~~~~[m[K
+[7.581s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.581s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.581s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.581s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.581s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.581s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.581s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.582s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.582s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.582s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.582s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.582s]    35 |     (uint8_t, ring, ring) ([01;35m[Kuint16_t[m[K, noise, noise) (uint32_t, range, range)
+[7.582s]       |                            [01;35m[K^~~~~~~~[m[K
+[7.582s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.582s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.582s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.582s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[7.582s]       |         [01;36m[K^~~~~~~~[m[K
+[7.582s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.582s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.582s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.583s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.583s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.583s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.583s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.583s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.583s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.583s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.583s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:35:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.583s]    35 |     (uint8_t, ring, ring) (uint16_t, noise, noise) ([01;35m[Kuint32_t[m[K, range, range)
+[7.583s]       |                                                     [01;35m[K^~~~~~~~[m[K
+[7.583s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.583s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.583s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.583s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[7.586s]       |         [01;36m[K^~~~~~~~[m[K
+[7.587s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:41:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[7.587s]    41 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+[7.587s]       |                      [01;35m[K^[m[K
+[7.587s]       |                      [31m[K-[m[K
+[7.591s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[7.591s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[7.592s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[7.592s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[7.592s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[7.592s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[7.592s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[7.592s]                  from [01m[K/usr/include/pcl-1.10/pcl/register_point_struct.h:56[m[K,
+[7.593s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:44[m[K,
+[7.593s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.593s] [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:48:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.593s]    48 |     ([01;35m[Kuint16_t[m[K, ring, ring) (float, time, time)
+[7.593s]       |      [01;35m[K^~~~~~~~[m[K
+[7.593s] In file included from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[7.594s]                  from [01m[K/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp:6[m[K:
+[7.594s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.594s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[7.594s]       |         [01;36m[K^~~~~~~~[m[K
+[13.360s] [100%] [32m[1mLinking CXX executable point_deal[0m
+[14.270s] [100%] Built target point_deal
+[14.285s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup -- -j12 -l12
+[14.290s] Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+[14.327s] -- Install configuration: ""
+[14.327s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/robot_bringup/point_deal
+[14.333s] -- Set runtime path of "/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/lib/robot_bringup/point_deal" to ""
+[14.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/launch
+[14.333s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+[14.334s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/urdf
+[14.334s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/urdf/robo_car.urdf.xacro
+[14.335s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/world
+[14.335s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/world/my_world.world
+[14.336s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[14.337s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[14.338s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[14.338s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[14.339s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/path.sh
+[14.339s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[14.340s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.bash
+[14.340s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.sh
+[14.340s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[14.341s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[14.342s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.dsv
+[14.342s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[14.343s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.343s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[14.344s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[14.344s] -- Installing: /home/korey/Desktop/lio-sam_simulation_navigation/install/robot_bringup/share/robot_bringup/package.xml
+[14.354s] Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
