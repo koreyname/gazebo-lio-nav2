@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lio_sam_op__py",
+		"source" : "/home/korey/Desktop/lio_nav2/build/lio_sam_op/lio_sam_op__py"
+	}
+}

@@ -1,0 +1,106 @@
+[0.037s] Invoking command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan
+[0.159s] -- The C compiler identification is GNU 9.4.0
+[0.231s] -- The CXX compiler identification is GNU 9.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.460s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.460s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.976s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.016s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.109s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.171s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.175s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.250s] -- Looking for pthread_create in pthreads
+[1.303s] -- Looking for pthread_create in pthreads - not found
+[1.303s] -- Looking for pthread_create in pthread
+[1.378s] -- Looking for pthread_create in pthread - found
+[1.379s] -- Found Threads: TRUE  
+[2.109s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.131s] -- Configured cppcheck include dirs: /home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan/include
+[2.131s] -- Configured cppcheck exclude dirs and/or files: 
+[2.133s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.133s] -- Configured cpplint exclude dirs and/or files: 
+[2.134s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.134s] -- Added test 'lint_cmake' to check CMake code style
+[2.135s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.138s] -- Added test 'uncrustify' to check C / C++ code style
+[2.138s] -- Configured uncrustify additional arguments: 
+[2.138s] -- Added test 'xmllint' to check XML markup files
+[2.142s] -- Configuring done
+[2.178s] -- Generating done
+[2.190s] -- Build files have been written to: /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan
+[2.214s] Invoked command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan
+[2.216s] Invoking command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan -- -j12 -l12
+[2.312s] [ 10%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[2.314s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[2.321s] [ 30%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[5.139s] [ 40%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[5.258s] [ 40%] Built target pointcloud_to_laserscan_node
+[5.368s] [ 50%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[5.493s] [ 50%] Built target laserscan_to_pointcloud_node
+[14.531s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[14.808s] [ 60%] Built target laserscan_to_pointcloud
+[14.820s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[26.309s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[26.591s] [ 80%] Built target pointcloud_to_laserscan
+[26.606s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[31.543s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[31.694s] [100%] Built target dummy_pointcloud_publisher
+[31.707s] Invoked command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan -- -j12 -l12
+[31.712s] Invoking command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan
+[31.758s] -- Install configuration: ""
+[31.759s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[31.760s] -- Set runtime path of "/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""
+[31.760s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[31.761s] -- Set runtime path of "/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+[31.761s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/include
+[31.761s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[31.761s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[31.762s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[31.762s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[31.763s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[31.763s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[31.764s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[31.766s] -- Set runtime path of "/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""
+[31.766s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[31.769s] -- Set runtime path of "/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[31.769s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[31.770s] -- Set runtime path of "/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[31.770s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[31.770s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/__pycache__
+[31.770s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/__pycache__/pointcloud_to_laserscan_launch.cpython-313.pyc
+[31.770s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py
+[31.771s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[31.771s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[31.772s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[31.772s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[31.772s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[31.772s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[31.773s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[31.773s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[31.773s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[31.773s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[31.774s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[31.774s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[31.774s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[31.774s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.775s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.775s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[31.775s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[31.775s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[31.775s] -- Installing: /home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[31.783s] Invoked command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan

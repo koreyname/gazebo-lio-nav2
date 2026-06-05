@@ -54,10 +54,10 @@ RM = /home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup
+CMAKE_SOURCE_DIR = /home/korey/Desktop/lio_nav2/src/robot_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+CMAKE_BINARY_DIR = /home/korey/Desktop/lio_nav2/build/robot_bringup
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/point_deal.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/robot_bringup_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/robot_bringup_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_bringup_uninstall.dir/build.make CMakeFiles/robot_bringup_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_bringup_uninstall.dir/build.make CMakeFiles/robot_bringup_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles --progress-num= "Built target robot_bringup_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles --progress-num= "Built target robot_bringup_uninstall"
 .PHONY : CMakeFiles/robot_bringup_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/robot_bringup_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/robot_bringup_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 0
 .PHONY : CMakeFiles/robot_bringup_uninstall.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ CMakeFiles/robot_bringup_uninstall.dir/clean:
 CMakeFiles/point_deal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_deal.dir/build.make CMakeFiles/point_deal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/point_deal.dir/build.make CMakeFiles/point_deal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles --progress-num=1,2 "Built target point_deal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles --progress-num=1,2 "Built target point_deal"
 .PHONY : CMakeFiles/point_deal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/point_deal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/point_deal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles 0
 .PHONY : CMakeFiles/point_deal.dir/rule
 
 # Convenience name for target.

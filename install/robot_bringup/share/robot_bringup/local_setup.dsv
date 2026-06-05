@@ -1,1 +1,2 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/ament_cmake_environment_hooks/local_setup.dsv
+source;share/robot_bringup/environment/ament_prefix_path.sh
+source;share/robot_bringup/environment/path.sh

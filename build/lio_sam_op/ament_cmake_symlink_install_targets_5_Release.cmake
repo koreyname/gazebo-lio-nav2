@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_generator_py/lio_sam_op/liblio_sam_op__python.so" "TARGETS" "lio_sam_op__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

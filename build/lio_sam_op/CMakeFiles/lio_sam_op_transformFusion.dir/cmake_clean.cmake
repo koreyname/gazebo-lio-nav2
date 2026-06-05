@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_op_transformFusion.dir/src/transformFusion.cpp.o"
+  "CMakeFiles/lio_sam_op_transformFusion.dir/src/transformFusion.cpp.o.d"
   "lio_sam_op_transformFusion"
   "lio_sam_op_transformFusion.pdb"
 )

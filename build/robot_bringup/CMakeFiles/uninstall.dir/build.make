@@ -53,10 +53,10 @@ RM = /home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup
+CMAKE_SOURCE_DIR = /home/korey/Desktop/lio_nav2/src/robot_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup
+CMAKE_BINARY_DIR = /home/korey/Desktop/lio_nav2/build/robot_bringup
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/korey/Desktop/lio_nav2/build/robot_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korey/Desktop/lio_nav2/src/robot_bringup /home/korey/Desktop/lio_nav2/src/robot_bringup /home/korey/Desktop/lio_nav2/build/robot_bringup /home/korey/Desktop/lio_nav2/build/robot_bringup /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

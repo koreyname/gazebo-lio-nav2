@@ -1,1 +1,3 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/ament_cmake_environment_hooks/pythonpath.sh
+# generated from ament_package/template/environment_hook/pythonpath.sh.in
+
+ament_prepend_unique_value PYTHONPATH "$AMENT_CURRENT_PREFIX/lib/python3.8/site-packages"

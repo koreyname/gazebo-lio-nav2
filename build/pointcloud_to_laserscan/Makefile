@@ -57,10 +57,10 @@ RM = /home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_to_laserscan
+CMAKE_SOURCE_DIR = /home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_to_laserscan
+CMAKE_BINARY_DIR = /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_to_laserscan/CMakeFiles /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_to_laserscan//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan/CMakeFiles /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio-sam_simulation_navigation/build/pointcloud_to_laserscan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

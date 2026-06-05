@@ -1,4 +1,0 @@
-Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
-Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op -- -j12 -l12
-Invoking command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op
-Invoked command in '/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/korey/Desktop/lio-sam_simulation_navigation/src/pointcloud_to_laserscan/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3
+CXX_INCLUDES = -I/home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan/include -isystem /opt/ros/foxy/include -isystem /usr/include/eigen3
 
 CXX_FLAGS = -std=c++17 -O3
 

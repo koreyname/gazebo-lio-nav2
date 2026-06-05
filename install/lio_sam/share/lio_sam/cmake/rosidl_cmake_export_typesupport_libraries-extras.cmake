@@ -1,1 +1,0 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

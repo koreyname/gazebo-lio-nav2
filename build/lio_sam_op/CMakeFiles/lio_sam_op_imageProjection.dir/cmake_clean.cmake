@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_sam_op_imageProjection.dir/src/imageProjection.cpp.o"
+  "CMakeFiles/lio_sam_op_imageProjection.dir/src/imageProjection.cpp.o.d"
   "lio_sam_op_imageProjection"
   "lio_sam_op_imageProjection.pdb"
 )

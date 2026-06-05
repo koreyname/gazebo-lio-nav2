@@ -1,10 +1,10 @@
 {
   "package_name": "lio_sam_op",
-  "output_dir": "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_typesupport_c/lio_sam_op",
+  "output_dir": "/home/korey/Desktop/lio_nav2/build/lio_sam_op/rosidl_typesupport_c/lio_sam_op",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
-    "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_adapter/lio_sam_op:msg/CloudInfo.idl",
-    "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_adapter/lio_sam_op:srv/SaveMap.idl"
+    "/home/korey/Desktop/lio_nav2/build/lio_sam_op/rosidl_adapter/lio_sam_op:msg/CloudInfo.idl",
+    "/home/korey/Desktop/lio_nav2/build/lio_sam_op/rosidl_adapter/lio_sam_op:srv/SaveMap.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/foxy/share/std_msgs/msg/Bool.idl",
@@ -104,8 +104,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
-    "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_adapter/lio_sam_op/msg/CloudInfo.idl",
-    "/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_adapter/lio_sam_op/srv/SaveMap.idl",
+    "/home/korey/Desktop/lio_nav2/build/lio_sam_op/rosidl_adapter/lio_sam_op/msg/CloudInfo.idl",
+    "/home/korey/Desktop/lio_nav2/build/lio_sam_op/rosidl_adapter/lio_sam_op/srv/SaveMap.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl",

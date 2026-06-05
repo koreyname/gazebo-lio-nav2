@@ -1,5 +1,5 @@
 CMakeFiles/point_deal.dir/src/point_deal.cpp.o: \
- /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp \
+ /home/korey/Desktop/lio_nav2/src/robot_bringup/src/point_deal.cpp \
  /usr/include/stdc-predef.h /opt/ros/foxy/include/rclcpp/rclcpp.hpp \
  /usr/include/c++/9/csignal \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \

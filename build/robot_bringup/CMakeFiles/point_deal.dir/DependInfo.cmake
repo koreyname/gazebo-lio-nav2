@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/korey/Desktop/lio-sam_simulation_navigation/src/robot_bringup/src/point_deal.cpp" "CMakeFiles/point_deal.dir/src/point_deal.cpp.o" "gcc" "CMakeFiles/point_deal.dir/src/point_deal.cpp.o.d"
+  "/home/korey/Desktop/lio_nav2/src/robot_bringup/src/point_deal.cpp" "CMakeFiles/point_deal.dir/src/point_deal.cpp.o" "gcc" "CMakeFiles/point_deal.dir/src/point_deal.cpp.o.d"
   )
 
 # Targets to which this target links.

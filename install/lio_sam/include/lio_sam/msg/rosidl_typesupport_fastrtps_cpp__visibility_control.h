@@ -1,1 +1,0 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

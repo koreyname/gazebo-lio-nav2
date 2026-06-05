@@ -1,1 +1,4 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/src/LIO-SAM/srv/SaveMap.srv
+float32 resolution
+string destination
+---
+bool success

@@ -1,1 +1,17 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_adapter/lio_sam_op/srv/SaveMap.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from lio_sam_op/srv/SaveMap.srv
+// generated code does not contain a copyright notice
+
+
+module lio_sam_op {
+  module srv {
+    struct SaveMap_Request {
+      float resolution;
+
+      string destination;
+    };
+    struct SaveMap_Response {
+      boolean success;
+    };
+  };
+};

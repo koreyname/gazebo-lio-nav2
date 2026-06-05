@@ -1,1 +1,4 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/ament_cmake_environment_hooks/local_setup.dsv
+source;share/lio_sam_op/environment/ament_prefix_path.sh
+source;share/lio_sam_op/environment/library_path.sh
+source;share/lio_sam_op/environment/path.sh
+source;share/lio_sam_op/environment/pythonpath.sh

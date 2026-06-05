@@ -1,1 +1,12 @@
-/home/korey/Desktop/lio-sam_simulation_navigation/build/lio_sam_op/rosidl_generator_cpp/lio_sam_op/msg/cloud_info.hpp
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef LIO_SAM_OP__MSG__CLOUD_INFO_HPP_
+#define LIO_SAM_OP__MSG__CLOUD_INFO_HPP_
+
+#include "lio_sam_op/msg/detail/cloud_info__struct.hpp"
+#include "lio_sam_op/msg/detail/cloud_info__builder.hpp"
+#include "lio_sam_op/msg/detail/cloud_info__traits.hpp"
+#include "lio_sam_op/msg/detail/cloud_info__type_support.hpp"
+
+#endif  // LIO_SAM_OP__MSG__CLOUD_INFO_HPP_

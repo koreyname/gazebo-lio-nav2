@@ -1,8 +1,8 @@
-# Install script for directory: /home/korey/Desktop/lio-sam_simulation_navigation/src/robot_navigation2
+# Install script for directory: /home/korey/Desktop/lio_nav2/src/robot_navigation2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2")
+  set(CMAKE_INSTALL_PREFIX "/home/korey/Desktop/lio_nav2/install/robot_navigation2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,16 +37,100 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/script" TYPE DIRECTORY FILES "/home/korey/Desktop/lio_nav2/src/robot_navigation2/script/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/korey/Desktop/lio-sam_simulation_navigation/install/robot_navigation2/lib/python3.8/site-packages/script"
+        "/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script"
       )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE DIRECTORY FILES
+    "/home/korey/Desktop/lio_nav2/src/robot_navigation2/launch"
+    "/home/korey/Desktop/lio_nav2/src/robot_navigation2/param"
+    "/home/korey/Desktop/lio_nav2/src/robot_navigation2/maps"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE DIRECTORY FILES "/home/korey/Desktop/lio_nav2/src/robot_navigation2/launch")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_navigation2")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_navigation2")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/environment" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_index/share/ament_index/resource_index/packages/robot_navigation2")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2/cmake" TYPE FILE FILES
+    "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_core/robot_navigation2Config.cmake"
+    "/home/korey/Desktop/lio_nav2/build/robot_navigation2/ament_cmake_core/robot_navigation2Config-version.cmake"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_navigation2" TYPE FILE FILES "/home/korey/Desktop/lio_nav2/src/robot_navigation2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,5 +141,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_navigation2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/korey/Desktop/lio_nav2/build/robot_navigation2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

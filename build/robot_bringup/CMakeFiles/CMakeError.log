@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-EFP4vX
+Change Dir: /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Tbbvq5
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_857d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_857d2.dir/build.make CMakeFiles/cmTC_857d2.dir/build
-make[1]: 进入目录“/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-EFP4vX”
-Building C object CMakeFiles/cmTC_857d2.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_857d2.dir/src.c.o -c /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-EFP4vX/src.c
-Linking C executable cmTC_857d2
-/home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_857d2.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_857d2.dir/src.c.o -o cmTC_857d2 
-/usr/bin/ld: CMakeFiles/cmTC_857d2.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bea/fast && /usr/bin/make  -f CMakeFiles/cmTC_60bea.dir/build.make CMakeFiles/cmTC_60bea.dir/build
+make[1]: 进入目录“/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Tbbvq5”
+Building C object CMakeFiles/cmTC_60bea.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_60bea.dir/src.c.o -c /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Tbbvq5/src.c
+Linking C executable cmTC_60bea
+/home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_60bea.dir/src.c.o -o cmTC_60bea 
+/usr/bin/ld: CMakeFiles/cmTC_60bea.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_857d2.dir/build.make:99：cmTC_857d2] 错误 1
-make[1]: 离开目录“/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-EFP4vX”
-make: *** [Makefile:127：cmTC_857d2/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_60bea.dir/build.make:99：cmTC_60bea] 错误 1
+make[1]: 离开目录“/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Tbbvq5”
+make: *** [Makefile:127：cmTC_60bea/fast] 错误 2
 
 
 Source file was:
@@ -42,20 +42,20 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-TJCQPV
+Change Dir: /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Rbev73
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_453b8/fast && /usr/bin/make  -f CMakeFiles/cmTC_453b8.dir/build.make CMakeFiles/cmTC_453b8.dir/build
-make[1]: 进入目录“/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-TJCQPV”
-Building C object CMakeFiles/cmTC_453b8.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_453b8.dir/CheckFunctionExists.c.o -c /home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-TJCQPV/CheckFunctionExists.c
-Linking C executable cmTC_453b8
-/home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_453b8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_453b8.dir/CheckFunctionExists.c.o -o cmTC_453b8  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_382a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_382a5.dir/build.make CMakeFiles/cmTC_382a5.dir/build
+make[1]: 进入目录“/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Rbev73”
+Building C object CMakeFiles/cmTC_382a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_382a5.dir/CheckFunctionExists.c.o -c /home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Rbev73/CheckFunctionExists.c
+Linking C executable cmTC_382a5
+/home/korey/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_382a5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_382a5.dir/CheckFunctionExists.c.o -o cmTC_382a5  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_453b8.dir/build.make:99：cmTC_453b8] 错误 1
-make[1]: 离开目录“/home/korey/Desktop/lio-sam_simulation_navigation/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-TJCQPV”
-make: *** [Makefile:127：cmTC_453b8/fast] 错误 2
+make[1]: *** [CMakeFiles/cmTC_382a5.dir/build.make:99：cmTC_382a5] 错误 1
+make[1]: 离开目录“/home/korey/Desktop/lio_nav2/build/robot_bringup/CMakeFiles/CMakeScratch/TryCompile-Rbev73”
+make: *** [Makefile:127：cmTC_382a5/fast] 错误 2
 
 
 
