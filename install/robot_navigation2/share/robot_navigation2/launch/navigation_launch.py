@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 from launch_ros.descriptions import ComposableNode
 from nav2_common.launch import RewrittenYaml
 
-
+#已经知道机器人在哪之后，怎么规划路径、怎么控制机器人走过去
 def generate_launch_description():
     # Get the launch directory
     bringup_dir = get_package_share_directory('nav2_bringup')

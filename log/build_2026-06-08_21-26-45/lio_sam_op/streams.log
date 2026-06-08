@@ -1,0 +1,175 @@
+[0.038s] Invoking command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/lio_sam_op -- -j12 -l12
+[0.123s] [  2%] Built target lio_sam_op__cpp
+[0.138s] [ 10%] Built target lio_sam_op__rosidl_generator_c
+[0.144s] [ 18%] Built target lio_sam_op__rosidl_typesupport_cpp
+[0.144s] [ 26%] Built target lio_sam_op__rosidl_typesupport_fastrtps_cpp
+[0.147s] [ 34%] Built target lio_sam_op__rosidl_typesupport_introspection_cpp
+[0.156s] [ 42%] Built target lio_sam_op__rosidl_typesupport_c
+[0.159s] [ 51%] Built target lio_sam_op__rosidl_typesupport_introspection_c
+[0.166s] [ 59%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c
+[0.176s] [ 59%] Built target lio_sam_op
+[0.189s] [ 61%] Built target lio_sam_op__py
+[0.229s] [ 67%] Built target lio_sam_op__python
+[0.257s] [ 75%] Built target lio_sam_op_imageProjection
+[0.257s] [ 75%] Built target lio_sam_op_featureExtraction
+[0.257s] [ 79%] Built target lio_sam_op__rosidl_typesupport_introspection_c__pyext
+[0.257s] [ 83%] Built target lio_sam_op__rosidl_typesupport_fastrtps_c__pyext
+[0.258s] [ 87%] Built target lio_sam_op__rosidl_typesupport_c__pyext
+[0.258s] [ 91%] Built target lio_sam_op_transformFusion
+[0.263s] [ 95%] Built target lio_sam_op_imuPreintegration
+[0.265s] [100%] Built target lio_sam_op_mapOptimization
+[0.293s] Invoked command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/lio_sam_op -- -j12 -l12
+[0.297s] Invoking command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/lio_sam_op
+[0.324s] -- Install configuration: "Release"
+[0.324s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/ament_index/resource_index/rosidl_interfaces/lio_sam_op
+[0.324s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.325s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.326s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.326s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.h
+[0.326s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.h
+[0.326s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__functions.c
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__functions.h
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/save_map.h
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_c__visibility_control.h
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.h
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.327s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__functions.h
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__functions.c
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.h
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.h
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/library_path.sh
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/library_path.dsv
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_generator_c.so
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.328s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.329s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.329s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[0.329s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.329s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.329s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[0.330s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.331s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_c.so
+[0.331s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.331s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.331s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.331s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/dds_fastrtps
+[0.332s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.332s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.332s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.332s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/dds_fastrtps
+[0.332s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[0.333s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.333s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_fastrtps_cpp.so
+[0.333s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.333s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.334s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.334s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[0.334s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.c
+[0.334s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.335s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.335s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.335s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.c
+[0.335s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[0.336s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_c.so
+[0.336s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_c.so
+[0.336s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.336s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.337s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.337s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__traits.hpp
+[0.338s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__builder.hpp
+[0.338s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__struct.hpp
+[0.338s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.hpp
+[0.339s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/save_map.hpp
+[0.339s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.339s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.339s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.340s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__traits.hpp
+[0.340s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.hpp
+[0.340s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__builder.hpp
+[0.340s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__struct.hpp
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/cloud_info.hpp
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__type_support.cpp
+[0.341s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[0.342s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg
+[0.342s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__type_support.cpp
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_introspection_cpp.so
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__rosidl_typesupport_cpp.so
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.sh
+[0.343s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/pythonpath.dsv
+[0.344s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/__init__.py
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/_cloud_info_s.c
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/__init__.py
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/msg/_cloud_info.py
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/_save_map.py
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/__init__.py
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/srv/_save_map_s.c
+[0.360s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.361s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages/lio_sam_op/lio_sam_op_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/liblio_sam_op__python.so
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.idl
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.idl
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/msg/CloudInfo.msg
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/srv/SaveMap.srv
+[0.362s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Request.msg
+[0.363s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/srv/SaveMap_Response.msg
+[0.363s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imageProjection
+[0.363s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_featureExtraction
+[0.364s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_imuPreintegration
+[0.365s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_mapOptimization
+[0.365s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/lio_sam_op/lio_sam_op_transformFusion
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/lio_sam_op
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/include/lio_sam_op/lio_sam_op/utility.hpp
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/launch
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/launch/run.launch.py
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/launch/pureLioSam.launch.py
+[0.366s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/launch/__pycache__
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/launch/__pycache__/run.launch.cpython-313.pyc
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/config
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/config/rviz2.rviz
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/config/robot.urdf.xacro
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/config/params_default.yaml
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/config/params.yaml
+[0.367s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/ament_index/resource_index/package_run_dependencies/lio_sam_op
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/ament_index/resource_index/parent_prefix_path/lio_sam_op
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.sh
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/ament_prefix_path.dsv
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/path.sh
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/environment/path.dsv
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/local_setup.bash
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/local_setup.sh
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/local_setup.zsh
+[0.368s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/local_setup.dsv
+[0.368s] -- Installing: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.dsv
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/ament_index/resource_index/packages/lio_sam_op
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cExport-release.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cExport-release.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cExport-release.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_generator_cppExport.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.369s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_op__rosidl_typesupport_cppExport-release.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_libraries-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_targets-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/cmake/lio_sam_opConfig-version.cmake
+[0.370s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.xml
+[0.377s] Invoked command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/lio_sam_op

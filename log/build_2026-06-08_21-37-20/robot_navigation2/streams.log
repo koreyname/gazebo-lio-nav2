@@ -1,0 +1,77 @@
+[0.032s] Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/robot_navigation2
+[0.124s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.438s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.438s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.826s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.849s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.852s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.853s] -- Added test 'lint_cmake' to check CMake code style
+[0.854s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.855s] -- Added test 'xmllint' to check XML markup files
+[0.857s] -- Configuring done
+[0.860s] -- Generating done
+[0.862s] -- Build files have been written to: /home/korey/Desktop/lio_nav2/build/robot_navigation2
+[0.871s] Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/robot_navigation2
+[0.875s] Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_navigation2 -- -j12 -l12
+[0.928s] Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_navigation2 -- -j12 -l12
+[0.933s] Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_navigation2
+[0.961s] -- Install configuration: ""
+[0.961s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/pythonpath.sh
+[0.961s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/pythonpath.dsv
+[0.962s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script
+[0.962s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script/__init__.py
+[0.992s] Listing '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script'...
+[0.993s] Compiling '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script/__init__.py'...
+[0.996s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch
+[0.996s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
+[0.996s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
+[0.997s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__
+[0.997s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/navigation2.launch.cpython-313.pyc
+[1.000s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/bring_launch.cpython-313.pyc
+[1.000s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
+[1.001s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
+[1.001s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
+[1.001s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/param
+[1.001s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/param/robot.yaml
+[1.002s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/maps
+[1.002s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/maps/my_map.yaml
+[1.002s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/maps/show_pgm.py
+[1.002s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/maps/my_map.pgm
+[1.003s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch
+[1.003s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/navigation2.launch.cpython-313.pyc
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/bring_launch.cpython-313.pyc
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
+[1.004s] -- Up-to-date: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
+[1.004s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/ament_index/resource_index/package_run_dependencies/robot_navigation2
+[1.004s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/ament_index/resource_index/parent_prefix_path/robot_navigation2
+[1.005s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.sh
+[1.005s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/ament_prefix_path.dsv
+[1.005s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/path.sh
+[1.005s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/environment/path.dsv
+[1.005s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/local_setup.bash
+[1.006s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/local_setup.sh
+[1.006s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/local_setup.zsh
+[1.006s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/local_setup.dsv
+[1.006s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.dsv
+[1.007s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/ament_index/resource_index/packages/robot_navigation2
+[1.007s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config.cmake
+[1.007s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/cmake/robot_navigation2Config-version.cmake
+[1.007s] -- Installing: /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.xml
+[1.015s] Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_navigation2

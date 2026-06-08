@@ -1,0 +1,450 @@
+[0.181s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc73739d070>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc73739d070>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc737254310>)
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.219s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/korey/Desktop/lio_nav2'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(maps/lio_sam_map) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/LIO-SAM) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/LIO-SAM' with type 'ros.ament_cmake' and name 'lio_sam_op'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_to_laserscan) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation2) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_navigation2' with type 'ros.ament_cmake' and name 'robot_navigation2'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(tools/__pycache__) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/foxy
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'lio_sam_op' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam_op' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio_nav2/build/lio_sam_op', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio_nav2/install/lio_sam_op', 'merge_install': False, 'path': '/home/korey/Desktop/lio_nav2/src/LIO-SAM', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio_nav2/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio_nav2/install/robot_bringup', 'merge_install': False, 'path': '/home/korey/Desktop/lio_nav2/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'robot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/korey/Desktop/lio_nav2/build/robot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/korey/Desktop/lio_nav2/install/robot_navigation2', 'merge_install': False, 'path': '/home/korey/Desktop/lio_nav2/src/robot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio_nav2/src/LIO-SAM' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio_nav2/src/LIO-SAM'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio_nav2/src/pointcloud_to_laserscan'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio_nav2/src/robot_bringup' with build type 'ament_cmake'
+[0.333s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio_nav2/src/robot_bringup'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/korey/Desktop/lio_nav2/src/robot_navigation2' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/korey/Desktop/lio_nav2/src/robot_navigation2'
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/lio_sam_op -- -j12 -l12
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan -- -j12 -l12
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_bringup -- -j12 -l12
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/robot_navigation2
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_bringup -- -j12 -l12
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_bringup
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan -- -j12 -l12
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/lio_sam_op -- -j12 -l12
+[0.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/lio_sam_op
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup' for CMake module files
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_bringup
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/bin'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib/python3.8/site-packages'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/bin'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.zsh'
+[0.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[0.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup' for CMake module files
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup' for CMake config files
+[0.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'cmake_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/hook/cmake_prefix_path.sh'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/bin'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/lib/python3.8/site-packages'
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_bringup/bin'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.ps1'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.bash'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_bringup/share/robot_bringup/package.zsh'
+[0.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan' for CMake config files
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib'
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/bin'
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/pointcloud_to_laserscan
+[0.566s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/bin'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[0.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[0.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan' for CMake module files
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan' for CMake config files
+[0.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib'
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/bin'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/lib/python3.8/site-packages'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/bin'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[0.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[0.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam_op)
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op' for CMake module files
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/lio_sam_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/lio_sam_op
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib'
+[0.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'ld_library_path_lib')
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.sh'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/bin'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/pkgconfig/lio_sam_op.pc'
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages'
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'pythonpath')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.sh'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.sh'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.bash'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.zsh'
+[0.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/colcon-core/packages/lio_sam_op)
+[0.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam_op)
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op' for CMake module files
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op' for CMake config files
+[0.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'cmake_prefix_path')
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/cmake_prefix_path.sh'
+[0.608s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib'
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'ld_library_path_lib')
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/ld_library_path_lib.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/bin'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/pkgconfig/lio_sam_op.pc'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/lib/python3.8/site-packages'
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam_op', 'pythonpath')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/hook/pythonpath.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/lio_sam_op/bin'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/lio_sam_op/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/lio_sam_op/share/colcon-core/packages/lio_sam_op)
+[1.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake /home/korey/Desktop/lio_nav2/src/robot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/korey/Desktop/lio_nav2/install/robot_navigation2
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_navigation2 -- -j12 -l12
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --build /home/korey/Desktop/lio_nav2/build/robot_navigation2 -- -j12 -l12
+[1.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_navigation2
+[1.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_navigation2)
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2' for CMake module files
+[1.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/korey/Desktop/lio_nav2/build/robot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/korey/.local/bin/cmake --install /home/korey/Desktop/lio_nav2/build/robot_navigation2
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2' for CMake config files
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'cmake_prefix_path')
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.sh'
+[1.357s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/bin'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/pkgconfig/robot_navigation2.pc'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages'
+[1.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'pythonpath')
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.ps1'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.dsv'
+[1.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.sh'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/bin'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.sh'
+[1.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.zsh'
+[1.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/colcon-core/packages/robot_navigation2)
+[1.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_navigation2)
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2' for CMake module files
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2' for CMake config files
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'cmake_prefix_path')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/cmake_prefix_path.sh'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/bin'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/pkgconfig/robot_navigation2.pc'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages'
+[1.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation2', 'pythonpath')
+[1.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.ps1'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/hook/pythonpath.sh'
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/korey/Desktop/lio_nav2/install/robot_navigation2/bin'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.sh'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.bash'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/package.zsh'
+[1.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/colcon-core/packages/robot_navigation2)
+[1.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.372s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.380s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.381s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.394s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.394s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio_nav2/install/local_setup.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/korey/Desktop/lio_nav2/install/_local_setup_util_ps1.py'
+[1.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio_nav2/install/setup.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio_nav2/install/local_setup.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/korey/Desktop/lio_nav2/install/_local_setup_util_sh.py'
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio_nav2/install/setup.sh'
+[1.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio_nav2/install/local_setup.bash'
+[1.402s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio_nav2/install/setup.bash'
+[1.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/korey/Desktop/lio_nav2/install/local_setup.zsh'
+[1.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/korey/Desktop/lio_nav2/install/setup.zsh'

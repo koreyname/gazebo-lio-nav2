@@ -3,10 +3,9 @@
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/lib/python3.8/site-packages/script/__init__.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
-/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/nav.launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/navigation2.launch.cpython-313.pyc
+/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/bring_launch.cpython-313.pyc
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
-/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/map_server_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/param/robot.yaml
@@ -15,10 +14,9 @@
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/maps/my_map.pgm
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/localization_launch.py
-/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/nav.launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/navigation2.launch.cpython-313.pyc
+/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/__pycache__/bring_launch.cpython-313.pyc
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/rviz_launch.py
-/home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/map_server_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/navigation2.launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/robot_navigation2/launch/bring_launch.py
 /home/korey/Desktop/lio_nav2/install/robot_navigation2/share/ament_index/resource_index/package_run_dependencies/robot_navigation2

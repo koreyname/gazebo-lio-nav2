@@ -15,11 +15,13 @@ def generate_launch_description():
     bringup_dir = get_package_share_directory('robot_bringup')
     world_path = PathJoinSubstitution([FindPackageShare("robot_bringup"), "world", "my_world.world"])
     urdf_dir = get_package_share_path('robot_bringup') / 'urdf' / 'robo_car.urdf.xacro'
-
+    navigation_dir = get_package_share_directory('robot_navigation2')
+    
     # Create the launch configuration variables
     use_sim_time = LaunchConfiguration('use_sim_time')
     publish_odom = LaunchConfiguration('publish_odom')
     use_rviz = LaunchConfiguration('rviz', default='false')
+    rviz_config_file = LaunchConfiguration('rviz_config_file')
 
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -43,7 +45,8 @@ def generate_launch_description():
 
     declare_rviz_config_file_cmd = DeclareLaunchArgument(
         'rviz_config_file',
-        default_value=os.path.join(bringup_dir, 'rviz', 'rviz2.rviz'),
+        default_value=os.path.join(
+            navigation_dir, 'rviz', 'fishbot_navigation2.rviz'),
         description='Full path to the RVIZ config file to use'
     )
 
@@ -63,7 +66,8 @@ def generate_launch_description():
         arguments=['-topic', '/robot_description',
                    '-entity', 'robot',
                    '-z', '0.07'])
-
+#joint_state_publisher 会根据 robot_description 里的关节信息，
+# 发布这些关节的状态信息，就是说像轮子转多少度，舵机转多少度等等。
     start_joint_state_publisher_cmd = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
@@ -74,7 +78,7 @@ def generate_launch_description():
         }],
         output='screen'
     )
-
+    #负责机器人 TF
     start_robot_state_publisher_cmd = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -85,7 +89,7 @@ def generate_launch_description():
         }],
         output='screen'
     )
-
+    #负责点云格式转换
     start_point_deal_cmd = Node(
         package='robot_bringup',
         executable='point_deal',
@@ -98,7 +102,7 @@ def generate_launch_description():
         package='rviz2',
         namespace='',
         executable='rviz2',
-        arguments=['-d' + os.path.join(bringup_dir, 'rviz', 'rviz2.rviz')]
+        arguments=['-d', rviz_config_file]
     )
 
 

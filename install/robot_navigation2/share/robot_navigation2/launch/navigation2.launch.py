@@ -18,7 +18,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     map_yaml_path = LaunchConfiguration('map',default=os.path.join(robot_navigation2_dir,'maps','my_map.yaml'))
     nav2_param_path = LaunchConfiguration('params_file',default=os.path.join(robot_navigation2_dir,'param','robot.yaml'))
-
+    #官方自己配置的默认文件
     rviz_config_dir = os.path.join(nav2_bringup_dir,'rviz','nav2_default_view.rviz')
 
     return LaunchDescription([

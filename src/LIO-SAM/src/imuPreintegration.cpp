@@ -8,8 +8,11 @@
 功能要点：
 + IMU信号积分使用gtsam的IMU预积分模块。里面共使用了两个队列，imuQueImu和imuQueOpt，
   以及两个预积分器imuPreintegratorImu和imuPreintegratorOpt;
-  imuQueOpt和imuPreintegratorOpt主要是根据历史信息计算IMU数据bias给真正的IMU里程计预积分器使用。
-  imuQueImu和imuPreintegratorImu是真正用来做IMU里程计的优化。
+// imuQueOpt_ 和 imuIntegratorOpt_：
+// 用于两帧 lidar odom 之间的 IMU 预积分，并参与因子图优化，主要更新 IMU bias、pose、velocity。
+
+// imuQueImu_ 和 imuIntegratorImu_：
+// 用于从最近一次 lidar odom 校正后的状态出发，对后续 IMU 做实时积分，发布高频 IMU odom。
 + IMU里程计主要是在imageProjection中被塞入cloudInfo数据结构，被当作每一帧雷达点云的初始估计位姿
 + 模块中有两个handler，分别处理雷达里程计和IMU原始数据。
   雷达里程计的handler中，主要是将新到来的雷达里程计之前的IMU做积分，得出bias；

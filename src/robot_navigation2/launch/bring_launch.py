@@ -17,17 +17,19 @@ def generate_launch_description():
     bringup_dir = get_package_share_directory('robot_navigation2')
     launch_dir = os.path.join(bringup_dir, 'launch')
     nav2_bringup_dir = get_package_share_directory('nav2_bringup')
-    rviz_config_dir = os.path.join(nav2_bringup_dir,'rviz','nav2_default_view.rviz')
+    # rviz_config_dir = os.path.join(nav2_bringup_dir,'rviz','nav2_default_view.rviz')
+    rviz_config_dir = os.path.join(bringup_dir,'rviz','fishbot_navigation2.rviz')
+    
     # Create the launch configuration variables
-    use_amcl = LaunchConfiguration('use_icp', default='true') # bool
+    #启动参数占位符LaunchConfiguration
+    use_amcl = LaunchConfiguration('use_amcl', default='true') # bool
     namespace = LaunchConfiguration('namespace')
     use_namespace = LaunchConfiguration('use_namespace')
-    slam = LaunchConfiguration('slam')
     map_yaml_file = LaunchConfiguration('map')
     use_sim_time = LaunchConfiguration('use_sim_time')
     params_file = LaunchConfiguration('params_file')
     autostart = LaunchConfiguration('autostart')
-    use_composition = LaunchConfiguration('use_composition')
+    use_composition = LaunchConfiguration('use_composition') #
     use_respawn = LaunchConfiguration('use_respawn')
     log_level = LaunchConfiguration('log_level')
 
@@ -64,11 +66,6 @@ def generate_launch_description():
         default_value='false',
         description='Whether to apply a namespace to the navigation stack')
 
-    declare_slam_cmd = DeclareLaunchArgument(
-        'slam',
-        default_value='False',
-        description='Whether run a SLAM')
-
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
         default_value=os.path.join(bringup_dir, 'maps', 'my_map.yaml'),
@@ -99,7 +96,11 @@ def generate_launch_description():
     declare_log_level_cmd = DeclareLaunchArgument(
         'log_level', default_value='info',
         description='log level')
-
+    declare_use_amcl_cmd = DeclareLaunchArgument(
+        'use_amcl',
+        default_value='true',
+        description='Whether to start AMCL localization'
+    )
     # Specify the actions
     bringup_cmd_group = GroupAction([
         PushRosNamespace(
@@ -122,19 +123,6 @@ def generate_launch_description():
             arguments=['-d', rviz_config_dir],
             parameters=[{'use_sim_time': use_sim_time}],
             output='screen'),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(os.path.join(launch_dir, 'slam_launch.py')),
-            condition=IfCondition(slam),
-            condition=IfCondition(use_amcl),
-            launch_arguments={'namespace': namespace,
-                              'map': map_yaml_file,
-                              'use_sim_time': use_sim_time,
-                              'autostart': autostart,
-                              'params_file': params_file,
-                              'use_composition': use_composition,
-                              'use_respawn': use_respawn,
-                              'container_name': 'nav2_container'}.items()),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(os.path.join(launch_dir,'localization_launch.py')),
@@ -168,7 +156,6 @@ def generate_launch_description():
     # Declare the launch options
     ld.add_action(declare_namespace_cmd)
     ld.add_action(declare_use_namespace_cmd)
-    ld.add_action(declare_slam_cmd)
     ld.add_action(declare_map_yaml_cmd)
     ld.add_action(declare_use_sim_time_cmd)
     ld.add_action(declare_params_file_cmd)
@@ -176,7 +163,7 @@ def generate_launch_description():
     ld.add_action(declare_use_composition_cmd)
     ld.add_action(declare_use_respawn_cmd)
     ld.add_action(declare_log_level_cmd)
-
+    ld.add_action(declare_use_amcl_cmd)
     # Add the actions to launch all of the navigation nodes
     ld.add_action(bringup_cmd_group)
 
